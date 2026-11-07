@@ -1,13 +1,13 @@
 {
  "meta": {
-  "updated": "2026-11-07T10:02+09:00",
+  "updated": "2026-11-07T10:08+09:00",
   "sources": {
    "github": {
-    "at": "2026-11-07 10:02",
+    "at": "2026-11-07 10:08",
     "status": "ok"
    },
    "threads": {
-    "at": "2026-11-07 10:02",
+    "at": "2026-11-07 10:08",
     "status": "ok"
    },
    "instagram": {
@@ -1004,10 +1004,20 @@
    },
    {
     "date": "2026-11-07",
-    "count": 39
+    "count": 41
    }
   ],
   "recent": [
+   {
+    "date": "2026-11-07",
+    "source": "activity-dashboard",
+    "text": "PCで定期実行する更新スクリプトを追加"
+   },
+   {
+    "date": "2026-11-07",
+    "source": "activity-dashboard",
+    "text": "auto: update dashboard data"
+   },
    {
     "date": "2026-11-07",
     "source": "activity-dashboard",
@@ -1057,16 +1067,6 @@
     "date": "2026-11-07",
     "source": "threads-auto-post",
     "text": "Move posted paid note draft 2026-10-09_11"
-   },
-   {
-    "date": "2026-11-07",
-    "source": "threads-auto-post",
-    "text": "Remove moved draft 2026-10-09_10"
-   },
-   {
-    "date": "2026-11-07",
-    "source": "threads-auto-post",
-    "text": "Move posted paid note draft 2026-10-09_10"
    }
   ]
  },
