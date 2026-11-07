@@ -1,13 +1,13 @@
 {
  "meta": {
-  "updated": "2026-11-07T09:53+09:00",
+  "updated": "2026-11-07T10:02+09:00",
   "sources": {
    "github": {
-    "at": "2026-11-07 09:53",
+    "at": "2026-11-07 10:02",
     "status": "ok"
    },
    "threads": {
-    "at": "2026-11-07 09:53",
+    "at": "2026-11-07 10:02",
     "status": "ok"
    },
    "instagram": {
@@ -872,6 +872,13 @@
  "github": {
   "repos": [
    {
+    "repo": "activity-dashboard",
+    "description": "活動ダッシュボード",
+    "visibility": "公開",
+    "language": "HTML",
+    "pushed": "2026-11-07"
+   },
+   {
     "repo": "linkedin-auto-post",
     "description": "LinkedIn自動投稿(note記事等)",
     "visibility": "非公開",
@@ -945,62 +952,72 @@
   "commits_daily": [
    {
     "date": "2026-10-25",
-    "count": 24
+    "count": 59
    },
    {
     "date": "2026-10-26",
-    "count": 10
+    "count": 29
    },
    {
     "date": "2026-10-27",
-    "count": 15
+    "count": 71
    },
    {
     "date": "2026-10-28",
-    "count": 10
+    "count": 27
    },
    {
     "date": "2026-10-29",
-    "count": 14
+    "count": 57
    },
    {
     "date": "2026-10-30",
-    "count": 9
+    "count": 45
    },
    {
     "date": "2026-10-31",
-    "count": 9
+    "count": 26
    },
    {
     "date": "2026-11-01",
-    "count": 11
+    "count": 34
    },
    {
     "date": "2026-11-02",
-    "count": 13
+    "count": 54
    },
    {
     "date": "2026-11-03",
-    "count": 13
+    "count": 51
    },
    {
     "date": "2026-11-04",
-    "count": 7
+    "count": 34
    },
    {
     "date": "2026-11-05",
-    "count": 8
+    "count": 27
    },
    {
     "date": "2026-11-06",
-    "count": 79
+    "count": 87
    },
    {
     "date": "2026-11-07",
-    "count": 37
+    "count": 39
    }
   ],
   "recent": [
+   {
+    "date": "2026-11-07",
+    "source": "activity-dashboard",
+    "text": "トークンがない環境では更新をスキップする"
+   },
+   {
+    "date": "2026-11-07",
+    "source": "activity-dashboard",
+    "text": "活動ダッシュボードの初版"
+   },
    {
     "date": "2026-11-07",
     "source": "linkedin-auto-post",
@@ -1050,16 +1067,6 @@
     "date": "2026-11-07",
     "source": "threads-auto-post",
     "text": "Move posted paid note draft 2026-10-09_10"
-   },
-   {
-    "date": "2026-11-07",
-    "source": "threads-auto-post",
-    "text": "Remove moved draft 2026-10-08_12"
-   },
-   {
-    "date": "2026-11-07",
-    "source": "threads-auto-post",
-    "text": "Move posted paid note draft 2026-10-08_12"
    }
   ]
  },
