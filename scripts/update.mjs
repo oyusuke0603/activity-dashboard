@@ -4,6 +4,11 @@
 //   WINDSOR_API_KEY  Instagram を Windsor.ai 経由で取る場合(なければ Instagram は前回のまま)
 import fs from 'node:fs';
 
+if (!process.env.GH_TOKEN) {
+  console.log('GH_TOKEN がないため更新をスキップします');
+  process.exit(0);
+}
+
 const OWNER = 'oyusuke0603';
 const FILE = 'data/latest.json';
 const data = JSON.parse(fs.readFileSync(FILE, 'utf8'));
