@@ -1,0 +1,1119 @@
+{
+ "meta": {
+  "updated": "2026-11-07T09:53+09:00",
+  "sources": {
+   "github": {
+    "at": "2026-11-07 09:53",
+    "status": "ok"
+   },
+   "threads": {
+    "at": "2026-11-07 09:53",
+    "status": "ok"
+   },
+   "instagram": {
+    "status": "error",
+    "error": "WINDSOR_API_KEY が未設定です(Instagram は前回の値のまま)"
+   }
+  }
+ },
+ "instagram": {
+  "profile": {
+   "account": "oyusuke0603",
+   "followers": 256,
+   "following": 594,
+   "posts": 278
+  },
+  "daily": [
+   {
+    "date": "2026-10-07",
+    "reach": 1,
+    "new_followers": 0
+   },
+   {
+    "date": "2026-10-08",
+    "reach": 135,
+    "new_followers": 0
+   },
+   {
+    "date": "2026-10-09",
+    "reach": 185,
+    "new_followers": 0
+   },
+   {
+    "date": "2026-10-10",
+    "reach": 9,
+    "new_followers": 1
+   },
+   {
+    "date": "2026-10-11",
+    "reach": 126,
+    "new_followers": 0
+   },
+   {
+    "date": "2026-10-12",
+    "reach": 11,
+    "new_followers": 1
+   },
+   {
+    "date": "2026-10-13",
+    "reach": 196,
+    "new_followers": 0
+   },
+   {
+    "date": "2026-10-14",
+    "reach": 70,
+    "new_followers": 0
+   },
+   {
+    "date": "2026-10-15",
+    "reach": 144,
+    "new_followers": 0
+   },
+   {
+    "date": "2026-10-16",
+    "reach": 7,
+    "new_followers": 0
+   },
+   {
+    "date": "2026-10-17",
+    "reach": 26,
+    "new_followers": 0
+   },
+   {
+    "date": "2026-10-18",
+    "reach": 33,
+    "new_followers": 1
+   },
+   {
+    "date": "2026-10-19",
+    "reach": 140,
+    "new_followers": 3
+   },
+   {
+    "date": "2026-10-20",
+    "reach": 32,
+    "new_followers": 0
+   },
+   {
+    "date": "2026-10-21",
+    "reach": 128,
+    "new_followers": 0
+   },
+   {
+    "date": "2026-10-22",
+    "reach": 10,
+    "new_followers": 2
+   },
+   {
+    "date": "2026-10-23",
+    "reach": 1533,
+    "new_followers": 0
+   },
+   {
+    "date": "2026-10-24",
+    "reach": 255,
+    "new_followers": 1
+   },
+   {
+    "date": "2026-10-25",
+    "reach": 149,
+    "new_followers": 0
+   },
+   {
+    "date": "2026-10-26",
+    "reach": 5,
+    "new_followers": 1
+   },
+   {
+    "date": "2026-10-27",
+    "reach": 131,
+    "new_followers": 1
+   },
+   {
+    "date": "2026-10-28",
+    "reach": 10,
+    "new_followers": 1
+   },
+   {
+    "date": "2026-10-29",
+    "reach": 38,
+    "new_followers": 1
+   },
+   {
+    "date": "2026-10-30",
+    "reach": 7,
+    "new_followers": 0
+   },
+   {
+    "date": "2026-10-31",
+    "reach": 9,
+    "new_followers": 2
+   },
+   {
+    "date": "2026-11-01",
+    "reach": 31,
+    "new_followers": 0
+   },
+   {
+    "date": "2026-11-02",
+    "reach": 114,
+    "new_followers": 0
+   },
+   {
+    "date": "2026-11-03",
+    "reach": 4,
+    "new_followers": 1
+   },
+   {
+    "date": "2026-11-04",
+    "reach": 7,
+    "new_followers": 1
+   },
+   {
+    "date": "2026-11-05",
+    "reach": 7,
+    "new_followers": 0
+   }
+  ],
+  "reels": [
+   {
+    "date": "2026-10-08",
+    "series": "闘病記",
+    "title": "8歳で脳腫瘍、手術は13時間半",
+    "views": 226,
+    "reach": 169,
+    "likes": 4
+   },
+   {
+    "date": "2026-10-09",
+    "series": "闘病記",
+    "title": "放射線治療の後遺症と学生時代",
+    "views": 232,
+    "reach": 191,
+    "likes": 1
+   },
+   {
+    "date": "2026-10-11",
+    "series": "闘病記",
+    "title": "30代、うつ病と休職2ヶ月",
+    "views": 187,
+    "reach": 149,
+    "likes": 2
+   },
+   {
+    "date": "2026-10-13",
+    "series": "闘病記",
+    "title": "46歳、突然の脳梗塞",
+    "views": 359,
+    "reach": 270,
+    "likes": 3
+   },
+   {
+    "date": "2026-10-15",
+    "series": "闘病記",
+    "title": "うつ病再発と障害年金2級",
+    "views": 212,
+    "reach": 162,
+    "likes": 4
+   },
+   {
+    "date": "2026-10-17",
+    "series": "闘病記",
+    "title": "障害厚生年金2級で何が変わったか",
+    "views": 76,
+    "reach": 58,
+    "likes": 2
+   },
+   {
+    "date": "2026-10-19",
+    "series": "闘病記",
+    "title": "緑内障の進行と視野欠損",
+    "views": 197,
+    "reach": 140,
+    "likes": 1
+   },
+   {
+    "date": "2026-10-21",
+    "series": "闘病記",
+    "title": "障害者雇用枠で時短復職",
+    "views": 164,
+    "reach": 135,
+    "likes": 0
+   },
+   {
+    "date": "2026-10-23",
+    "series": "異世界デバッガー",
+    "title": "無限ループするスライム",
+    "views": 131,
+    "reach": 117,
+    "likes": 1
+   },
+   {
+    "date": "2026-10-23",
+    "series": "異世界デバッガー",
+    "title": "その呪文、順番が逆です",
+    "views": 1489,
+    "reach": 1243,
+    "likes": 3
+   },
+   {
+    "date": "2026-10-23",
+    "series": "異世界デバッガー",
+    "title": "30日待て、と言われた結界",
+    "views": 162,
+    "reach": 154,
+    "likes": 0
+   },
+   {
+    "date": "2026-10-23",
+    "series": "異世界デバッガー",
+    "title": "納期が明日の夜明けに前倒し",
+    "views": 146,
+    "reach": 134,
+    "likes": 0
+   },
+   {
+    "date": "2026-10-23",
+    "series": "異世界デバッガー",
+    "title": "金色の噴水を銀色に",
+    "views": 434,
+    "reach": 132,
+    "likes": 1
+   },
+   {
+    "date": "2026-10-24",
+    "series": "異世界デバッガー",
+    "title": "練習したら盾に弾き飛ばされた",
+    "views": 148,
+    "reach": 140,
+    "likes": 0
+   },
+   {
+    "date": "2026-10-25",
+    "series": "異世界デバッガー",
+    "title": "本番中に結界をデバッグする",
+    "views": 137,
+    "reach": 122,
+    "likes": 1
+   },
+   {
+    "date": "2026-10-27",
+    "series": "闘病記",
+    "title": "復職1週間の現実",
+    "views": 182,
+    "reach": 145,
+    "likes": 1
+   },
+   {
+    "date": "2026-10-29",
+    "series": "闘病記",
+    "title": "通勤で心が折れそうになる",
+    "views": 65,
+    "reach": 42,
+    "likes": 1
+   },
+   {
+    "date": "2026-11-03",
+    "series": "異世界デバッガー",
+    "title": "休日の夜、王都の術式が止まる",
+    "views": 128,
+    "reach": 115,
+    "likes": 1
+   }
+  ],
+  "asof": "2026-11-07"
+ },
+ "youtube": {
+  "asof": "2026-11-07",
+  "total": {
+   "views": 298,
+   "watch_hours": 3.0705,
+   "subs": 2,
+   "impressions": 5144,
+   "ctr": 1.22
+  },
+  "videos": [
+   {
+    "series": "異世界デバッガー",
+    "title": "第2話 王都の結界を再起動",
+    "published": "2026-10-08",
+    "length": 568,
+    "views": 166,
+    "watch_hours": 0.8814,
+    "subs": 0,
+    "impressions": 1971,
+    "ctr": 1.32
+   },
+   {
+    "series": "異世界デバッガー",
+    "title": "第3話 納期前倒しで「やらないこと」を決める",
+    "published": "2026-10-09",
+    "length": 563,
+    "views": 44,
+    "watch_hours": 0.8614,
+    "subs": 0,
+    "impressions": 2024,
+    "ctr": 0.79
+   },
+   {
+    "series": "異世界デバッガー",
+    "title": "第4話 要望が1時間ごとに変わる呪い",
+    "published": "2026-10-23",
+    "length": 521,
+    "views": 20,
+    "watch_hours": 0.2578,
+    "subs": 1,
+    "impressions": 175,
+    "ctr": 1.71
+   },
+   {
+    "series": "闘病記",
+    "title": "第1回 8歳で脳腫瘍、13時間半の大手術",
+    "published": "2026-09-21",
+    "length": 161,
+    "views": 16,
+    "watch_hours": 0.186,
+    "subs": 0,
+    "impressions": 74,
+    "ctr": 2.7
+   },
+   {
+    "series": "闘病記",
+    "title": "第7回 緑内障の進行と視野欠損",
+    "published": "2026-10-06",
+    "length": 89,
+    "views": 8,
+    "watch_hours": 0.085,
+    "subs": 0,
+    "impressions": 98,
+    "ctr": 4.08
+   },
+   {
+    "series": "闘病記",
+    "title": "第2回 放射線治療の後遺症と側弯症",
+    "published": "2026-09-22",
+    "length": 160,
+    "views": 7,
+    "watch_hours": 0.1354,
+    "subs": 0,
+    "impressions": 36,
+    "ctr": 2.78
+   },
+   {
+    "series": "異世界デバッガー",
+    "title": "第1話 徹夜明けSEが異世界のバグを直す",
+    "published": "2026-10-08",
+    "length": 525,
+    "views": 7,
+    "watch_hours": 0.2654,
+    "subs": 0,
+    "impressions": 115,
+    "ctr": 1.74
+   },
+   {
+    "series": "闘病記",
+    "title": "第5回 うつ病再発と障害年金2級",
+    "published": "2026-10-04",
+    "length": 108,
+    "views": 6,
+    "watch_hours": 0.0937,
+    "subs": 0,
+    "impressions": 36,
+    "ctr": 2.78
+   },
+   {
+    "series": "異世界デバッガー",
+    "title": "第5話 新魔法をぶっつけ本番で使う",
+    "published": "2026-10-24",
+    "length": 574,
+    "views": 5,
+    "watch_hours": 0.0077,
+    "subs": 0,
+    "impressions": 156,
+    "ctr": 0.64
+   },
+   {
+    "series": "闘病記",
+    "title": "第3回 うつ病の発症と休職2ヶ月",
+    "published": "2026-09-26",
+    "length": 133,
+    "views": 4,
+    "watch_hours": 0.1112,
+    "subs": 0,
+    "impressions": 33,
+    "ctr": 3.03
+   },
+   {
+    "series": "闘病記",
+    "title": "第6回 障害厚生年金2級を取得して",
+    "published": "2026-10-05",
+    "length": 94,
+    "views": 3,
+    "watch_hours": 0.0781,
+    "subs": 0,
+    "impressions": 79,
+    "ctr": 1.27
+   },
+   {
+    "series": "闘病記",
+    "title": "第4回 脳梗塞とグループホーム入居",
+    "published": "2026-10-04",
+    "length": 113,
+    "views": 3,
+    "watch_hours": 0.0935,
+    "subs": 0,
+    "impressions": 39,
+    "ctr": 2.56
+   },
+   {
+    "series": "ブラウザゲーム",
+    "title": "ビンゴゲーム(球体のみ)",
+    "published": "2026-06-12",
+    "length": 63,
+    "views": 2,
+    "watch_hours": 0.0065,
+    "subs": 0,
+    "impressions": 24,
+    "ctr": 8.33
+   },
+   {
+    "series": "ブラウザゲーム",
+    "title": "将棋ゲーム",
+    "published": "2026-06-15",
+    "length": 81,
+    "views": 2,
+    "watch_hours": 0.0023,
+    "subs": 0,
+    "impressions": 11,
+    "ctr": 9.09
+   },
+   {
+    "series": "異世界デバッガー",
+    "title": "第6話 休暇中に王都が全停止",
+    "published": "2026-11-03",
+    "length": 558,
+    "views": 2,
+    "watch_hours": 0.0007,
+    "subs": 0,
+    "impressions": 87,
+    "ctr": 0
+   },
+   {
+    "series": "ブラウザゲーム",
+    "title": "お祭りの金魚すくいゲーム",
+    "published": "2026-06-16",
+    "length": 16,
+    "views": 1,
+    "watch_hours": 0.0032,
+    "subs": 0,
+    "impressions": 3,
+    "ctr": 0
+   },
+   {
+    "series": "ブラウザゲーム",
+    "title": "エアホッケーゲーム",
+    "published": "2026-06-12",
+    "length": 55,
+    "views": 1,
+    "watch_hours": 0.0002,
+    "subs": 0,
+    "impressions": 9,
+    "ctr": 0
+   },
+   {
+    "series": "ブラウザゲーム",
+    "title": "ビンゴゲーム(デジタル型)",
+    "published": "2026-06-12",
+    "length": 30,
+    "views": 1,
+    "watch_hours": 0.0009,
+    "subs": 0,
+    "impressions": 9,
+    "ctr": 11.11
+   }
+  ]
+ },
+ "note": {
+  "asof": "2026-11-07 07:44",
+  "summary": {
+   "impressions": 105222,
+   "pageviews": 2877,
+   "likes": 297,
+   "comments": 2,
+   "sales": 800,
+   "unpaid": 800,
+   "this_month": 0
+  },
+  "sales": [
+   {
+    "month": "2026年10月",
+    "amount": 800,
+    "fees": 126,
+    "status": "未振込"
+   },
+   {
+    "month": "2026年9月",
+    "amount": 1300,
+    "fees": null,
+    "status": "振込済(10/30)"
+   },
+   {
+    "month": "2026年8月",
+    "amount": 100,
+    "fees": null,
+    "status": "振込済(10/30)"
+   },
+   {
+    "month": "2026年3月",
+    "amount": 100,
+    "fees": null,
+    "status": "振込済(10/30)"
+   }
+  ],
+  "sources": [
+   {
+    "source": "note.com",
+    "pv": 1350
+   },
+   {
+    "source": "no referrer",
+    "pv": 406
+   },
+   {
+    "source": "Bing",
+    "pv": 373
+   },
+   {
+    "source": "Google",
+    "pv": 238
+   },
+   {
+    "source": "X",
+    "pv": 213
+   },
+   {
+    "source": "Threads",
+    "pv": 134
+   },
+   {
+    "source": "Yahoo! JAPAN",
+    "pv": 59
+   },
+   {
+    "source": "通知",
+    "pv": 40
+   },
+   {
+    "source": "DuckDuckGo",
+    "pv": 36
+   },
+   {
+    "source": "その他",
+    "pv": 28
+   }
+  ],
+  "articles": [
+   {
+    "title": "重岡大毅主演作の半分以下。鈴鹿央士主演「藁にもすがる獣たち」が公開3日で直面した興収2500万円の現実",
+    "impressions": 35,
+    "pv": 10,
+    "likes": 0
+   },
+   {
+    "title": "100万部ベストセラーを15年がけで映像化。「汝、星のごとく」が東宝に見せた勝算",
+    "impressions": 106,
+    "pv": 7,
+    "likes": 0
+   },
+   {
+    "title": "管理者も知らない機器まで毎日可視化。NTTドコモビジネスとPKTが仕掛けたAI型OTセキュリティの中身",
+    "impressions": 70,
+    "pv": 7,
+    "likes": 4
+   },
+   {
+    "title": "持ち運びやすさがついに実現。神奈川県が10月から始めた障害者手帳\"カード化\"のねらい",
+    "impressions": 58,
+    "pv": 3,
+    "likes": 1
+   },
+   {
+    "title": "1646人分が漏えいの恐れ。日経のGoogle Workspaceを襲った不正ログインの正体",
+    "impressions": 34,
+    "pv": 3,
+    "likes": 1
+   },
+   {
+    "title": "キティ＆クロミがまさかの作業着に。「サンリオ×ワークマン」秋冬コラボが仕掛けた\"大人カワイイ\"の中身",
+    "impressions": 36,
+    "pv": 3,
+    "likes": 1
+   },
+   {
+    "title": "HTTPエラー404を返すだけで。MCP Python SDKのOAuth脆弱性(CVSS7.5)が突いた「信頼の穴」",
+    "impressions": 48,
+    "pv": 2,
+    "likes": 2
+   },
+   {
+    "title": "全盲とロービジョンで最適速度が違う。視覚障害者の「ちょうどいい読み上げ速度」を定量化した最新研究",
+    "impressions": 34,
+    "pv": 2,
+    "likes": 0
+   },
+   {
+    "title": "0.18ポイント増でも目標には届かず。横浜市の障害者雇用率が突きつけた\"採用強化\"という宿題",
+    "impressions": 50,
+    "pv": 2,
+    "likes": 0
+   },
+   {
+    "title": "AIで科学を加速させる。Anthropicが米国「ジェネシス・ミッション」に関わる理由",
+    "impressions": 82,
+    "pv": 2,
+    "likes": 1
+   },
+   {
+    "title": "\"病院職員\"のはずが農作業で肺疾患に。障害者雇用代行ビジネスが生んだ労災認定の中身",
+    "impressions": 66,
+    "pv": 2,
+    "likes": 0
+   },
+   {
+    "title": "自転車のプラキットが模型ファンの前に。「ちいかわ」のプラキット「ちいプラ」が全日本模型ホビーショーで披露された理由",
+    "impressions": 69,
+    "pv": 2,
+    "likes": 0
+   },
+   {
+    "title": "万年アシスタントの42歳が主演に。是枝裕和率いる\"分福\"新鋭2人が挑む「見上げてごらん」10月30日公開の中身",
+    "impressions": 43,
+    "pv": 2,
+    "likes": 1
+   },
+   {
+    "title": "\"文化は壊れている\"と訴えて退社。OpenAIの安全性責任者が内部告発で明かした本当の理由",
+    "impressions": 24,
+    "pv": 2,
+    "likes": 0
+   },
+   {
+    "title": "達成「困難」52.6%でも拡大意欲75.8%。法定雇用率2.7%時代の企業の本音",
+    "impressions": 39,
+    "pv": 2,
+    "likes": 0
+   },
+   {
+    "title": "「カロリー」まで消された。CLIP STUDIOとpixiv FANBOXを襲った「クレカ検閲」再燃の正体",
+    "impressions": 102,
+    "pv": 2,
+    "likes": 0
+   },
+   {
+    "title": "自律エージェントの\"暴走\"を警戒。米FTCがOpenAIとAnthropicを調査する理由",
+    "impressions": 71,
+    "pv": 1,
+    "likes": 1
+   },
+   {
+    "title": "歴代最高39%から一気に98%へ。「バイオハザード」はなぜここまで評価を覆せたのか",
+    "impressions": 82,
+    "pv": 1,
+    "likes": 1
+   },
+   {
+    "title": "障害者3人で雇用率1.6%。福祉専門の「県立福祉機構」が開設直後に迎えた誤算",
+    "impressions": 58,
+    "pv": 1,
+    "likes": 0
+   },
+   {
+    "title": "AIが脆弱性を発見。ClaudeのMythosが暴いたRejetto HFSの重大バグの正体",
+    "impressions": 31,
+    "pv": 0,
+    "likes": 0
+   }
+  ]
+ },
+ "threads": {
+  "asof": "2026-11-07 05:30 ",
+  "types": [
+   {
+    "type": "ちいかわ",
+    "posts": 132,
+    "avg_views": 1020.3,
+    "avg_likes": 4.96,
+    "avg_replies": 0.16
+   },
+   {
+    "type": "問いかけ",
+    "posts": 132,
+    "avg_views": 632.1,
+    "avg_likes": 5.37,
+    "avg_replies": 0.7
+   },
+   {
+    "type": "その他",
+    "posts": 302,
+    "avg_views": 207.4,
+    "avg_likes": 0.6,
+    "avg_replies": 0.07
+   },
+   {
+    "type": "note誘導",
+    "posts": 718,
+    "avg_views": 38.6,
+    "avg_likes": 0.14,
+    "avg_replies": 0
+   }
+  ],
+  "top": [
+   {
+    "views": 55850,
+    "likes": 167,
+    "posted": "2026-11-02",
+    "type": "ちいかわ",
+    "text": "映画『ちいかわ すいぞくかんのひみつ』は2026年夏公開予定だそうです。テレビア"
+   },
+   {
+    "views": 17791,
+    "likes": 72,
+    "posted": "2026-09-17",
+    "type": "問いかけ",
+    "text": "厚労省が、障害福祉のグループホーム管理者に来年4月から新たな資格要件を設ける方針"
+   },
+   {
+    "views": 13389,
+    "likes": 307,
+    "posted": "2026-09-20",
+    "type": "問いかけ",
+    "text": "精神障害者保健福祉手帳を持つ人向けのJR運賃割引が、オンラインでも申し込めるよう"
+   },
+   {
+    "views": 8734,
+    "likes": 15,
+    "posted": "2026-10-31",
+    "type": "ちいかわ",
+    "text": "映画ちいかわの新作タイトルは「人魚の島のひみつ」で、2026年夏の公開が予定され"
+   },
+   {
+    "views": 6684,
+    "likes": 96,
+    "posted": "2026-10-18",
+    "type": "問いかけ",
+    "text": "精神障害者保健福祉手帳を持つ人向けに、JRの新幹線チケットがえきねっとでオンライ"
+   },
+   {
+    "views": 2129,
+    "likes": 63,
+    "posted": "2026-09-20",
+    "type": "ちいかわ",
+    "text": "映画ちいかわ「人魚の島のひみつ」が公開45日で興行収入約139億円を突破し、歴代"
+   },
+   {
+    "views": 2002,
+    "likes": 4,
+    "posted": "2026-10-13",
+    "type": "ちいかわ",
+    "text": "本日発売の「ちいかわ くりまんじゅうだらけくじ」、全11種がすべてくりまんじゅう"
+   },
+   {
+    "views": 1933,
+    "likes": 20,
+    "posted": "2026-09-09",
+    "type": "問いかけ",
+    "text": "障害者雇用を代行するビジネスに、国が規制を検討し始めたというニュースがありました"
+   },
+   {
+    "views": 1734,
+    "likes": 6,
+    "posted": "2026-10-24",
+    "type": "問いかけ",
+    "text": "障害者雇用促進法の改正で、法定雇用率が2.8%から3.0%へ引き上げられる見通し"
+   },
+   {
+    "views": 1689,
+    "likes": 13,
+    "posted": "2026-10-24",
+    "type": "問いかけ",
+    "text": "2028年10月から、障害者雇用の対象が週20時間以上から週10時間以上の労働者"
+   }
+  ]
+ },
+ "amazon": {
+  "asof": "2026-11-07",
+  "summary": {
+   "clicks_30d": 17,
+   "fee_30d": 0,
+   "clicks_month": 14,
+   "shipped_month": 0,
+   "ordered_month": 0,
+   "fee_month": 0,
+   "cvr_month": 0
+  },
+  "campaigns": [
+   {
+    "name": "Kindle本 標準紹介料率",
+    "change": "8% → 10%",
+    "period": "2026/10/1〜12/31"
+   },
+   {
+    "name": "Audible 紹介料",
+    "change": "1,500円 → 2,000円",
+    "period": "2026/11/1〜12/31"
+   },
+   {
+    "name": "Kindle+(旧 Kindle Unlimited)",
+    "change": "500円 → 1,000円",
+    "period": "2026/11/1〜12/31"
+   }
+  ]
+ },
+ "github": {
+  "repos": [
+   {
+    "repo": "linkedin-auto-post",
+    "description": "LinkedIn自動投稿(note記事等)",
+    "visibility": "非公開",
+    "language": "PowerShell",
+    "pushed": "2026-11-07"
+   },
+   {
+    "repo": "threads-auto-post",
+    "description": "Threads自動投稿",
+    "visibility": "非公開",
+    "language": "PowerShell",
+    "pushed": "2026-11-07"
+   },
+   {
+    "repo": "animal-chat",
+    "description": "猫キャラと話せるどうぶつチャット（天気・ニュース・猫の声）",
+    "visibility": "公開",
+    "language": "HTML",
+    "pushed": "2026-11-07"
+   },
+   {
+    "repo": "links",
+    "description": "小川祐介 リンク集",
+    "visibility": "公開",
+    "language": "HTML",
+    "pushed": "2026-11-03"
+   },
+   {
+    "repo": "cat-chat",
+    "description": "ねこチャット",
+    "visibility": "公開",
+    "language": "HTML",
+    "pushed": "2026-10-29"
+   },
+   {
+    "repo": "portfolio",
+    "description": "小川祐介 ポートフォリオサイト",
+    "visibility": "公開",
+    "language": "HTML",
+    "pushed": "2026-10-27"
+   },
+   {
+    "repo": "game-demos",
+    "description": "ブラウザゲーム無料体験版まとめページ (GitHub Pages)",
+    "visibility": "公開",
+    "language": "HTML",
+    "pushed": "2026-10-25"
+   },
+   {
+    "repo": "nippo-health-data",
+    "description": "日報・健康管理データ(非公開)",
+    "visibility": "非公開",
+    "language": "-",
+    "pushed": "2026-10-19"
+   },
+   {
+    "repo": "lp-samples",
+    "description": "LPデザインサンプル集（架空の店舗・事務所）",
+    "visibility": "公開",
+    "language": "HTML",
+    "pushed": "2026-10-10"
+   },
+   {
+    "repo": "banner-logo-samples",
+    "description": "バナー・ロゴ デザイン見本集（架空店舗）",
+    "visibility": "公開",
+    "language": "HTML",
+    "pushed": "2026-10-10"
+   }
+  ],
+  "commits_daily": [
+   {
+    "date": "2026-10-25",
+    "count": 24
+   },
+   {
+    "date": "2026-10-26",
+    "count": 10
+   },
+   {
+    "date": "2026-10-27",
+    "count": 15
+   },
+   {
+    "date": "2026-10-28",
+    "count": 10
+   },
+   {
+    "date": "2026-10-29",
+    "count": 14
+   },
+   {
+    "date": "2026-10-30",
+    "count": 9
+   },
+   {
+    "date": "2026-10-31",
+    "count": 9
+   },
+   {
+    "date": "2026-11-01",
+    "count": 11
+   },
+   {
+    "date": "2026-11-02",
+    "count": 13
+   },
+   {
+    "date": "2026-11-03",
+    "count": 13
+   },
+   {
+    "date": "2026-11-04",
+    "count": 7
+   },
+   {
+    "date": "2026-11-05",
+    "count": 8
+   },
+   {
+    "date": "2026-11-06",
+    "count": 79
+   },
+   {
+    "date": "2026-11-07",
+    "count": 37
+   }
+  ],
+  "recent": [
+   {
+    "date": "2026-11-07",
+    "source": "linkedin-auto-post",
+    "text": "Queue: add 5 paid note articles"
+   },
+   {
+    "date": "2026-11-07",
+    "source": "threads-auto-post",
+    "text": "Queue: add 5 paid note articles"
+   },
+   {
+    "date": "2026-11-07",
+    "source": "threads-auto-post",
+    "text": "Remove moved draft 2026-10-09_13"
+   },
+   {
+    "date": "2026-11-07",
+    "source": "threads-auto-post",
+    "text": "Move posted paid note draft 2026-10-09_13"
+   },
+   {
+    "date": "2026-11-07",
+    "source": "threads-auto-post",
+    "text": "Remove moved draft 2026-10-09_12"
+   },
+   {
+    "date": "2026-11-07",
+    "source": "threads-auto-post",
+    "text": "Move posted paid note draft 2026-10-09_12"
+   },
+   {
+    "date": "2026-11-07",
+    "source": "threads-auto-post",
+    "text": "Remove moved draft 2026-10-09_11"
+   },
+   {
+    "date": "2026-11-07",
+    "source": "threads-auto-post",
+    "text": "Move posted paid note draft 2026-10-09_11"
+   },
+   {
+    "date": "2026-11-07",
+    "source": "threads-auto-post",
+    "text": "Remove moved draft 2026-10-09_10"
+   },
+   {
+    "date": "2026-11-07",
+    "source": "threads-auto-post",
+    "text": "Move posted paid note draft 2026-10-09_10"
+   },
+   {
+    "date": "2026-11-07",
+    "source": "threads-auto-post",
+    "text": "Remove moved draft 2026-10-08_12"
+   },
+   {
+    "date": "2026-11-07",
+    "source": "threads-auto-post",
+    "text": "Move posted paid note draft 2026-10-08_12"
+   }
+  ]
+ },
+ "notion": {
+  "asof": "2026-11-07",
+  "recent": [
+   {
+    "title": "Chromeお気に入り",
+    "kind": "ページ"
+   },
+   {
+    "title": "SmartNewsニュース記録",
+    "kind": "ページ"
+   },
+   {
+    "title": "自分スペース",
+    "kind": "ページ"
+   },
+   {
+    "title": "ポートフォリオ",
+    "kind": "ページ"
+   },
+   {
+    "title": "しゅうへい(村上周平)公式サイト",
+    "kind": "ページ"
+   },
+   {
+    "title": "公共交通機関",
+    "kind": "ページ"
+   },
+   {
+    "title": "未整理ブックマーク",
+    "kind": "データベース"
+   },
+   {
+    "title": "制作ポートフォリオ",
+    "kind": "ページ"
+   },
+   {
+    "title": "仕事用",
+    "kind": "データベース"
+   },
+   {
+    "title": "脱Microsoft対策",
+    "kind": "ページ"
+   },
+   {
+    "title": "AIサイト関係",
+    "kind": "データベース"
+   },
+   {
+    "title": "オンラインショップサイト",
+    "kind": "データベース"
+   }
+  ]
+ }
+}

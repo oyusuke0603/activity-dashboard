@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>活動ダッシュボード</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  /* 配色: 青みのある紙色 + 墨 + 青緑(主)・琥珀(副) */
+  :root {
+    --bg: #f2f4f6; --panel: #ffffff; --ink: #15212b; --muted: #5d6b78; --line: #dde3e8;
+    --accent: #0f766e; --accent-soft: #d5ece9; --warm: #b45309; --warm-soft: #f6e3cf;
+    --ok: #15803d; --bad: #b91c1c; --grid: #e6ebef;
+    --font: "Zen Kaku Gothic New", "Hiragino Sans", "Yu Gothic UI", "Meiryo", sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0d1318; --panel: #151d24; --ink: #e6edf2; --muted: #93a2af; --line: #25313b;
+      --accent: #3dbdb1; --accent-soft: #14312f; --warm: #e9a35f; --warm-soft: #3a2a18;
+      --ok: #4ade80; --bad: #f87171; --grid: #212c35; color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0d1318; --panel: #151d24; --ink: #e6edf2; --muted: #93a2af; --line: #25313b;
+    --accent: #3dbdb1; --accent-soft: #14312f; --warm: #e9a35f; --warm-soft: #3a2a18;
+    --ok: #4ade80; --bad: #f87171; --grid: #212c35; color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--font); font-size: 15px; line-height: 1.6; -webkit-text-size-adjust: 100%; }
+  .wrap { max-width: 76rem; margin-inline: auto; padding: 0 max(16px, env(safe-area-inset-left)) 4rem max(16px, env(safe-area-inset-right)); }
+  header.top { padding: 1.75rem 0 1rem; display: flex; flex-wrap: wrap; gap: .75rem 1.5rem; align-items: end; justify-content: space-between; }
+  h1 { margin: 0; font-size: 1.75rem; font-weight: 700; letter-spacing: .02em; }
+  .stamp { color: var(--muted); font-size: .85rem; }
+  nav.jump { position: sticky; top: 0; z-index: 5; background: color-mix(in srgb, var(--bg) 92%, transparent); backdrop-filter: blur(6px); border-bottom: 1px solid var(--line); margin-bottom: 1.25rem; }
+  nav.jump .in { max-width: 76rem; margin-inline: auto; padding: .5rem max(16px, env(safe-area-inset-left)); display: flex; gap: .25rem; overflow-x: auto; }
+  nav.jump a { color: var(--muted); text-decoration: none; padding: .35rem .8rem; border-radius: 999px; white-space: nowrap; font-size: .9rem; }
+  nav.jump a:hover, nav.jump a:focus-visible { background: var(--accent-soft); color: var(--ink); outline: none; }
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(10.5rem, 1fr)); gap: .75rem; margin-bottom: 2rem; }
+  .kpi { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: .9rem 1rem; min-width: 0; }
+  .kpi .l { color: var(--muted); font-size: .8rem; }
+  .kpi .v { font-size: 1.9rem; font-weight: 700; line-height: 1.15; font-variant-numeric: tabular-nums; margin-top: .15rem; }
+  .kpi .s { color: var(--muted); font-size: .78rem; margin-top: .15rem; }
+  section.blk { margin-bottom: 2.5rem; }
+  section.blk > h2 { font-size: 1.15rem; margin: 0 0 .15rem; }
+  section.blk > .sub { color: var(--muted); font-size: .85rem; margin: 0 0 .9rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 24rem), 1fr)); gap: .75rem; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 1rem; min-width: 0; }
+  .card h3 { margin: 0 0 .15rem; font-size: .95rem; }
+  .card .n { color: var(--muted); font-size: .8rem; margin: 0 0 .6rem; }
+  .tw { overflow: auto; max-height: 22rem; }
+  table { width: 100%; border-collapse: collapse; font-size: .85rem; }
+  th { text-align: left; color: var(--muted); font-weight: 500; position: sticky; top: 0; background: var(--panel); padding: .35rem .5rem; border-bottom: 1px solid var(--line); white-space: nowrap; }
+  td { padding: .4rem .5rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+  .r { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .bar { display: inline-block; height: .5rem; border-radius: 2px; margin-right: .45rem; vertical-align: middle; background: var(--accent); }
+  .tag { display: inline-block; font-size: .75rem; padding: 0 .5rem; border: 1px solid var(--line); border-radius: 999px; white-space: nowrap; }
+  .chips { display: flex; flex-wrap: wrap; gap: .4rem; }
+  .chip { display: inline-flex; align-items: center; gap: .4rem; font-size: .78rem; padding: .15rem .6rem; border: 1px solid var(--line); border-radius: 999px; background: var(--panel); }
+  .dot { width: .5rem; height: .5rem; border-radius: 50%; background: var(--ok); }
+  .dot.warn { background: var(--warm); } .dot.bad { background: var(--bad); }
+  svg text { fill: var(--muted); font-family: var(--font); font-size: 14px; }
+  .empty { color: var(--muted); font-size: .85rem; padding: 1rem 0; }
+  footer { color: var(--muted); font-size: .8rem; border-top: 1px solid var(--line); padding-top: 1rem; }
+  button.theme { background: var(--panel); border: 1px solid var(--line); color: var(--ink); border-radius: 999px; padding: .3rem .8rem; font: inherit; font-size: .8rem; cursor: pointer; }
+  a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  @media (max-width: 520px) { h1 { font-size: 1.4rem; } .kpi .v { font-size: 1.6rem; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div>
+      <h1>活動ダッシュボード</h1>
+      <div class="stamp" id="stamp">読み込み中…</div>
+    </div>
+    <div style="display:flex;gap:.6rem;align-items:center;flex-wrap:wrap">
+      <div class="chips" id="chips"></div>
+      <button class="theme" id="theme" type="button">表示を切り替え</button>
+    </div>
+  </header>
+</div>
+<nav class="jump"><div class="in">
+  <a href="#revenue">売上</a><a href="#sns">SNS</a><a href="#youtube">YouTube</a><a href="#dev">GitHub</a><a href="#notion">Notion</a>
+</div></nav>
+<main class="wrap">
+  <div class="kpis" id="kpis"></div>
+
+  <section class="blk" id="revenue">
+    <h2>売上</h2>
+    <p class="sub" id="revenue-sub"></p>
+    <div class="grid" id="revenue-grid"></div>
+  </section>
+
+  <section class="blk" id="sns">
+    <h2>SNS</h2>
+    <p class="sub">Instagram と Threads の反応。</p>
+    <div class="grid" id="sns-grid"></div>
+  </section>
+
+  <section class="blk" id="youtube">
+    <h2>YouTube</h2>
+    <p class="sub" id="youtube-sub"></p>
+    <div class="grid" id="youtube-grid"></div>
+  </section>
+
+  <section class="blk" id="dev">
+    <h2>GitHub</h2>
+    <p class="sub">過去14日のコミットと、リポジトリの更新状況。</p>
+    <div class="grid" id="dev-grid"></div>
+  </section>
+
+  <section class="blk" id="notion">
+    <h2>Notion</h2>
+    <p class="sub" id="notion-sub"></p>
+    <div class="grid" id="notion-grid"></div>
+  </section>
+
+  <footer id="foot"></footer>
+</main>
+
+<script>
+(() => {
+  const N = new Intl.NumberFormat('ja-JP');
+  const F1 = new Intl.NumberFormat('ja-JP', { maximumFractionDigits: 1, minimumFractionDigits: 1 });
+  const yen = (v) => '¥' + N.format(v);
+  const md = (s) => { const d = new Date(s + 'T00:00:00'); return isNaN(d) ? s : `${d.getMonth() + 1}/${d.getDate()}`; };
+  const sum = (a, f) => a.reduce((s, x) => s + Number(f(x) || 0), 0);
+
+  const h = (tag, attrs, ...kids) => {
+    const e = document.createElement(tag);
+    for (const [k, v] of Object.entries(attrs || {})) {
+      if (v == null || v === false) continue;
+      if (k === 'class') e.className = v; else if (k === 'style') e.style.cssText = v; else e.setAttribute(k, v);
+    }
+    for (const k of kids.flat()) e.append(k instanceof Node ? k : document.createTextNode(k ?? ''));
+    return e;
+  };
+  const svgEl = (tag, attrs) => { const e = document.createElementNS('http://www.w3.org/2000/svg', tag); for (const [k, v] of Object.entries(attrs || {})) e.setAttribute(k, v); return e; };
+
+  const kpi = (l, v, s) => h('div', { class: 'kpi' }, h('div', { class: 'l' }, l), h('div', { class: 'v' }, v), s ? h('div', { class: 's' }, s) : '');
+  const card = (title, note, body) => h('div', { class: 'card' }, h('h3', {}, title), note ? h('p', { class: 'n' }, note) : '', body);
+
+  function table(cols, rows, key) {
+    if (!rows || !rows.length) return h('div', { class: 'empty' }, 'データがありません');
+    const max = {};
+    cols.forEach((c) => { if (c.bar) max[c.k] = Math.max(1, ...rows.map((r) => Number(r[c.k]) || 0)); });
+    const head = h('tr', {}, cols.map((c) => h('th', { class: c.num ? 'r' : '' }, c.t)));
+    const body = rows.map((r) => h('tr', {}, cols.map((c) => {
+      const raw = r[c.k];
+      const txt = c.f ? c.f(raw, r) : raw;
+      const td = h('td', { class: c.num ? 'r' : '' });
+      if (c.bar) td.append(h('span', { class: 'bar', style: `width:${Math.max(2, 56 * (Number(raw) || 0) / max[c.k])}px` }));
+      if (c.tag) td.append(h('span', { class: 'tag' }, txt)); else td.append(String(txt ?? '—'));
+      return td;
+    })));
+    return h('div', { class: 'tw' }, h('table', {}, h('thead', {}, head), h('tbody', {}, body)));
+  }
+
+  function bars(rows, xk, yk, { fmtX = md, unit = '', color = 'var(--accent)' } = {}) {
+    if (!rows || !rows.length) return h('div', { class: 'empty' }, 'データがありません');
+    const W = 640, H = 190, m = { t: 10, r: 8, b: 24, l: 40 };
+    const max = Math.max(1, ...rows.map((r) => Number(r[yk]) || 0));
+    const step = 10 ** Math.floor(Math.log10(max));
+    const top = Math.ceil(max / step) * step;
+    const x0 = m.l, x1 = W - m.r, y0 = H - m.b, y1 = m.t;
+    const bw = (x1 - x0) / rows.length;
+    const svg = svgEl('svg', { viewBox: `0 0 ${W} ${H}`, width: '100%', role: 'img' });
+    for (let i = 0; i <= 4; i++) {
+      const v = top * i / 4, y = y0 - (y0 - y1) * i / 4;
+      svg.append(svgEl('line', { x1: x0, x2: x1, y1: y, y2: y, stroke: 'var(--grid)' }));
+      const t = svgEl('text', { x: x0 - 6, y: y + 4, 'text-anchor': 'end' }); t.textContent = N.format(Math.round(v)); svg.append(t);
+    }
+    const every = Math.ceil(rows.length / 8);
+    rows.forEach((r, i) => {
+      const v = Number(r[yk]) || 0, bh = (y0 - y1) * v / top, x = x0 + i * bw + bw * 0.15;
+      const rect = svgEl('rect', { x, y: y0 - bh, width: bw * 0.7, height: Math.max(bh, v ? 1 : 0), rx: 2, fill: color });
+      const ti = svgEl('title'); ti.textContent = `${fmtX(r[xk])}  ${N.format(v)}${unit}`; rect.append(ti); svg.append(rect);
+      if (i % every === 0) { const t = svgEl('text', { x: x + bw * 0.35, y: H - 6, 'text-anchor': 'middle' }); t.textContent = fmtX(r[xk]); svg.append(t); }
+    });
+    return h('div', {}, svg);
+  }
+
+  const chip = (name, s) => {
+    const cls = !s ? 'warn' : s.status === 'ok' ? '' : 'bad';
+    return h('span', { class: 'chip', title: s && s.error ? s.error : '' }, h('span', { class: 'dot ' + cls }), name + (s && s.label ? ' ' + s.label : s && s.at ? ' ' + s.at.slice(5) : ''));
+  };
+
+  fetch('data/latest.json?' + Date.now()).then((r) => r.json()).then((d) => {
+    const ig = d.instagram, yt = d.youtube, nt = d.note, th = d.threads, am = d.amazon, gh = d.github, no = d.notion;
+    document.getElementById('stamp').textContent = '最終更新 ' + String(d.meta.updated).replace('T', ' ').slice(0, 16);
+
+    const src = d.meta.sources || {};
+    const chips = document.getElementById('chips');
+    [['GitHub', src.github], ['Threads', src.threads], ['Instagram', src.instagram]].forEach(([n, s]) => chips.append(chip(n, s)));
+    [['note', nt.asof], ['Amazon', am.asof], ['YouTube', yt.asof]].forEach(([n, a]) => chips.append(chip(n, { status: 'ok', label: '手動 ' + md(String(a).slice(0, 10)) })));
+
+    const commits7 = sum((gh.commits_daily || []).slice(-7), (x) => x.count);
+    document.getElementById('kpis').append(
+      kpi('note 売上(28日)', yen(nt.summary.sales), `未振込 ${yen(nt.summary.unpaid)}`),
+      kpi('Amazon 紹介料(30日)', yen(am.summary.fee_30d), `クリック ${N.format(am.summary.clicks_30d)}`),
+      kpi('note ページビュー', N.format(nt.summary.pageviews), `インプレッション ${N.format(nt.summary.impressions)}`),
+      kpi('Instagram フォロワー', N.format(ig.profile.followers), `30日の新規 +${sum(ig.daily, (x) => x.new_followers)}`),
+      kpi('YouTube 視聴回数', N.format(yt.total.views), `再生時間 ${F1.format(yt.total.watch_hours)}時間`),
+      kpi('GitHub コミット(7日)', N.format(commits7), `リポジトリ ${gh.repos.length}`)
+    );
+
+    document.getElementById('revenue-sub').textContent = `note は ${nt.asof} 集計、Amazon アソシエイトは ${am.asof} 時点。`;
+    const rg = document.getElementById('revenue-grid');
+    rg.append(
+      card('note 月別の売上', '', table([{ t: '月', k: 'month' }, { t: '売上', k: 'amount', num: 1, f: yen }, { t: '手数料', k: 'fees', num: 1, f: (v) => v == null ? '—' : yen(v) }, { t: '状況', k: 'status' }], nt.sales)),
+      card('note 流入元', '過去28日のページビュー', table([{ t: '流入元', k: 'source' }, { t: 'PV', k: 'pv', num: 1, bar: 1, f: N.format }], nt.sources)),
+      card('note 記事別', '直近公開の20本(ページビュー順)', table([{ t: '記事', k: 'title' }, { t: '表示', k: 'impressions', num: 1, f: N.format }, { t: 'PV', k: 'pv', num: 1, f: N.format }, { t: 'スキ', k: 'likes', num: 1 }], nt.articles)),
+      card('Amazon アソシエイト', `今月: クリック ${am.summary.clicks_month} / 注文 ${am.summary.ordered_month} / 紹介料 ${yen(am.summary.fee_month)}`, table([{ t: '対象', k: 'name' }, { t: '変更', k: 'change' }, { t: '期間', k: 'period' }], am.campaigns))
+    );
+
+    const sg = document.getElementById('sns-grid');
+    const totalPosts = sum(th.types, (x) => x.posts);
+    sg.append(
+      card('Instagram 日別リーチ', '過去30日', bars(ig.daily, 'date', 'reach')),
+      card('Instagram シリーズ別', 'リール(30日)', table([{ t: 'シリーズ', k: 'series' }, { t: '本数', k: 'n', num: 1 }, { t: '再生', k: 'views', num: 1, bar: 1, f: N.format }, { t: '1本あたり', k: 'avg', num: 1, f: N.format }],
+        Object.values(ig.reels.reduce((m, r) => { const g = m[r.series] ??= { series: r.series, n: 0, views: 0 }; g.n++; g.views += +r.views; return m; }, {})).map((g) => ({ ...g, avg: Math.round(g.views / g.n) })).sort((a, b) => b.views - a.views))),
+      card('Threads 型別の反応', `${N.format(totalPosts)}件(${th.asof} 時点)`, table([{ t: '型', k: 'type' }, { t: '件数', k: 'posts', num: 1 }, { t: '平均views', k: 'avg_views', num: 1, bar: 1, f: F1.format }, { t: '平均いいね', k: 'avg_likes', num: 1 }], th.types)),
+      card('Threads views 上位', '冒頭の一部', table([{ t: '投稿', k: 'text', f: (v, r) => `${md(r.posted)} ${v}` }, { t: 'views', k: 'views', num: 1, f: N.format }, { t: 'いいね', k: 'likes', num: 1 }], th.top)),
+      card('Instagram リール一覧', '公開順', table([{ t: '日', k: 'date', f: md }, { t: '内容', k: 'title' }, { t: '再生', k: 'views', num: 1, f: N.format }, { t: 'いいね', k: 'likes', num: 1 }], ig.reels))
+    );
+
+    document.getElementById('youtube-sub').textContent = `YouTube Studio の CSV から(${yt.asof})。視聴回数のあった動画のみ。`;
+    const ys = Object.values(yt.videos.reduce((m, v) => { const g = m[v.series] ??= { series: v.series, videos: 0, views: 0, hours: 0 }; g.videos++; g.views += +v.views; g.hours += +v.watch_hours; return m; }, {})).map((g) => ({ ...g, avg: g.views / g.videos })).sort((a, b) => b.views - a.views);
+    document.getElementById('youtube-grid').append(
+      card('シリーズ別', '', table([{ t: 'シリーズ', k: 'series' }, { t: '本数', k: 'videos', num: 1 }, { t: '視聴', k: 'views', num: 1, bar: 1, f: N.format }, { t: '1本あたり', k: 'avg', num: 1, f: F1.format }, { t: '時間', k: 'hours', num: 1, f: F1.format }], ys)),
+      card('動画別', 'クリック率はサムネイルの表示に対する割合', table([{ t: '動画', k: 'title' }, { t: '視聴', k: 'views', num: 1, f: N.format }, { t: '表示', k: 'impressions', num: 1, f: N.format }, { t: 'CTR %', k: 'ctr', num: 1, f: (v) => Number(v).toFixed(2) }], yt.videos))
+    );
+
+    document.getElementById('dev-grid').append(
+      card('日別コミット', '全リポジトリ合計(ボット・自動生成を含む)', bars(gh.commits_daily, 'date', 'count', { color: 'var(--warm)', unit: ' 件' })),
+      card('最近の動き', '手作業のコミット', table([{ t: '日', k: 'date', f: md }, { t: '場所', k: 'source', tag: 1 }, { t: '内容', k: 'text' }], gh.recent)),
+      card('リポジトリ', '最終更新の新しい順', table([{ t: '名前', k: 'repo' }, { t: '公開', k: 'visibility' }, { t: '最終更新', k: 'pushed', f: md }], gh.repos))
+    );
+
+    document.getElementById('notion-sub').textContent = `最近開いたページ(${no.asof} 時点、閲覧順)。`;
+    document.getElementById('notion-grid').append(card('最近のページ', '', table([{ t: 'タイトル', k: 'title' }, { t: '種類', k: 'kind' }], no.recent)));
+
+    document.getElementById('foot').textContent = '自動更新: GitHub・Threads・Instagram(3時間ごと)。手動更新: note・Amazon・YouTube・Notion。';
+  }).catch((e) => { document.getElementById('stamp').textContent = 'データを読み込めませんでした: ' + e.message; });
+
+  const root = document.documentElement;
+  try { const t = localStorage.getItem('theme'); if (t) root.dataset.theme = t; } catch (e) {}
+  document.getElementById('theme').addEventListener('click', () => {
+    const dark = root.dataset.theme ? root.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+    root.dataset.theme = dark ? 'light' : 'dark';
+    try { localStorage.setItem('theme', root.dataset.theme); } catch (e) {}
+  });
+})();
+</script>
+</body>
+</html>
