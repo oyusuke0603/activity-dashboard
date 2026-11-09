@@ -1,13 +1,13 @@
 {
  "meta": {
-  "updated": "2026-11-09T15:18+09:00",
+  "updated": "2026-11-09T15:19+09:00",
   "sources": {
    "github": {
-    "at": "2026-11-09 15:18",
+    "at": "2026-11-09 15:19",
     "status": "ok"
    },
    "threads": {
-    "at": "2026-11-09 15:18",
+    "at": "2026-11-09 15:19",
     "status": "ok"
    },
    "instagram": {
@@ -1004,10 +1004,20 @@
    },
    {
     "date": "2026-11-09",
-    "count": 22
+    "count": 24
    }
   ],
   "recent": [
+   {
+    "date": "2026-11-09",
+    "source": "activity-dashboard",
+    "text": "更新スクリプトの場所を P: に変更"
+   },
+   {
+    "date": "2026-11-09",
+    "source": "activity-dashboard",
+    "text": "auto: update dashboard data"
+   },
    {
     "date": "2026-11-09",
     "source": "activity-dashboard",
@@ -1057,16 +1067,6 @@
     "date": "2026-11-07",
     "source": "activity-dashboard",
     "text": "auto: update dashboard data"
-   },
-   {
-    "date": "2026-11-07",
-    "source": "activity-dashboard",
-    "text": "トークンがない環境では更新をスキップする"
-   },
-   {
-    "date": "2026-11-07",
-    "source": "activity-dashboard",
-    "text": "活動ダッシュボードの初版"
    }
   ]
  }
