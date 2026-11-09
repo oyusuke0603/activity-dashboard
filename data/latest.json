@@ -1,13 +1,13 @@
 {
  "meta": {
-  "updated": "2026-11-07T13:08+09:00",
+  "updated": "2026-11-09T15:16+09:00",
   "sources": {
    "github": {
-    "at": "2026-11-07 13:08",
+    "at": "2026-11-09 15:16",
     "status": "ok"
    },
    "threads": {
-    "at": "2026-11-07 13:08",
+    "at": "2026-11-09 15:16",
     "status": "ok"
    },
    "instagram": {
@@ -736,32 +736,32 @@
   ]
  },
  "threads": {
-  "asof": "2026-11-07 05:30 ",
+  "asof": "2026-11-09 03:58 ",
   "types": [
    {
     "type": "ちいかわ",
-    "posts": 132,
-    "avg_views": 1020.3,
-    "avg_likes": 4.96,
+    "posts": 133,
+    "avg_views": 1016.7,
+    "avg_likes": 4.93,
     "avg_replies": 0.16
    },
    {
     "type": "問いかけ",
-    "posts": 132,
-    "avg_views": 632.1,
-    "avg_likes": 5.37,
+    "posts": 136,
+    "avg_views": 629.7,
+    "avg_likes": 5.24,
     "avg_replies": 0.7
    },
    {
     "type": "その他",
-    "posts": 302,
-    "avg_views": 207.4,
-    "avg_likes": 0.6,
+    "posts": 316,
+    "avg_views": 212.2,
+    "avg_likes": 0.61,
     "avg_replies": 0.07
    },
    {
     "type": "note誘導",
-    "posts": 718,
+    "posts": 723,
     "avg_views": 38.6,
     "avg_likes": 0.14,
     "avg_replies": 0
@@ -769,7 +769,7 @@
   ],
   "top": [
    {
-    "views": 55850,
+    "views": 55873,
     "likes": 167,
     "posted": "2026-11-02",
     "type": "ちいかわ",
@@ -872,32 +872,32 @@
  "github": {
   "repos": [
    {
-    "repo": "threads-auto-post",
-    "description": "Threads自動投稿",
-    "visibility": "非公開",
-    "language": "PowerShell",
-    "pushed": "2026-11-07"
-   },
-   {
     "repo": "activity-dashboard",
     "description": "活動ダッシュボード",
     "visibility": "公開",
     "language": "HTML",
-    "pushed": "2026-11-07"
+    "pushed": "2026-11-09"
    },
    {
-    "repo": "linkedin-auto-post",
-    "description": "LinkedIn自動投稿(note記事等)",
+    "repo": "threads-auto-post",
+    "description": "Threads自動投稿",
     "visibility": "非公開",
     "language": "PowerShell",
-    "pushed": "2026-11-07"
+    "pushed": "2026-11-09"
    },
    {
     "repo": "animal-chat",
     "description": "猫キャラと話せるどうぶつチャット（天気・ニュース・猫の声）",
     "visibility": "公開",
     "language": "HTML",
-    "pushed": "2026-11-07"
+    "pushed": "2026-11-09"
+   },
+   {
+    "repo": "linkedin-auto-post",
+    "description": "LinkedIn自動投稿(note記事等)",
+    "visibility": "非公開",
+    "language": "PowerShell",
+    "pushed": "2026-11-09"
    },
    {
     "repo": "links",
@@ -951,14 +951,6 @@
   ],
   "commits_daily": [
    {
-    "date": "2026-10-25",
-    "count": 59
-   },
-   {
-    "date": "2026-10-26",
-    "count": 29
-   },
-   {
     "date": "2026-10-27",
     "count": 71
    },
@@ -1004,10 +996,38 @@
    },
    {
     "date": "2026-11-07",
-    "count": 45
+    "count": 57
+   },
+   {
+    "date": "2026-11-08",
+    "count": 16
+   },
+   {
+    "date": "2026-11-09",
+    "count": 21
    }
   ],
   "recent": [
+   {
+    "date": "2026-11-09",
+    "source": "activity-dashboard",
+    "text": "Notion を外し、Amazon アソシエイトの数字を11/9に更新"
+   },
+   {
+    "date": "2026-11-09",
+    "source": "threads-auto-post",
+    "text": "note無料記事を公開済みに移動 2026-11-09_03.md"
+   },
+   {
+    "date": "2026-11-09",
+    "source": "threads-auto-post",
+    "text": "note無料記事を公開済みに移動 2026-11-09_03.md"
+   },
+   {
+    "date": "2026-11-07",
+    "source": "activity-dashboard",
+    "text": "auto: update dashboard data"
+   },
    {
     "date": "2026-11-07",
     "source": "threads-auto-post",
@@ -1047,26 +1067,6 @@
     "date": "2026-11-07",
     "source": "linkedin-auto-post",
     "text": "Queue: add 5 paid note articles"
-   },
-   {
-    "date": "2026-11-07",
-    "source": "threads-auto-post",
-    "text": "Queue: add 5 paid note articles"
-   },
-   {
-    "date": "2026-11-07",
-    "source": "threads-auto-post",
-    "text": "Remove moved draft 2026-10-09_13"
-   },
-   {
-    "date": "2026-11-07",
-    "source": "threads-auto-post",
-    "text": "Move posted paid note draft 2026-10-09_13"
-   },
-   {
-    "date": "2026-11-07",
-    "source": "threads-auto-post",
-    "text": "Remove moved draft 2026-10-09_12"
    }
   ]
  }
