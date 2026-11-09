@@ -1004,10 +1004,15 @@
    },
    {
     "date": "2026-11-09",
-    "count": 24
+    "count": 25
    }
   ],
   "recent": [
+   {
+    "date": "2026-11-09",
+    "source": "activity-dashboard",
+    "text": "auto: update dashboard data"
+   },
    {
     "date": "2026-11-09",
     "source": "activity-dashboard",
@@ -1062,11 +1067,6 @@
     "date": "2026-11-07",
     "source": "activity-dashboard",
     "text": "PCで定期実行する更新スクリプトを追加"
-   },
-   {
-    "date": "2026-11-07",
-    "source": "activity-dashboard",
-    "text": "auto: update dashboard data"
    }
   ]
  }
