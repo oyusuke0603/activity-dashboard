@@ -84,7 +84,7 @@
   </header>
 </div>
 <nav class="jump"><div class="in">
-  <a href="#revenue">売上</a><a href="#sns">SNS</a><a href="#youtube">YouTube</a><a href="#dev">GitHub</a><a href="#notion">Notion</a>
+  <a href="#revenue">売上</a><a href="#sns">SNS</a><a href="#youtube">YouTube</a><a href="#dev">GitHub</a>
 </div></nav>
 <main class="wrap">
   <div class="kpis" id="kpis"></div>
@@ -111,12 +111,6 @@
     <h2>GitHub</h2>
     <p class="sub">過去14日のコミットと、リポジトリの更新状況。</p>
     <div class="grid" id="dev-grid"></div>
-  </section>
-
-  <section class="blk" id="notion">
-    <h2>Notion</h2>
-    <p class="sub" id="notion-sub"></p>
-    <div class="grid" id="notion-grid"></div>
   </section>
 
   <footer id="foot"></footer>
@@ -190,7 +184,7 @@
   };
 
   fetch('data/latest.json?' + Date.now()).then((r) => r.json()).then((d) => {
-    const ig = d.instagram, yt = d.youtube, nt = d.note, th = d.threads, am = d.amazon, gh = d.github, no = d.notion;
+    const ig = d.instagram, yt = d.youtube, nt = d.note, th = d.threads, am = d.amazon, gh = d.github;
     document.getElementById('stamp').textContent = '最終更新 ' + String(d.meta.updated).replace('T', ' ').slice(0, 16);
 
     const src = d.meta.sources || {};
@@ -241,10 +235,8 @@
       card('リポジトリ', '最終更新の新しい順', table([{ t: '名前', k: 'repo' }, { t: '公開', k: 'visibility' }, { t: '最終更新', k: 'pushed', f: md }], gh.repos))
     );
 
-    document.getElementById('notion-sub').textContent = `最近開いたページ(${no.asof} 時点、閲覧順)。`;
-    document.getElementById('notion-grid').append(card('最近のページ', '', table([{ t: 'タイトル', k: 'title' }, { t: '種類', k: 'kind' }], no.recent)));
 
-    document.getElementById('foot').textContent = '自動更新: GitHub・Threads・Instagram(3時間ごと)。手動更新: note・Amazon・YouTube・Notion。';
+    document.getElementById('foot').textContent = '自動更新: GitHub・Threads・Instagram(3時間ごと)。手動更新: note・Amazon・YouTube。';
   }).catch((e) => { document.getElementById('stamp').textContent = 'データを読み込めませんでした: ' + e.message; });
 
   const root = document.documentElement;

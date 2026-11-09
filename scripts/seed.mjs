@@ -11,7 +11,6 @@ const out = {
   threads: { asof: '2026-11-07 05:30', types: j('threads_types.json'), top: j('threads_top.json') },
   amazon: { asof: '2026-11-07', summary: j('amazon_summary.json')[0], campaigns: j('amazon_campaigns.json') },
   github: { repos: j('repos.json'), commits_daily: [], recent: j('events.json') },
-  notion: { asof: '2026-11-07', recent: j('notion.json') },
 };
 fs.writeFileSync('data/latest.json', JSON.stringify(out, null, 1));
 console.log('wrote data/latest.json');

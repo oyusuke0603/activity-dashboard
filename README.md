@@ -14,4 +14,4 @@ GitHub Pages で公開する、活動状況のダッシュボードです。画�
 `DASH_GH_TOKEN` は、自分の全リポジトリの Contents を読める個人用アクセストークン(fine-grained)です。
 
 ## 手動で更新するもの
-note・Amazon アソシエイト・YouTube・Notion は `data/latest.json` の該当部分を書き換えます。ログインが必要で公式 API がないためです。
+note・Amazon アソシエイト・YouTube は `data/latest.json` の該当部分を書き換えます。ログインが必要で公式 API がないためです。

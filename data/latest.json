@@ -841,11 +841,11 @@
   ]
  },
  "amazon": {
-  "asof": "2026-11-07",
+  "asof": "2026-11-09",
   "summary": {
-   "clicks_30d": 17,
+   "clicks_30d": 24,
    "fee_30d": 0,
-   "clicks_month": 14,
+   "clicks_month": 21,
    "shipped_month": 0,
    "ordered_month": 0,
    "fee_month": 0,
@@ -1067,59 +1067,6 @@
     "date": "2026-11-07",
     "source": "threads-auto-post",
     "text": "Remove moved draft 2026-10-09_12"
-   }
-  ]
- },
- "notion": {
-  "asof": "2026-11-07",
-  "recent": [
-   {
-    "title": "Chromeお気に入り",
-    "kind": "ページ"
-   },
-   {
-    "title": "SmartNewsニュース記録",
-    "kind": "ページ"
-   },
-   {
-    "title": "自分スペース",
-    "kind": "ページ"
-   },
-   {
-    "title": "ポートフォリオ",
-    "kind": "ページ"
-   },
-   {
-    "title": "しゅうへい(村上周平)公式サイト",
-    "kind": "ページ"
-   },
-   {
-    "title": "公共交通機関",
-    "kind": "ページ"
-   },
-   {
-    "title": "未整理ブックマーク",
-    "kind": "データベース"
-   },
-   {
-    "title": "制作ポートフォリオ",
-    "kind": "ページ"
-   },
-   {
-    "title": "仕事用",
-    "kind": "データベース"
-   },
-   {
-    "title": "脱Microsoft対策",
-    "kind": "ページ"
-   },
-   {
-    "title": "AIサイト関係",
-    "kind": "データベース"
-   },
-   {
-    "title": "オンラインショップサイト",
-    "kind": "データベース"
    }
   ]
  }
