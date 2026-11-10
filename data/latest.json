@@ -1,13 +1,13 @@
 {
  "meta": {
-  "updated": "2026-11-09T15:19+09:00",
+  "updated": "2026-11-10T13:38+09:00",
   "sources": {
    "github": {
-    "at": "2026-11-09 15:19",
+    "at": "2026-11-10 13:38",
     "status": "ok"
    },
    "threads": {
-    "at": "2026-11-09 15:19",
+    "at": "2026-11-10 13:38",
     "status": "ok"
    },
    "instagram": {
@@ -736,32 +736,32 @@
   ]
  },
  "threads": {
-  "asof": "2026-11-09 03:58 ",
+  "asof": "2026-11-10 08:31 ",
   "types": [
    {
     "type": "ちいかわ",
-    "posts": 133,
-    "avg_views": 1016.7,
-    "avg_likes": 4.93,
+    "posts": 135,
+    "avg_views": 1008.3,
+    "avg_likes": 4.86,
     "avg_replies": 0.16
    },
    {
     "type": "問いかけ",
-    "posts": 136,
-    "avg_views": 629.7,
-    "avg_likes": 5.24,
+    "posts": 139,
+    "avg_views": 618.2,
+    "avg_likes": 5.12,
     "avg_replies": 0.7
    },
    {
     "type": "その他",
-    "posts": 316,
-    "avg_views": 212.2,
-    "avg_likes": 0.61,
-    "avg_replies": 0.07
+    "posts": 323,
+    "avg_views": 211.4,
+    "avg_likes": 0.6,
+    "avg_replies": 0.08
    },
    {
     "type": "note誘導",
-    "posts": 723,
+    "posts": 727,
     "avg_views": 38.6,
     "avg_likes": 0.14,
     "avg_replies": 0
@@ -872,31 +872,31 @@
  "github": {
   "repos": [
    {
-    "repo": "activity-dashboard",
-    "description": "活動ダッシュボード",
-    "visibility": "公開",
-    "language": "HTML",
-    "pushed": "2026-11-09"
-   },
-   {
     "repo": "threads-auto-post",
     "description": "Threads自動投稿",
     "visibility": "非公開",
     "language": "PowerShell",
-    "pushed": "2026-11-09"
-   },
-   {
-    "repo": "animal-chat",
-    "description": "猫キャラと話せるどうぶつチャット（天気・ニュース・猫の声）",
-    "visibility": "公開",
-    "language": "HTML",
-    "pushed": "2026-11-09"
+    "pushed": "2026-11-10"
    },
    {
     "repo": "linkedin-auto-post",
     "description": "LinkedIn自動投稿(note記事等)",
     "visibility": "非公開",
     "language": "PowerShell",
+    "pushed": "2026-11-10"
+   },
+   {
+    "repo": "animal-chat",
+    "description": "猫キャラと話せるどうぶつチャット（天気・ニュース・猫の声）",
+    "visibility": "公開",
+    "language": "HTML",
+    "pushed": "2026-11-10"
+   },
+   {
+    "repo": "activity-dashboard",
+    "description": "活動ダッシュボード",
+    "visibility": "公開",
+    "language": "HTML",
     "pushed": "2026-11-09"
    },
    {
@@ -951,10 +951,6 @@
   ],
   "commits_daily": [
    {
-    "date": "2026-10-27",
-    "count": 71
-   },
-   {
     "date": "2026-10-28",
     "count": 27
    },
@@ -1004,10 +1000,19 @@
    },
    {
     "date": "2026-11-09",
-    "count": 25
+    "count": 34
+   },
+   {
+    "date": "2026-11-10",
+    "count": 11
    }
   ],
   "recent": [
+   {
+    "date": "2026-11-09",
+    "source": "activity-dashboard",
+    "text": "auto: update dashboard data"
+   },
    {
     "date": "2026-11-09",
     "source": "activity-dashboard",
@@ -1062,11 +1067,6 @@
     "date": "2026-11-07",
     "source": "activity-dashboard",
     "text": "auto: update dashboard data"
-   },
-   {
-    "date": "2026-11-07",
-    "source": "activity-dashboard",
-    "text": "PCで定期実行する更新スクリプトを追加"
    }
   ]
  }
