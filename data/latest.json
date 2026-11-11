@@ -1,18 +1,19 @@
 {
  "meta": {
-  "updated": "2026-11-11T13:48+09:00",
+  "updated": "2026-11-11T16:09+09:00",
   "sources": {
    "github": {
-    "at": "2026-11-11 13:48",
+    "at": "2026-11-11 16:09",
     "status": "ok"
    },
    "threads": {
-    "at": "2026-11-11 13:48",
+    "at": "2026-11-11 16:09",
     "status": "ok"
    },
    "instagram": {
     "at": "2026-11-11 13:50",
-    "status": "ok"
+    "status": "error",
+    "error": "WINDSOR_API_KEY が未設定です(Instagram は前回の値のまま)"
    }
   }
  },
@@ -848,17 +849,17 @@
  "github": {
   "repos": [
    {
-    "repo": "activity-dashboard",
-    "description": "活動ダッシュボード",
-    "visibility": "公開",
-    "language": "HTML",
-    "pushed": "2026-11-11"
-   },
-   {
     "repo": "threads-auto-post",
     "description": "Threads自動投稿",
     "visibility": "非公開",
     "language": "PowerShell",
+    "pushed": "2026-11-11"
+   },
+   {
+    "repo": "activity-dashboard",
+    "description": "活動ダッシュボード",
+    "visibility": "公開",
+    "language": "HTML",
     "pushed": "2026-11-11"
    },
    {
@@ -980,10 +981,25 @@
    },
    {
     "date": "2026-11-11",
-    "count": 16
+    "count": 20
    }
   ],
   "recent": [
+   {
+    "date": "2026-11-11",
+    "source": "threads-auto-post",
+    "text": "move 2026-11-11_06 to posted"
+   },
+   {
+    "date": "2026-11-11",
+    "source": "threads-auto-post",
+    "text": "move 2026-11-11_06 to posted"
+   },
+   {
+    "date": "2026-11-11",
+    "source": "activity-dashboard",
+    "text": "note・Amazon・Instagramの数字を11/11に更新"
+   },
    {
     "date": "2026-11-11",
     "source": "activity-dashboard",
@@ -1028,21 +1044,6 @@
     "date": "2026-11-10",
     "source": "threads-auto-post",
     "text": "remove superseded free draft 2026-10-08_05.md"
-   },
-   {
-    "date": "2026-11-10",
-    "source": "threads-auto-post",
-    "text": "remove superseded free draft 2026-10-08_04.md"
-   },
-   {
-    "date": "2026-11-10",
-    "source": "threads-auto-post",
-    "text": "remove superseded free draft 2026-10-08_03.md"
-   },
-   {
-    "date": "2026-11-10",
-    "source": "threads-auto-post",
-    "text": "remove superseded free draft 2026-10-08_02.md"
    }
   ]
  }
