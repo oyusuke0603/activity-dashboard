@@ -1,13 +1,13 @@
 {
  "meta": {
-  "updated": "2026-11-10T13:38+09:00",
+  "updated": "2026-11-11T13:45+09:00",
   "sources": {
    "github": {
-    "at": "2026-11-10 13:38",
+    "at": "2026-11-11 13:45",
     "status": "ok"
    },
    "threads": {
-    "at": "2026-11-10 13:38",
+    "at": "2026-11-11 13:45",
     "status": "ok"
    },
    "instagram": {
@@ -736,13 +736,13 @@
   ]
  },
  "threads": {
-  "asof": "2026-11-10 08:31 ",
+  "asof": "2026-11-11 05:57 ",
   "types": [
    {
     "type": "ちいかわ",
-    "posts": 135,
-    "avg_views": 1008.3,
-    "avg_likes": 4.86,
+    "posts": 136,
+    "avg_views": 1002.5,
+    "avg_likes": 4.83,
     "avg_replies": 0.16
    },
    {
@@ -754,14 +754,14 @@
    },
    {
     "type": "その他",
-    "posts": 323,
-    "avg_views": 211.4,
-    "avg_likes": 0.6,
+    "posts": 329,
+    "avg_views": 210.4,
+    "avg_likes": 0.61,
     "avg_replies": 0.08
    },
    {
     "type": "note誘導",
-    "posts": 727,
+    "posts": 728,
     "avg_views": 38.6,
     "avg_likes": 0.14,
     "avg_replies": 0
@@ -876,28 +876,28 @@
     "description": "Threads自動投稿",
     "visibility": "非公開",
     "language": "PowerShell",
-    "pushed": "2026-11-10"
+    "pushed": "2026-11-11"
    },
    {
     "repo": "linkedin-auto-post",
     "description": "LinkedIn自動投稿(note記事等)",
     "visibility": "非公開",
     "language": "PowerShell",
-    "pushed": "2026-11-10"
+    "pushed": "2026-11-11"
    },
    {
     "repo": "animal-chat",
     "description": "猫キャラと話せるどうぶつチャット（天気・ニュース・猫の声）",
     "visibility": "公開",
     "language": "HTML",
-    "pushed": "2026-11-10"
+    "pushed": "2026-11-11"
    },
    {
     "repo": "activity-dashboard",
     "description": "活動ダッシュボード",
     "visibility": "公開",
     "language": "HTML",
-    "pushed": "2026-11-09"
+    "pushed": "2026-11-10"
    },
    {
     "repo": "links",
@@ -951,10 +951,6 @@
   ],
   "commits_daily": [
    {
-    "date": "2026-10-28",
-    "count": 27
-   },
-   {
     "date": "2026-10-29",
     "count": 57
    },
@@ -1004,69 +1000,73 @@
    },
    {
     "date": "2026-11-10",
-    "count": 11
+    "count": 164
+   },
+   {
+    "date": "2026-11-11",
+    "count": 15
    }
   ],
   "recent": [
    {
-    "date": "2026-11-09",
-    "source": "activity-dashboard",
-    "text": "auto: update dashboard data"
-   },
-   {
-    "date": "2026-11-09",
-    "source": "activity-dashboard",
-    "text": "auto: update dashboard data"
-   },
-   {
-    "date": "2026-11-09",
-    "source": "activity-dashboard",
-    "text": "更新スクリプトの場所を P: に変更"
-   },
-   {
-    "date": "2026-11-09",
-    "source": "activity-dashboard",
-    "text": "auto: update dashboard data"
-   },
-   {
-    "date": "2026-11-09",
-    "source": "activity-dashboard",
-    "text": "auto: update dashboard data"
-   },
-   {
-    "date": "2026-11-09",
-    "source": "activity-dashboard",
-    "text": "Notion を外し、Amazon アソシエイトの数字を11/9に更新"
-   },
-   {
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "source": "threads-auto-post",
-    "text": "note無料記事を公開済みに移動 2026-11-09_03.md"
+    "text": "remove superseded free draft 2026-10-08_12.md"
    },
    {
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "source": "threads-auto-post",
-    "text": "note無料記事を公開済みに移動 2026-11-09_03.md"
+    "text": "remove superseded free draft 2026-10-08_11.md"
    },
    {
-    "date": "2026-11-07",
-    "source": "activity-dashboard",
-    "text": "auto: update dashboard data"
-   },
-   {
-    "date": "2026-11-07",
+    "date": "2026-11-10",
     "source": "threads-auto-post",
-    "text": "remove 2026-11-07_02 from pre-post"
+    "text": "remove superseded free draft 2026-10-08_10.md"
    },
    {
-    "date": "2026-11-07",
+    "date": "2026-11-10",
     "source": "threads-auto-post",
-    "text": "move 2026-11-07_02 to posted"
+    "text": "remove superseded free draft 2026-10-08_09.md"
    },
    {
-    "date": "2026-11-07",
-    "source": "activity-dashboard",
-    "text": "auto: update dashboard data"
+    "date": "2026-11-10",
+    "source": "threads-auto-post",
+    "text": "remove superseded free draft 2026-10-08_08.md"
+   },
+   {
+    "date": "2026-11-10",
+    "source": "threads-auto-post",
+    "text": "remove superseded free draft 2026-10-08_07.md"
+   },
+   {
+    "date": "2026-11-10",
+    "source": "threads-auto-post",
+    "text": "remove superseded free draft 2026-10-08_06.md"
+   },
+   {
+    "date": "2026-11-10",
+    "source": "threads-auto-post",
+    "text": "remove superseded free draft 2026-10-08_05.md"
+   },
+   {
+    "date": "2026-11-10",
+    "source": "threads-auto-post",
+    "text": "remove superseded free draft 2026-10-08_04.md"
+   },
+   {
+    "date": "2026-11-10",
+    "source": "threads-auto-post",
+    "text": "remove superseded free draft 2026-10-08_03.md"
+   },
+   {
+    "date": "2026-11-10",
+    "source": "threads-auto-post",
+    "text": "remove superseded free draft 2026-10-08_02.md"
+   },
+   {
+    "date": "2026-11-10",
+    "source": "threads-auto-post",
+    "text": "remove superseded free draft 2026-10-08_01.md"
    }
   ]
  }
