@@ -97,7 +97,7 @@
 
   <section class="blk" id="sns">
     <h2>SNS</h2>
-    <p class="sub">Instagram と Threads の反応。</p>
+    <p class="sub">Instagram・Threads・TikTok の反応。</p>
     <div class="grid" id="sns-grid"></div>
   </section>
 
@@ -184,13 +184,13 @@
   };
 
   fetch('data/latest.json?' + Date.now()).then((r) => r.json()).then((d) => {
-    const ig = d.instagram, yt = d.youtube, nt = d.note, th = d.threads, am = d.amazon, gh = d.github;
+    const ig = d.instagram, yt = d.youtube, nt = d.note, th = d.threads, am = d.amazon, gh = d.github, tk = d.tiktok;
     document.getElementById('stamp').textContent = '最終更新 ' + String(d.meta.updated).replace('T', ' ').slice(0, 16);
 
     const src = d.meta.sources || {};
     const chips = document.getElementById('chips');
     [['GitHub', src.github], ['Threads', src.threads], ['Instagram', src.instagram]].forEach(([n, s]) => chips.append(chip(n, s)));
-    [['note', nt.asof], ['Amazon', am.asof], ['YouTube', yt.asof]].forEach(([n, a]) => chips.append(chip(n, { status: 'ok', label: '手動 ' + md(String(a).slice(0, 10)) })));
+    [['note', nt.asof], ['Amazon', am.asof], ['YouTube', yt.asof], ['TikTok', tk.asof]].forEach(([n, a]) => chips.append(chip(n, { status: 'ok', label: '手動 ' + md(String(a).slice(0, 10)) })));
 
     const commits7 = sum((gh.commits_daily || []).slice(-7), (x) => x.count);
     document.getElementById('kpis').append(
@@ -199,6 +199,7 @@
       kpi('note ページビュー', N.format(nt.summary.pageviews), `インプレッション ${N.format(nt.summary.impressions)}`),
       kpi('Instagram フォロワー', N.format(ig.profile.followers), `30日の新規 +${sum(ig.daily, (x) => x.new_followers)}`),
       kpi('YouTube 視聴回数', N.format(yt.total.views), `再生時間 ${F1.format(yt.total.watch_hours)}時間`),
+      kpi('TikTok 動画再生(7日)', N.format(sum(tk.daily, (x) => x.views)), `プロフィール表示 ${sum(tk.daily, (x) => x.profile_views)}`),
       kpi('GitHub コミット(7日)', N.format(commits7), `リポジトリ ${gh.repos.length}`)
     );
 
@@ -219,6 +220,8 @@
         Object.values(ig.reels.reduce((m, r) => { const g = m[r.series] ??= { series: r.series, n: 0, views: 0 }; g.n++; g.views += +r.views; return m; }, {})).map((g) => ({ ...g, avg: Math.round(g.views / g.n) })).sort((a, b) => b.views - a.views))),
       card('Threads 型別の反応', `${N.format(totalPosts)}件(${th.asof} 時点)`, table([{ t: '型', k: 'type' }, { t: '件数', k: 'posts', num: 1 }, { t: '平均views', k: 'avg_views', num: 1, bar: 1, f: F1.format }, { t: '平均いいね', k: 'avg_likes', num: 1 }], th.types)),
       card('Threads views 上位', '冒頭の一部', table([{ t: '投稿', k: 'text', f: (v, r) => `${md(r.posted)} ${v}` }, { t: 'views', k: 'views', num: 1, f: N.format }, { t: 'いいね', k: 'likes', num: 1 }], th.top)),
+      card('TikTok 日別の動画再生', `TikTok Studio の CSV から(${tk.asof})`, bars(tk.daily, 'date', 'views')),
+      card('TikTok 日別の反応', '', table([{ t: '日', k: 'date', f: md }, { t: '再生', k: 'views', num: 1 }, { t: 'プロフィール', k: 'profile_views', num: 1 }, { t: 'いいね', k: 'likes', num: 1 }, { t: 'コメント', k: 'comments', num: 1 }, { t: 'シェア', k: 'shares', num: 1 }], tk.daily)),
       card('Instagram リール一覧', '公開順', table([{ t: '日', k: 'date', f: md }, { t: '内容', k: 'title' }, { t: '再生', k: 'views', num: 1, f: N.format }, { t: 'いいね', k: 'likes', num: 1 }], ig.reels))
     );
 
@@ -236,7 +239,7 @@
     );
 
 
-    document.getElementById('foot').textContent = '自動更新: GitHub・Threads・Instagram(3時間ごと)。手動更新: note・Amazon・YouTube。';
+    document.getElementById('foot').textContent = '自動更新: GitHub・Threads・Instagram(3時間ごと)。手動更新: note・Amazon・YouTube・TikTok。';
   }).catch((e) => { document.getElementById('stamp').textContent = 'データを読み込めませんでした: ' + e.message; });
 
   const root = document.documentElement;
