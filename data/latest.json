@@ -1,13 +1,13 @@
 {
  "meta": {
-  "updated": "2026-11-11T19:08+09:00",
+  "updated": "2026-11-12T13:43+09:00",
   "sources": {
    "github": {
-    "at": "2026-11-11 19:08",
+    "at": "2026-11-12 13:43",
     "status": "ok"
    },
    "threads": {
-    "at": "2026-11-11 19:08",
+    "at": "2026-11-12 13:43",
     "status": "ok"
    },
    "instagram": {
@@ -724,7 +724,7 @@
   ]
  },
  "threads": {
-  "asof": "2026-11-11 05:57 ",
+  "asof": "2026-11-12 06:29 ",
   "types": [
    {
     "type": "ちいかわ",
@@ -735,21 +735,21 @@
    },
    {
     "type": "問いかけ",
-    "posts": 139,
-    "avg_views": 618.2,
-    "avg_likes": 5.12,
+    "posts": 140,
+    "avg_views": 615.1,
+    "avg_likes": 5.09,
     "avg_replies": 0.7
    },
    {
     "type": "その他",
-    "posts": 329,
-    "avg_views": 210.4,
-    "avg_likes": 0.61,
+    "posts": 334,
+    "avg_views": 209.1,
+    "avg_likes": 0.6,
     "avg_replies": 0.08
    },
    {
     "type": "note誘導",
-    "posts": 728,
+    "posts": 730,
     "avg_views": 38.6,
     "avg_likes": 0.14,
     "avg_replies": 0
@@ -864,21 +864,21 @@
     "description": "Threads自動投稿",
     "visibility": "非公開",
     "language": "PowerShell",
-    "pushed": "2026-11-11"
-   },
-   {
-    "repo": "linkedin-auto-post",
-    "description": "LinkedIn自動投稿(note記事等)",
-    "visibility": "非公開",
-    "language": "PowerShell",
-    "pushed": "2026-11-11"
+    "pushed": "2026-11-12"
    },
    {
     "repo": "animal-chat",
     "description": "猫キャラと話せるどうぶつチャット（天気・ニュース・猫の声）",
     "visibility": "公開",
     "language": "HTML",
-    "pushed": "2026-11-11"
+    "pushed": "2026-11-12"
+   },
+   {
+    "repo": "linkedin-auto-post",
+    "description": "LinkedIn自動投稿(note記事等)",
+    "visibility": "非公開",
+    "language": "PowerShell",
+    "pushed": "2026-11-12"
    },
    {
     "repo": "activity-dashboard",
@@ -939,10 +939,6 @@
   ],
   "commits_daily": [
    {
-    "date": "2026-10-29",
-    "count": 57
-   },
-   {
     "date": "2026-10-30",
     "count": 45
    },
@@ -992,10 +988,19 @@
    },
    {
     "date": "2026-11-11",
-    "count": 41
+    "count": 46
+   },
+   {
+    "date": "2026-11-12",
+    "count": 15
    }
   ],
   "recent": [
+   {
+    "date": "2026-11-11",
+    "source": "activity-dashboard",
+    "text": "auto: update dashboard data"
+   },
    {
     "date": "2026-11-11",
     "source": "threads-auto-post",
@@ -1050,11 +1055,6 @@
     "date": "2026-11-11",
     "source": "threads-auto-post",
     "text": "投稿前から削除 2026-10-28_01"
-   },
-   {
-    "date": "2026-11-11",
-    "source": "threads-auto-post",
-    "text": "note有料記事を投稿済みへ移動 2026-10-28_01"
    }
   ]
  }
