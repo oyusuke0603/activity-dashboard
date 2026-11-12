@@ -178,8 +178,12 @@
     return h('div', {}, svg);
   }
 
-  function pie(rows, xk, yk, { fmtX = md } = {}) {
-    const data = (rows || []).filter((r) => Number(r[yk]) > 0);
+  function pie(rows, xk, yk, { fmtX = md, max = 8 } = {}) {
+    let data = (rows || []).filter((r) => Number(r[yk]) > 0);
+    if (data.length > max) {
+      data = data.slice().sort((a, b) => b[yk] - a[yk]);
+      data = [...data.slice(0, max - 1), { [xk]: 'その他', [yk]: sum(data.slice(max - 1), (r) => r[yk]) }];
+    }
     const total = sum(data, (r) => r[yk]);
     if (!total) return h('div', { class: 'empty' }, 'データがありません');
     const R = 80, C = 90, svg = svgEl('svg', { viewBox: '0 0 180 180', width: '180', height: '180', role: 'img' });
@@ -236,7 +240,7 @@
     const sg = document.getElementById('sns-grid');
     const totalPosts = sum(th.types, (x) => x.posts);
     sg.append(
-      card('Instagram 日別リーチ', '過去30日', bars(ig.daily, 'date', 'reach')),
+      card('Instagram 日別リーチ', '過去30日。リーチの多い上位7日と、その他', pie(ig.daily, 'date', 'reach')),
       card('Instagram シリーズ別', 'リール(30日)', table([{ t: 'シリーズ', k: 'series' }, { t: '本数', k: 'n', num: 1 }, { t: '再生', k: 'views', num: 1, bar: 1, f: N.format }, { t: '1本あたり', k: 'avg', num: 1, f: N.format }],
         Object.values(ig.reels.reduce((m, r) => { const g = m[r.series] ??= { series: r.series, n: 0, views: 0 }; g.n++; g.views += +r.views; return m; }, {})).map((g) => ({ ...g, avg: Math.round(g.views / g.n) })).sort((a, b) => b.views - a.views))),
       card('Threads 型別の反応', `${N.format(totalPosts)}件(${th.asof} 時点)`, table([{ t: '型', k: 'type' }, { t: '件数', k: 'posts', num: 1 }, { t: '平均views', k: 'avg_views', num: 1, bar: 1, f: F1.format }, { t: '平均いいね', k: 'avg_likes', num: 1 }], th.types)),
@@ -254,7 +258,7 @@
     );
 
     document.getElementById('dev-grid').append(
-      card('日別コミット', '全リポジトリ合計(ボット・自動生成を含む)', bars(gh.commits_daily, 'date', 'count', { color: 'var(--warm)', unit: ' 件' })),
+      card('日別コミット', '全リポジトリ合計(ボット・自動生成を含む)。コミットの多い上位7日と、その他', pie(gh.commits_daily, 'date', 'count')),
       card('最近の動き', '手作業のコミット', table([{ t: '日', k: 'date', f: md }, { t: '場所', k: 'source', tag: 1 }, { t: '内容', k: 'text' }], gh.recent)),
       card('リポジトリ', '最終更新の新しい順', table([{ t: '名前', k: 'repo' }, { t: '公開', k: 'visibility' }, { t: '最終更新', k: 'pushed', f: md }], gh.repos))
     );
