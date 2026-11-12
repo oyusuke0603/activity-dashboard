@@ -178,6 +178,27 @@
     return h('div', {}, svg);
   }
 
+  function pie(rows, xk, yk, { fmtX = md } = {}) {
+    const data = (rows || []).filter((r) => Number(r[yk]) > 0);
+    const total = sum(data, (r) => r[yk]);
+    if (!total) return h('div', { class: 'empty' }, 'データがありません');
+    const R = 80, C = 90, svg = svgEl('svg', { viewBox: '0 0 180 180', width: '180', height: '180', role: 'img' });
+    const legend = h('div', { style: 'display:flex;flex-direction:column;gap:.25rem;font-size:.85rem' });
+    let a0 = -Math.PI / 2;
+    data.forEach((r, i) => {
+      const v = Number(r[yk]), a1 = a0 + 2 * Math.PI * v / total;
+      const col = `hsl(${(i * 47 + 160) % 360} 55% 52%)`;
+      const pt = (a) => `${C + R * Math.cos(a)} ${C + R * Math.sin(a)}`;
+      const el = data.length === 1
+        ? svgEl('circle', { cx: C, cy: C, r: R, fill: col })
+        : svgEl('path', { d: `M${C} ${C} L${pt(a0)} A${R} ${R} 0 ${a1 - a0 > Math.PI ? 1 : 0} 1 ${pt(a1)} Z`, fill: col, stroke: 'var(--card, #fff)', 'stroke-width': 1 });
+      const ti = svgEl('title'); ti.textContent = `${fmtX(r[xk])}  ${N.format(v)}`; el.append(ti); svg.append(el);
+      legend.append(h('div', {}, h('span', { style: `display:inline-block;width:.7rem;height:.7rem;border-radius:2px;margin-right:.4rem;background:${col}` }), `${fmtX(r[xk])}  ${N.format(v)}(${(100 * v / total).toFixed(0)}%)`));
+      a0 = a1;
+    });
+    return h('div', { style: 'display:flex;gap:1.2rem;align-items:center;flex-wrap:wrap' }, svg, legend);
+  }
+
   const chip = (name, s) => {
     const cls = !s ? 'warn' : s.status === 'ok' ? '' : 'bad';
     return h('span', { class: 'chip', title: s && s.error ? s.error : '' }, h('span', { class: 'dot ' + cls }), name + (s && s.label ? ' ' + s.label : s && s.at ? ' ' + s.at.slice(5) : ''));
@@ -220,7 +241,7 @@
         Object.values(ig.reels.reduce((m, r) => { const g = m[r.series] ??= { series: r.series, n: 0, views: 0 }; g.n++; g.views += +r.views; return m; }, {})).map((g) => ({ ...g, avg: Math.round(g.views / g.n) })).sort((a, b) => b.views - a.views))),
       card('Threads 型別の反応', `${N.format(totalPosts)}件(${th.asof} 時点)`, table([{ t: '型', k: 'type' }, { t: '件数', k: 'posts', num: 1 }, { t: '平均views', k: 'avg_views', num: 1, bar: 1, f: F1.format }, { t: '平均いいね', k: 'avg_likes', num: 1 }], th.types)),
       card('Threads views 上位', '冒頭の一部', table([{ t: '投稿', k: 'text', f: (v, r) => `${md(r.posted)} ${v}` }, { t: 'views', k: 'views', num: 1, f: N.format }, { t: 'いいね', k: 'likes', num: 1 }], th.top)),
-      card('TikTok 日別の動画再生', `TikTok Studio の CSV から(${tk.asof})`, bars(tk.daily, 'date', 'views')),
+      card('TikTok 日別の動画再生', `1日が7日合計に占める割合。TikTok Studio の CSV から(${tk.asof})`, pie(tk.daily, 'date', 'views')),
       card('TikTok 日別の反応', '', table([{ t: '日', k: 'date', f: md }, { t: '再生', k: 'views', num: 1 }, { t: 'プロフィール', k: 'profile_views', num: 1 }, { t: 'いいね', k: 'likes', num: 1 }, { t: 'コメント', k: 'comments', num: 1 }, { t: 'シェア', k: 'shares', num: 1 }], tk.daily)),
       card('Instagram リール一覧', '公開順', table([{ t: '日', k: 'date', f: md }, { t: '内容', k: 'title' }, { t: '再生', k: 'views', num: 1, f: N.format }, { t: 'いいね', k: 'likes', num: 1 }], ig.reels))
     );
