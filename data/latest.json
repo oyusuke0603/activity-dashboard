@@ -1,13 +1,13 @@
 {
  "meta": {
-  "updated": "2026-11-12T13:43+09:00",
+  "updated": "2026-11-13T07:27+09:00",
   "sources": {
    "github": {
-    "at": "2026-11-12 13:43",
+    "at": "2026-11-13 07:27",
     "status": "ok"
    },
    "threads": {
-    "at": "2026-11-12 13:43",
+    "at": "2026-11-13 07:27",
     "status": "ok"
    },
    "instagram": {
@@ -724,20 +724,20 @@
   ]
  },
  "threads": {
-  "asof": "2026-11-12 06:29 ",
+  "asof": "2026-11-13 06:32 ",
   "types": [
    {
     "type": "ちいかわ",
     "posts": 136,
-    "avg_views": 1002.5,
+    "avg_views": 1002.6,
     "avg_likes": 4.83,
     "avg_replies": 0.16
    },
    {
     "type": "問いかけ",
-    "posts": 140,
-    "avg_views": 615.1,
-    "avg_likes": 5.09,
+    "posts": 142,
+    "avg_views": 609.6,
+    "avg_likes": 5.01,
     "avg_replies": 0.7
    },
    {
@@ -749,8 +749,8 @@
    },
    {
     "type": "note誘導",
-    "posts": 730,
-    "avg_views": 38.6,
+    "posts": 740,
+    "avg_views": 38.4,
     "avg_likes": 0.14,
     "avg_replies": 0
    }
@@ -864,11 +864,25 @@
     "description": "Threads自動投稿",
     "visibility": "非公開",
     "language": "PowerShell",
-    "pushed": "2026-11-12"
+    "pushed": "2026-11-13"
    },
    {
     "repo": "animal-chat",
     "description": "猫キャラと話せるどうぶつチャット（天気・ニュース・猫の声）",
+    "visibility": "公開",
+    "language": "HTML",
+    "pushed": "2026-11-13"
+   },
+   {
+    "repo": "activity-dashboard",
+    "description": "活動ダッシュボード",
+    "visibility": "公開",
+    "language": "HTML",
+    "pushed": "2026-11-12"
+   },
+   {
+    "repo": "links",
+    "description": "小川祐介 リンク集",
     "visibility": "公開",
     "language": "HTML",
     "pushed": "2026-11-12"
@@ -879,20 +893,6 @@
     "visibility": "非公開",
     "language": "PowerShell",
     "pushed": "2026-11-12"
-   },
-   {
-    "repo": "activity-dashboard",
-    "description": "活動ダッシュボード",
-    "visibility": "公開",
-    "language": "HTML",
-    "pushed": "2026-11-11"
-   },
-   {
-    "repo": "links",
-    "description": "小川祐介 リンク集",
-    "visibility": "公開",
-    "language": "HTML",
-    "pushed": "2026-11-03"
    },
    {
     "repo": "cat-chat",
@@ -938,10 +938,6 @@
    }
   ],
   "commits_daily": [
-   {
-    "date": "2026-10-30",
-    "count": 45
-   },
    {
     "date": "2026-10-31",
     "count": 26
@@ -992,69 +988,73 @@
    },
    {
     "date": "2026-11-12",
-    "count": 15
+    "count": 35
+   },
+   {
+    "date": "2026-11-13",
+    "count": 4
    }
   ],
   "recent": [
    {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
+    "source": "activity-dashboard",
+    "text": "dashboard: Instagram/GitHub daily charts as pie"
+   },
+   {
+    "date": "2026-11-12",
+    "source": "activity-dashboard",
+    "text": "dashboard: TikTok daily views as pie chart"
+   },
+   {
+    "date": "2026-11-12",
+    "source": "activity-dashboard",
+    "text": "dashboard: add TikTok section (manual CSV)"
+   },
+   {
+    "date": "2026-11-12",
+    "source": "links",
+    "text": "Add I-9 (posted, thumb_offset 1500)"
+   },
+   {
+    "date": "2026-11-12",
+    "source": "threads-auto-post",
+    "text": "note publish: remove 2026-11-12_02.md from pending"
+   },
+   {
+    "date": "2026-11-12",
+    "source": "threads-auto-post",
+    "text": "note publish: move 2026-11-12_02.md to posted"
+   },
+   {
+    "date": "2026-11-12",
+    "source": "links",
+    "text": "Add reel I-9 (異世界デバッガー 第7話)"
+   },
+   {
+    "date": "2026-11-12",
+    "source": "threads-auto-post",
+    "text": "Add YouTube 異世界デバッガー 第7話"
+   },
+   {
+    "date": "2026-11-12",
+    "source": "linkedin-auto-post",
+    "text": "Add YouTube 異世界デバッガー 第7話"
+   },
+   {
+    "date": "2026-11-12",
+    "source": "threads-auto-post",
+    "text": "note無料記事を投稿前から削除: 2026-11-12_03.md"
+   },
+   {
+    "date": "2026-11-12",
+    "source": "threads-auto-post",
+    "text": "note無料記事を投稿済みへ移動: 2026-11-12_03.md"
+   },
+   {
+    "date": "2026-11-12",
     "source": "activity-dashboard",
     "text": "auto: update dashboard data"
-   },
-   {
-    "date": "2026-11-11",
-    "source": "threads-auto-post",
-    "text": "remove 2026-11-11_04 from pre-post"
-   },
-   {
-    "date": "2026-11-11",
-    "source": "threads-auto-post",
-    "text": "move 2026-11-11_04 to posted"
-   },
-   {
-    "date": "2026-11-11",
-    "source": "threads-auto-post",
-    "text": "Threads queue: note有料1本追加"
-   },
-   {
-    "date": "2026-11-11",
-    "source": "threads-auto-post",
-    "text": "投稿前から削除 2026-11-09_01"
-   },
-   {
-    "date": "2026-11-11",
-    "source": "threads-auto-post",
-    "text": "note有料記事を投稿済みへ移動 2026-11-09_01"
-   },
-   {
-    "date": "2026-11-11",
-    "source": "activity-dashboard",
-    "text": "YouTubeの数字を11/9分に更新"
-   },
-   {
-    "date": "2026-11-11",
-    "source": "threads-auto-post",
-    "text": "Threads queue: note有料1本追加"
-   },
-   {
-    "date": "2026-11-11",
-    "source": "threads-auto-post",
-    "text": "投稿前から削除 2026-11-06_20"
-   },
-   {
-    "date": "2026-11-11",
-    "source": "threads-auto-post",
-    "text": "note有料記事を投稿済みへ移動 2026-11-06_20"
-   },
-   {
-    "date": "2026-11-11",
-    "source": "threads-auto-post",
-    "text": "Threads queue: note有料2本追加(Claude規約を先頭へ)"
-   },
-   {
-    "date": "2026-11-11",
-    "source": "threads-auto-post",
-    "text": "投稿前から削除 2026-10-28_01"
    }
   ]
  },
