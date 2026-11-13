@@ -1,13 +1,13 @@
 {
  "meta": {
-  "updated": "2026-11-13T07:27+09:00",
+  "updated": "2026-11-13T16:08+09:00",
   "sources": {
    "github": {
-    "at": "2026-11-13 07:27",
+    "at": "2026-11-13 16:08",
     "status": "ok"
    },
    "threads": {
-    "at": "2026-11-13 07:27",
+    "at": "2026-11-13 16:08",
     "status": "ok"
    },
    "instagram": {
@@ -867,8 +867,22 @@
     "pushed": "2026-11-13"
    },
    {
+    "repo": "linkedin-auto-post",
+    "description": "LinkedIn自動投稿(note記事等)",
+    "visibility": "非公開",
+    "language": "PowerShell",
+    "pushed": "2026-11-13"
+   },
+   {
     "repo": "animal-chat",
     "description": "猫キャラと話せるどうぶつチャット（天気・ニュース・猫の声）",
+    "visibility": "公開",
+    "language": "HTML",
+    "pushed": "2026-11-13"
+   },
+   {
+    "repo": "crowdsourcing-activity",
+    "description": "クラウドソーシング活動サイト(ランサーズ・クラウドワークス)",
     "visibility": "公開",
     "language": "HTML",
     "pushed": "2026-11-13"
@@ -878,20 +892,20 @@
     "description": "活動ダッシュボード",
     "visibility": "公開",
     "language": "HTML",
-    "pushed": "2026-11-12"
+    "pushed": "2026-11-13"
+   },
+   {
+    "repo": "banner-logo-samples",
+    "description": "バナー・ロゴ デザイン見本集（架空店舗）",
+    "visibility": "公開",
+    "language": "HTML",
+    "pushed": "2026-11-13"
    },
    {
     "repo": "links",
     "description": "小川祐介 リンク集",
     "visibility": "公開",
     "language": "HTML",
-    "pushed": "2026-11-12"
-   },
-   {
-    "repo": "linkedin-auto-post",
-    "description": "LinkedIn自動投稿(note記事等)",
-    "visibility": "非公開",
-    "language": "PowerShell",
     "pushed": "2026-11-12"
    },
    {
@@ -916,22 +930,8 @@
     "pushed": "2026-10-25"
    },
    {
-    "repo": "nippo-health-data",
-    "description": "日報・健康管理データ(非公開)",
-    "visibility": "非公開",
-    "language": "-",
-    "pushed": "2026-10-19"
-   },
-   {
     "repo": "lp-samples",
     "description": "LPデザインサンプル集（架空の店舗・事務所）",
-    "visibility": "公開",
-    "language": "HTML",
-    "pushed": "2026-10-10"
-   },
-   {
-    "repo": "banner-logo-samples",
-    "description": "バナー・ロゴ デザイン見本集（架空店舗）",
     "visibility": "公開",
     "language": "HTML",
     "pushed": "2026-10-10"
@@ -992,69 +992,69 @@
    },
    {
     "date": "2026-11-13",
-    "count": 4
+    "count": 28
    }
   ],
   "recent": [
    {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
+    "source": "threads-auto-post",
+    "text": "note無料 2026-11-13_03.md を投稿前から削除"
+   },
+   {
+    "date": "2026-11-13",
+    "source": "threads-auto-post",
+    "text": "note無料 2026-11-13_03.md を投稿済みへ移動"
+   },
+   {
+    "date": "2026-11-13",
+    "source": "threads-auto-post",
+    "text": "note footer: Amazon affiliate links to link.amazon short links (deep link)"
+   },
+   {
+    "date": "2026-11-13",
+    "source": "threads-auto-post",
+    "text": "note: 投稿前から削除 2026-11-12_09.md"
+   },
+   {
+    "date": "2026-11-13",
+    "source": "threads-auto-post",
+    "text": "note: 公開済みの下書きを投稿済みへ移動 2026-11-12_09.md"
+   },
+   {
+    "date": "2026-11-13",
+    "source": "crowdsourcing-activity",
+    "text": "Initial site"
+   },
+   {
+    "date": "2026-11-13",
     "source": "activity-dashboard",
-    "text": "dashboard: Instagram/GitHub daily charts as pie"
+    "text": "Dashboard: Japanese repo names, larger text"
    },
    {
-    "date": "2026-11-12",
-    "source": "activity-dashboard",
-    "text": "dashboard: TikTok daily views as pie chart"
+    "date": "2026-11-13",
+    "source": "banner-logo-samples",
+    "text": "Add/update index.html"
    },
    {
-    "date": "2026-11-12",
-    "source": "activity-dashboard",
-    "text": "dashboard: add TikTok section (manual CSV)"
+    "date": "2026-11-13",
+    "source": "banner-logo-samples",
+    "text": "Add/update works/visual-rose-festival.jpg"
    },
    {
-    "date": "2026-11-12",
-    "source": "links",
-    "text": "Add I-9 (posted, thumb_offset 1500)"
+    "date": "2026-11-13",
+    "source": "banner-logo-samples",
+    "text": "Add/update works/logo-drone.png"
    },
    {
-    "date": "2026-11-12",
-    "source": "threads-auto-post",
-    "text": "note publish: remove 2026-11-12_02.md from pending"
+    "date": "2026-11-13",
+    "source": "banner-logo-samples",
+    "text": "Add/update works/logo-kurabiko.png"
    },
    {
-    "date": "2026-11-12",
-    "source": "threads-auto-post",
-    "text": "note publish: move 2026-11-12_02.md to posted"
-   },
-   {
-    "date": "2026-11-12",
-    "source": "links",
-    "text": "Add reel I-9 (異世界デバッガー 第7話)"
-   },
-   {
-    "date": "2026-11-12",
-    "source": "threads-auto-post",
-    "text": "Add YouTube 異世界デバッガー 第7話"
-   },
-   {
-    "date": "2026-11-12",
-    "source": "linkedin-auto-post",
-    "text": "Add YouTube 異世界デバッガー 第7話"
-   },
-   {
-    "date": "2026-11-12",
-    "source": "threads-auto-post",
-    "text": "note無料記事を投稿前から削除: 2026-11-12_03.md"
-   },
-   {
-    "date": "2026-11-12",
-    "source": "threads-auto-post",
-    "text": "note無料記事を投稿済みへ移動: 2026-11-12_03.md"
-   },
-   {
-    "date": "2026-11-12",
-    "source": "activity-dashboard",
-    "text": "auto: update dashboard data"
+    "date": "2026-11-13",
+    "source": "banner-logo-samples",
+    "text": "Add/update works/logo-omeka.png"
    }
   ]
  },
