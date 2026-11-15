@@ -1,13 +1,13 @@
 {
  "meta": {
-  "updated": "2026-11-14T13:08+09:00",
+  "updated": "2026-11-15T16:31+09:00",
   "sources": {
    "github": {
-    "at": "2026-11-14 13:08",
+    "at": "2026-11-15 16:31",
     "status": "ok"
    },
    "threads": {
-    "at": "2026-11-14 13:08",
+    "at": "2026-11-15 16:31",
     "status": "ok"
    },
    "instagram": {
@@ -735,7 +735,7 @@
   ]
  },
  "threads": {
-  "asof": "2026-11-14 05:57 ",
+  "asof": "2026-11-15 04:24 ",
   "types": [
    {
     "type": "ちいかわ",
@@ -746,10 +746,10 @@
    },
    {
     "type": "問いかけ",
-    "posts": 144,
-    "avg_views": 605.6,
-    "avg_likes": 4.95,
-    "avg_replies": 0.7
+    "posts": 146,
+    "avg_views": 610.1,
+    "avg_likes": 4.91,
+    "avg_replies": 0.71
    },
    {
     "type": "その他",
@@ -760,8 +760,8 @@
    },
    {
     "type": "note誘導",
-    "posts": 749,
-    "avg_views": 38.3,
+    "posts": 759,
+    "avg_views": 38,
     "avg_likes": 0.14,
     "avg_replies": 0
    }
@@ -875,27 +875,27 @@
     "description": "Threads自動投稿",
     "visibility": "非公開",
     "language": "PowerShell",
-    "pushed": "2026-11-14"
-   },
-   {
-    "repo": "activity-dashboard",
-    "description": "活動ダッシュボード",
-    "visibility": "公開",
-    "language": "HTML",
-    "pushed": "2026-11-14"
-   },
-   {
-    "repo": "animal-chat",
-    "description": "猫キャラと話せるどうぶつチャット（天気・ニュース・猫の声）",
-    "visibility": "公開",
-    "language": "HTML",
-    "pushed": "2026-11-14"
+    "pushed": "2026-11-15"
    },
    {
     "repo": "linkedin-auto-post",
     "description": "LinkedIn自動投稿(note記事等)",
     "visibility": "非公開",
     "language": "PowerShell",
+    "pushed": "2026-11-15"
+   },
+   {
+    "repo": "animal-chat",
+    "description": "猫キャラと話せるどうぶつチャット（天気・ニュース・猫の声）",
+    "visibility": "公開",
+    "language": "HTML",
+    "pushed": "2026-11-15"
+   },
+   {
+    "repo": "activity-dashboard",
+    "description": "活動ダッシュボード",
+    "visibility": "公開",
+    "language": "HTML",
     "pushed": "2026-11-14"
    },
    {
@@ -950,10 +950,6 @@
   ],
   "commits_daily": [
    {
-    "date": "2026-11-01",
-    "count": 34
-   },
-   {
     "date": "2026-11-02",
     "count": 54
    },
@@ -1003,10 +999,34 @@
    },
    {
     "date": "2026-11-14",
+    "count": 31
+   },
+   {
+    "date": "2026-11-15",
     "count": 16
    }
   ],
   "recent": [
+   {
+    "date": "2026-11-14",
+    "source": "threads-auto-post",
+    "text": "Remove 2026-11-14_03.md from 投稿前"
+   },
+   {
+    "date": "2026-11-14",
+    "source": "threads-auto-post",
+    "text": "Move 2026-11-14_03.md to 投稿済み"
+   },
+   {
+    "date": "2026-11-14",
+    "source": "activity-dashboard",
+    "text": "manual: update YouTube/note/Amazon (2026-11-14)"
+   },
+   {
+    "date": "2026-11-14",
+    "source": "activity-dashboard",
+    "text": "auto: update dashboard data"
+   },
    {
     "date": "2026-11-14",
     "source": "threads-auto-post",
@@ -1046,26 +1066,6 @@
     "date": "2026-11-13",
     "source": "threads-auto-post",
     "text": "note: 投稿前から削除 2026-11-12_09.md"
-   },
-   {
-    "date": "2026-11-13",
-    "source": "threads-auto-post",
-    "text": "note: 公開済みの下書きを投稿済みへ移動 2026-11-12_09.md"
-   },
-   {
-    "date": "2026-11-13",
-    "source": "crowdsourcing-activity",
-    "text": "Initial site"
-   },
-   {
-    "date": "2026-11-13",
-    "source": "activity-dashboard",
-    "text": "Dashboard: Japanese repo names, larger text"
-   },
-   {
-    "date": "2026-11-13",
-    "source": "banner-logo-samples",
-    "text": "Add/update index.html"
    }
   ]
  },
