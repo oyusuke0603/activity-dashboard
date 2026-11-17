@@ -1,13 +1,13 @@
 {
  "meta": {
-  "updated": "2026-11-15T16:31+09:00",
+  "updated": "2026-11-17T16:08+09:00",
   "sources": {
    "github": {
-    "at": "2026-11-15 16:31",
+    "at": "2026-11-17 16:08",
     "status": "ok"
    },
    "threads": {
-    "at": "2026-11-15 16:31",
+    "at": "2026-11-17 16:08",
     "status": "ok"
    },
    "instagram": {
@@ -735,7 +735,7 @@
   ]
  },
  "threads": {
-  "asof": "2026-11-15 04:24 ",
+  "asof": "2026-11-17 08:28 ",
   "types": [
    {
     "type": "ちいかわ",
@@ -746,10 +746,10 @@
    },
    {
     "type": "問いかけ",
-    "posts": 146,
-    "avg_views": 610.1,
-    "avg_likes": 4.91,
-    "avg_replies": 0.71
+    "posts": 154,
+    "avg_views": 612.1,
+    "avg_likes": 4.71,
+    "avg_replies": 0.73
    },
    {
     "type": "その他",
@@ -760,8 +760,8 @@
    },
    {
     "type": "note誘導",
-    "posts": 759,
-    "avg_views": 38,
+    "posts": 775,
+    "avg_views": 37.6,
     "avg_likes": 0.14,
     "avg_replies": 0
    }
@@ -824,18 +824,18 @@
     "text": "障害者雇用を代行するビジネスに、国が規制を検討し始めたというニュースがありました"
    },
    {
+    "views": 1789,
+    "likes": 4,
+    "posted": "2026-11-16",
+    "type": "問いかけ",
+    "text": "給付金の詐取事件を受けて、札幌市が障害者就労支援事業所向けの再発防止指針を打ち出"
+   },
+   {
     "views": 1734,
     "likes": 6,
     "posted": "2026-10-24",
     "type": "問いかけ",
     "text": "障害者雇用促進法の改正で、法定雇用率が2.8%から3.0%へ引き上げられる見通し"
-   },
-   {
-    "views": 1689,
-    "likes": 13,
-    "posted": "2026-10-24",
-    "type": "問いかけ",
-    "text": "2028年10月から、障害者雇用の対象が週20時間以上から週10時間以上の労働者"
    }
   ]
  },
@@ -871,32 +871,46 @@
  "github": {
   "repos": [
    {
-    "repo": "threads-auto-post",
-    "description": "Threads自動投稿",
-    "visibility": "非公開",
-    "language": "PowerShell",
-    "pushed": "2026-11-15"
+    "repo": "banner-logo-samples",
+    "description": "バナー・ロゴ デザイン見本集（架空店舗）",
+    "visibility": "公開",
+    "language": "HTML",
+    "pushed": "2026-11-17"
    },
    {
     "repo": "linkedin-auto-post",
     "description": "LinkedIn自動投稿(note記事等)",
     "visibility": "非公開",
     "language": "PowerShell",
-    "pushed": "2026-11-15"
+    "pushed": "2026-11-17"
+   },
+   {
+    "repo": "threads-auto-post",
+    "description": "Threads自動投稿",
+    "visibility": "非公開",
+    "language": "PowerShell",
+    "pushed": "2026-11-17"
    },
    {
     "repo": "animal-chat",
     "description": "猫キャラと話せるどうぶつチャット（天気・ニュース・猫の声）",
     "visibility": "公開",
     "language": "HTML",
-    "pushed": "2026-11-15"
+    "pushed": "2026-11-17"
+   },
+   {
+    "repo": "links",
+    "description": "小川祐介 リンク集",
+    "visibility": "公開",
+    "language": "HTML",
+    "pushed": "2026-11-16"
    },
    {
     "repo": "activity-dashboard",
     "description": "活動ダッシュボード",
     "visibility": "公開",
     "language": "HTML",
-    "pushed": "2026-11-14"
+    "pushed": "2026-11-15"
    },
    {
     "repo": "crowdsourcing-activity",
@@ -904,20 +918,6 @@
     "visibility": "公開",
     "language": "HTML",
     "pushed": "2026-11-13"
-   },
-   {
-    "repo": "banner-logo-samples",
-    "description": "バナー・ロゴ デザイン見本集（架空店舗）",
-    "visibility": "公開",
-    "language": "HTML",
-    "pushed": "2026-11-13"
-   },
-   {
-    "repo": "links",
-    "description": "小川祐介 リンク集",
-    "visibility": "公開",
-    "language": "HTML",
-    "pushed": "2026-11-12"
    },
    {
     "repo": "cat-chat",
@@ -949,14 +949,6 @@
    }
   ],
   "commits_daily": [
-   {
-    "date": "2026-11-02",
-    "count": 54
-   },
-   {
-    "date": "2026-11-03",
-    "count": 51
-   },
    {
     "date": "2026-11-04",
     "count": 34
@@ -1003,69 +995,77 @@
    },
    {
     "date": "2026-11-15",
-    "count": 16
+    "count": 26
+   },
+   {
+    "date": "2026-11-16",
+    "count": 28
+   },
+   {
+    "date": "2026-11-17",
+    "count": 17
    }
   ],
   "recent": [
    {
+    "date": "2026-11-17",
+    "source": "banner-logo-samples",
+    "text": "add kokoniko logo card to proposals section"
+   },
+   {
+    "date": "2026-11-17",
+    "source": "banner-logo-samples",
+    "text": "add logo proposal: kokoniko animal clinic"
+   },
+   {
+    "date": "2026-11-16",
+    "source": "threads-auto-post",
+    "text": "note: remove 2026-11-16_03.md from pre-post"
+   },
+   {
+    "date": "2026-11-16",
+    "source": "threads-auto-post",
+    "text": "note: move 2026-11-16_03.md to posted"
+   },
+   {
+    "date": "2026-11-16",
+    "source": "links",
+    "text": "Add I-10 (posted, thumb_offset 1500)"
+   },
+   {
+    "date": "2026-11-16",
+    "source": "links",
+    "text": "Add reel i10 (isekai debugger ep8)"
+   },
+   {
+    "date": "2026-11-16",
+    "source": "linkedin-auto-post",
+    "text": "Add ep8 YouTube promo"
+   },
+   {
+    "date": "2026-11-16",
+    "source": "threads-auto-post",
+    "text": "Add ep8 YouTube promo"
+   },
+   {
+    "date": "2026-11-15",
+    "source": "threads-auto-post",
+    "text": "note publish: remove 2026-11-15_03.md from 投稿前"
+   },
+   {
+    "date": "2026-11-15",
+    "source": "threads-auto-post",
+    "text": "note publish: move 2026-11-15_03.md to 投稿済み"
+   },
+   {
+    "date": "2026-11-15",
+    "source": "activity-dashboard",
+    "text": "auto: update dashboard data"
+   },
+   {
     "date": "2026-11-14",
     "source": "threads-auto-post",
     "text": "Remove 2026-11-14_03.md from 投稿前"
-   },
-   {
-    "date": "2026-11-14",
-    "source": "threads-auto-post",
-    "text": "Move 2026-11-14_03.md to 投稿済み"
-   },
-   {
-    "date": "2026-11-14",
-    "source": "activity-dashboard",
-    "text": "manual: update YouTube/note/Amazon (2026-11-14)"
-   },
-   {
-    "date": "2026-11-14",
-    "source": "activity-dashboard",
-    "text": "auto: update dashboard data"
-   },
-   {
-    "date": "2026-11-14",
-    "source": "threads-auto-post",
-    "text": "note公開済み: 2026-11-13_09.md を投稿前から削除"
-   },
-   {
-    "date": "2026-11-14",
-    "source": "threads-auto-post",
-    "text": "note公開済み: 2026-11-13_09.md を投稿済みへ移動"
-   },
-   {
-    "date": "2026-11-14",
-    "source": "activity-dashboard",
-    "text": "auto: update dashboard data"
-   },
-   {
-    "date": "2026-11-13",
-    "source": "activity-dashboard",
-    "text": "auto: update dashboard data"
-   },
-   {
-    "date": "2026-11-13",
-    "source": "threads-auto-post",
-    "text": "note無料 2026-11-13_03.md を投稿前から削除"
-   },
-   {
-    "date": "2026-11-13",
-    "source": "threads-auto-post",
-    "text": "note無料 2026-11-13_03.md を投稿済みへ移動"
-   },
-   {
-    "date": "2026-11-13",
-    "source": "threads-auto-post",
-    "text": "note footer: Amazon affiliate links to link.amazon short links (deep link)"
-   },
-   {
-    "date": "2026-11-13",
-    "source": "threads-auto-post",
-    "text": "note: 投稿前から削除 2026-11-12_09.md"
    }
   ]
  },
