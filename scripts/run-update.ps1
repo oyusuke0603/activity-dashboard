@@ -4,6 +4,9 @@ Set-Location 'P:\09_Claude Code\プロジェクト\活動ダッシュボード'
 # P: (pCloud) は所有者を記録しないため、このスクリプトの中だけでフォルダを許可する
 $env:GIT_CONFIG_COUNT = '1'; $env:GIT_CONFIG_KEY_0 = 'safe.directory'; $env:GIT_CONFIG_VALUE_0 = 'P:/09_Claude Code/プロジェクト/活動ダッシュボード'
 $env:GH_TOKEN = (& 'C:\Program Files\GitHub CLI\gh.exe' auth token)
+# Windsor の API キーは公開リポジトリの外に置く(P:\09_Claude Code\windsor_key.txt)
+$keyFile = 'P:\09_Claude Code\windsor_key.txt'
+if (Test-Path $keyFile) { $env:WINDSOR_API_KEY = (Get-Content $keyFile -Raw).Trim() }
 & 'C:\Program Files\nodejs\node.exe' scripts/update.mjs
 & 'C:\Program Files\Git\cmd\git.exe' add data/latest.json
 & 'C:\Program Files\Git\cmd\git.exe' diff --cached --quiet
