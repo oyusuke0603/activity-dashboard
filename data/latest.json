@@ -1,60 +1,29 @@
 {
  "meta": {
-  "updated": "2026-11-17T16:08+09:00",
+  "updated": "2026-11-17T16:36+09:00",
   "sources": {
    "github": {
-    "at": "2026-11-17 16:08",
+    "at": "2026-11-17 16:36",
     "status": "ok"
    },
    "threads": {
-    "at": "2026-11-17 16:08",
+    "at": "2026-11-17 16:36",
     "status": "ok"
    },
    "instagram": {
-    "at": "2026-11-11 13:50",
-    "status": "error",
-    "error": "WINDSOR_API_KEY が未設定です(Instagram は前回の値のまま)"
+    "at": "2026-11-17 16:36",
+    "status": "ok"
    }
   }
  },
  "instagram": {
   "profile": {
    "account": "oyusuke0603",
-   "followers": 256,
-   "following": 594,
-   "posts": 278
+   "followers": 253,
+   "following": 592,
+   "posts": 280
   },
   "daily": [
-   {
-    "date": "2026-10-12",
-    "reach": 11,
-    "new_followers": 1
-   },
-   {
-    "date": "2026-10-13",
-    "reach": 196,
-    "new_followers": 0
-   },
-   {
-    "date": "2026-10-14",
-    "reach": 70,
-    "new_followers": 0
-   },
-   {
-    "date": "2026-10-15",
-    "reach": 144,
-    "new_followers": 0
-   },
-   {
-    "date": "2026-10-16",
-    "reach": 7,
-    "new_followers": 0
-   },
-   {
-    "date": "2026-10-17",
-    "reach": 26,
-    "new_followers": 0
-   },
    {
     "date": "2026-10-18",
     "reach": 33,
@@ -172,39 +141,45 @@
    },
    {
     "date": "2026-11-10",
-    "reach": 3,
+    "reach": 5,
+    "new_followers": 0
+   },
+   {
+    "date": "2026-11-11",
+    "reach": 4,
+    "new_followers": 0
+   },
+   {
+    "date": "2026-11-12",
+    "reach": 115,
+    "new_followers": 0
+   },
+   {
+    "date": "2026-11-13",
+    "reach": 5,
+    "new_followers": 0
+   },
+   {
+    "date": "2026-11-14",
+    "reach": 5,
+    "new_followers": 0
+   },
+   {
+    "date": "2026-11-15",
+    "reach": 97,
+    "new_followers": 0
+   },
+   {
+    "date": "2026-11-16",
+    "reach": 23,
     "new_followers": 0
    }
   ],
   "reels": [
    {
-    "date": "2026-10-13",
-    "series": "闘病記",
-    "title": "46歳、突然の脳梗塞",
-    "views": 359,
-    "reach": 270,
-    "likes": 3
-   },
-   {
-    "date": "2026-10-15",
-    "series": "闘病記",
-    "title": "うつ病再発と障害年金2級",
-    "views": 212,
-    "reach": 162,
-    "likes": 4
-   },
-   {
-    "date": "2026-10-17",
-    "series": "闘病記",
-    "title": "障害厚生年金2級で何が変わったか",
-    "views": 76,
-    "reach": 58,
-    "likes": 2
-   },
-   {
     "date": "2026-10-19",
     "series": "闘病記",
-    "title": "緑内障の進行と視野欠損",
+    "title": "片目で40年生きてきて、緑内障の進行と視野欠損を告げられました。",
     "views": 197,
     "reach": 140,
     "likes": 1
@@ -212,15 +187,15 @@
    {
     "date": "2026-10-21",
     "series": "闘病記",
-    "title": "障害者雇用枠で時短復職",
-    "views": 164,
-    "reach": 135,
-    "likes": 0
+    "title": "9月から、障害者雇用枠で時短復職しました。",
+    "views": 167,
+    "reach": 137,
+    "likes": 1
    },
    {
     "date": "2026-10-23",
     "series": "異世界デバッガー",
-    "title": "金色の噴水を銀色に",
+    "title": "金色の噴水を作ったら、銀色にしてくれと言われました。",
     "views": 434,
     "reach": 132,
     "likes": 1
@@ -228,7 +203,7 @@
    {
     "date": "2026-10-23",
     "series": "異世界デバッガー",
-    "title": "納期が明日の夜明けに前倒し",
+    "title": "納期が、1か月後から明日の夜明けに前倒しされました。",
     "views": 146,
     "reach": 134,
     "likes": 0
@@ -236,7 +211,7 @@
    {
     "date": "2026-10-23",
     "series": "異世界デバッガー",
-    "title": "30日待て、と言われた結界",
+    "title": "30日待て、と言われました。結界は今夜壊れるのに。",
     "views": 162,
     "reach": 154,
     "likes": 0
@@ -244,7 +219,7 @@
    {
     "date": "2026-10-23",
     "series": "異世界デバッガー",
-    "title": "その呪文、順番が逆です",
+    "title": "その呪文、順番が逆です。",
     "views": 1489,
     "reach": 1243,
     "likes": 3
@@ -252,7 +227,7 @@
    {
     "date": "2026-10-23",
     "series": "異世界デバッガー",
-    "title": "無限ループするスライム",
+    "title": "無限ループするスライムを、SEが直してみた。",
     "views": 131,
     "reach": 117,
     "likes": 1
@@ -260,15 +235,15 @@
    {
     "date": "2026-10-24",
     "series": "異世界デバッガー",
-    "title": "練習したら盾に弾き飛ばされた",
-    "views": 148,
-    "reach": 140,
+    "title": "練習したら、騎士が自分の盾に弾き飛ばされました。",
+    "views": 149,
+    "reach": 141,
     "likes": 0
    },
    {
     "date": "2026-10-25",
     "series": "異世界デバッガー",
-    "title": "本番中に結界をデバッグする",
+    "title": "本番中に、結界をデバッグする。",
     "views": 137,
     "reach": 122,
     "likes": 1
@@ -276,15 +251,15 @@
    {
     "date": "2026-10-27",
     "series": "闘病記",
-    "title": "復職1週間の現実",
-    "views": 188,
-    "reach": 150,
+    "title": "復職1週間。時短で実務は3時間。",
+    "views": 193,
+    "reach": 154,
     "likes": 1
    },
    {
     "date": "2026-10-29",
     "series": "闘病記",
-    "title": "通勤で心が折れそうになる",
+    "title": "業務はこなせるのに、通勤で心が折れそうになります。",
     "views": 65,
     "reach": 42,
     "likes": 1
@@ -292,13 +267,29 @@
    {
     "date": "2026-11-03",
     "series": "異世界デバッガー",
-    "title": "休日の夜、王都の術式が止まる",
-    "views": 130,
-    "reach": 118,
+    "title": "休日の夜、王都の術式が一斉に止まりました。",
+    "views": 133,
+    "reach": 120,
     "likes": 1
+   },
+   {
+    "date": "2026-11-12",
+    "series": "異世界デバッガー",
+    "title": "定時で帰れたSEの隣に、大きな旅人が座りました。",
+    "views": 127,
+    "reach": 117,
+    "likes": 0
+   },
+   {
+    "date": "2026-11-16",
+    "series": "異世界デバッガー",
+    "title": "300年前の引き継ぎ資料を見つけたSE。",
+    "views": 123,
+    "reach": 113,
+    "likes": 0
    }
   ],
-  "asof": "2026-11-11"
+  "asof": "2026-11-17 16:36"
  },
  "youtube": {
   "asof": "2026-11-14",
@@ -871,6 +862,13 @@
  "github": {
   "repos": [
    {
+    "repo": "threads-auto-post",
+    "description": "Threads自動投稿",
+    "visibility": "非公開",
+    "language": "PowerShell",
+    "pushed": "2026-11-17"
+   },
+   {
     "repo": "banner-logo-samples",
     "description": "バナー・ロゴ デザイン見本集（架空店舗）",
     "visibility": "公開",
@@ -878,15 +876,15 @@
     "pushed": "2026-11-17"
    },
    {
-    "repo": "linkedin-auto-post",
-    "description": "LinkedIn自動投稿(note記事等)",
-    "visibility": "非公開",
-    "language": "PowerShell",
+    "repo": "activity-dashboard",
+    "description": "活動ダッシュボード",
+    "visibility": "公開",
+    "language": "HTML",
     "pushed": "2026-11-17"
    },
    {
-    "repo": "threads-auto-post",
-    "description": "Threads自動投稿",
+    "repo": "linkedin-auto-post",
+    "description": "LinkedIn自動投稿(note記事等)",
     "visibility": "非公開",
     "language": "PowerShell",
     "pushed": "2026-11-17"
@@ -904,13 +902,6 @@
     "visibility": "公開",
     "language": "HTML",
     "pushed": "2026-11-16"
-   },
-   {
-    "repo": "activity-dashboard",
-    "description": "活動ダッシュボード",
-    "visibility": "公開",
-    "language": "HTML",
-    "pushed": "2026-11-15"
    },
    {
     "repo": "crowdsourcing-activity",
@@ -1003,10 +994,35 @@
    },
    {
     "date": "2026-11-17",
-    "count": 17
+    "count": 22
    }
   ],
   "recent": [
+   {
+    "date": "2026-11-17",
+    "source": "threads-auto-post",
+    "text": "backup queue before reply conversion"
+   },
+   {
+    "date": "2026-11-17",
+    "source": "threads-auto-post",
+    "text": "queue: bare note links -> main text + reply link (143 entries)"
+   },
+   {
+    "date": "2026-11-17",
+    "source": "banner-logo-samples",
+    "text": "add kokoniko logo B card"
+   },
+   {
+    "date": "2026-11-17",
+    "source": "banner-logo-samples",
+    "text": "add kokoniko logo B image"
+   },
+   {
+    "date": "2026-11-17",
+    "source": "activity-dashboard",
+    "text": "auto: update dashboard data"
+   },
    {
     "date": "2026-11-17",
     "source": "banner-logo-samples",
@@ -1041,31 +1057,6 @@
     "date": "2026-11-16",
     "source": "linkedin-auto-post",
     "text": "Add ep8 YouTube promo"
-   },
-   {
-    "date": "2026-11-16",
-    "source": "threads-auto-post",
-    "text": "Add ep8 YouTube promo"
-   },
-   {
-    "date": "2026-11-15",
-    "source": "threads-auto-post",
-    "text": "note publish: remove 2026-11-15_03.md from 投稿前"
-   },
-   {
-    "date": "2026-11-15",
-    "source": "threads-auto-post",
-    "text": "note publish: move 2026-11-15_03.md to 投稿済み"
-   },
-   {
-    "date": "2026-11-15",
-    "source": "activity-dashboard",
-    "text": "auto: update dashboard data"
-   },
-   {
-    "date": "2026-11-14",
-    "source": "threads-auto-post",
-    "text": "Remove 2026-11-14_03.md from 投稿前"
    }
   ]
  },
