@@ -1,17 +1,17 @@
 {
  "meta": {
-  "updated": "2026-11-17T16:36+09:00",
+  "updated": "2026-11-20T07:33+09:00",
   "sources": {
    "github": {
-    "at": "2026-11-17 16:36",
+    "at": "2026-11-20 07:33",
     "status": "ok"
    },
    "threads": {
-    "at": "2026-11-17 16:36",
+    "at": "2026-11-20 07:33",
     "status": "ok"
    },
    "instagram": {
-    "at": "2026-11-17 16:36",
+    "at": "2026-11-20 07:33",
     "status": "ok"
    }
   }
@@ -19,21 +19,11 @@
  "instagram": {
   "profile": {
    "account": "oyusuke0603",
-   "followers": 253,
-   "following": 592,
-   "posts": 280
+   "followers": 252,
+   "following": 596,
+   "posts": 282
   },
   "daily": [
-   {
-    "date": "2026-10-18",
-    "reach": 33,
-    "new_followers": 1
-   },
-   {
-    "date": "2026-10-19",
-    "reach": 140,
-    "new_followers": 3
-   },
    {
     "date": "2026-10-20",
     "reach": 32,
@@ -171,19 +161,21 @@
    },
    {
     "date": "2026-11-16",
-    "reach": 23,
+    "reach": 24,
+    "new_followers": 0
+   },
+   {
+    "date": "2026-11-17",
+    "reach": 98,
+    "new_followers": 0
+   },
+   {
+    "date": "2026-11-18",
+    "reach": 7,
     "new_followers": 0
    }
   ],
   "reels": [
-   {
-    "date": "2026-10-19",
-    "series": "闘病記",
-    "title": "片目で40年生きてきて、緑内障の進行と視野欠損を告げられました。",
-    "views": 197,
-    "reach": 140,
-    "likes": 1
-   },
    {
     "date": "2026-10-21",
     "series": "闘病記",
@@ -244,8 +236,8 @@
     "date": "2026-10-25",
     "series": "異世界デバッガー",
     "title": "本番中に、結界をデバッグする。",
-    "views": 137,
-    "reach": 122,
+    "views": 138,
+    "reach": 123,
     "likes": 1
    },
    {
@@ -253,7 +245,7 @@
     "series": "闘病記",
     "title": "復職1週間。時短で実務は3時間。",
     "views": 193,
-    "reach": 154,
+    "reach": 155,
     "likes": 1
    },
    {
@@ -276,20 +268,36 @@
     "date": "2026-11-12",
     "series": "異世界デバッガー",
     "title": "定時で帰れたSEの隣に、大きな旅人が座りました。",
-    "views": 127,
-    "reach": 117,
+    "views": 129,
+    "reach": 118,
     "likes": 0
    },
    {
     "date": "2026-11-16",
     "series": "異世界デバッガー",
     "title": "300年前の引き継ぎ資料を見つけたSE。",
-    "views": 123,
-    "reach": 113,
+    "views": 126,
+    "reach": 117,
     "likes": 0
+   },
+   {
+    "date": "2026-11-17",
+    "series": "異世界デバッガー",
+    "title": "作った人が、辞めました。",
+    "views": 83,
+    "reach": 80,
+    "likes": 0
+   },
+   {
+    "date": "2026-11-17",
+    "series": "闘病記",
+    "title": "片目でも、SEです。",
+    "views": 51,
+    "reach": 30,
+    "likes": 1
    }
   ],
-  "asof": "2026-11-17 16:36"
+  "asof": "2026-11-20 07:33"
  },
  "youtube": {
   "asof": "2026-11-14",
@@ -726,34 +734,34 @@
   ]
  },
  "threads": {
-  "asof": "2026-11-17 08:28 ",
+  "asof": "2026-11-20 07:22 ",
   "types": [
    {
     "type": "ちいかわ",
-    "posts": 136,
-    "avg_views": 1002.6,
-    "avg_likes": 4.83,
-    "avg_replies": 0.16
+    "posts": 138,
+    "avg_views": 992.9,
+    "avg_likes": 4.77,
+    "avg_replies": 0.17
    },
    {
     "type": "問いかけ",
-    "posts": 154,
-    "avg_views": 612.1,
-    "avg_likes": 4.71,
-    "avg_replies": 0.73
+    "posts": 160,
+    "avg_views": 688.4,
+    "avg_likes": 4.96,
+    "avg_replies": 0.9
    },
    {
     "type": "その他",
-    "posts": 335,
-    "avg_views": 208.5,
+    "posts": 347,
+    "avg_views": 220.7,
     "avg_likes": 0.6,
-    "avg_replies": 0.08
+    "avg_replies": 0.11
    },
    {
     "type": "note誘導",
-    "posts": 775,
-    "avg_views": 37.6,
-    "avg_likes": 0.14,
+    "posts": 791,
+    "avg_views": 37.4,
+    "avg_likes": 0.13,
     "avg_replies": 0
    }
   ],
@@ -794,39 +802,39 @@
     "text": "精神障害者保健福祉手帳を持つ人向けに、JRの新幹線チケットがえきねっとでオンライ"
    },
    {
+    "views": 5807,
+    "likes": 16,
+    "posted": "2026-11-17",
+    "type": "問いかけ",
+    "text": "精神障害者の平均賃金は14万9000円で、一般より17万円低いそうです。賃金の差"
+   },
+   {
+    "views": 5682,
+    "likes": 30,
+    "posted": "2026-11-18",
+    "type": "問いかけ",
+    "text": "ジョブコーチが目指す「就労支援士」という新資格は、実務経験3年が目安で、検定は2"
+   },
+   {
+    "views": 4939,
+    "likes": 1,
+    "posted": "2026-11-17",
+    "type": "その他",
+    "text": "設備・運営基準違反でまさかの処分。熊本のグループホーム運営法人に熊本県が下した指"
+   },
+   {
+    "views": 3841,
+    "likes": 23,
+    "posted": "2026-11-18",
+    "type": "問いかけ",
+    "text": "障害年金の新規裁定13万件のうち、7割近くが精神・知的障害だそうです。精神の不調"
+   },
+   {
     "views": 2129,
     "likes": 63,
     "posted": "2026-09-20",
     "type": "ちいかわ",
     "text": "映画ちいかわ「人魚の島のひみつ」が公開45日で興行収入約139億円を突破し、歴代"
-   },
-   {
-    "views": 2002,
-    "likes": 4,
-    "posted": "2026-10-13",
-    "type": "ちいかわ",
-    "text": "本日発売の「ちいかわ くりまんじゅうだらけくじ」、全11種がすべてくりまんじゅう"
-   },
-   {
-    "views": 1933,
-    "likes": 20,
-    "posted": "2026-09-09",
-    "type": "問いかけ",
-    "text": "障害者雇用を代行するビジネスに、国が規制を検討し始めたというニュースがありました"
-   },
-   {
-    "views": 1789,
-    "likes": 4,
-    "posted": "2026-11-16",
-    "type": "問いかけ",
-    "text": "給付金の詐取事件を受けて、札幌市が障害者就労支援事業所向けの再発防止指針を打ち出"
-   },
-   {
-    "views": 1734,
-    "likes": 6,
-    "posted": "2026-10-24",
-    "type": "問いかけ",
-    "text": "障害者雇用促進法の改正で、法定雇用率が2.8%から3.0%へ引き上げられる見通し"
    }
   ]
  },
@@ -866,11 +874,25 @@
     "description": "Threads自動投稿",
     "visibility": "非公開",
     "language": "PowerShell",
-    "pushed": "2026-11-17"
+    "pushed": "2026-11-20"
    },
    {
-    "repo": "banner-logo-samples",
-    "description": "バナー・ロゴ デザイン見本集（架空店舗）",
+    "repo": "linkedin-auto-post",
+    "description": "LinkedIn自動投稿(note記事等)",
+    "visibility": "非公開",
+    "language": "PowerShell",
+    "pushed": "2026-11-20"
+   },
+   {
+    "repo": "animal-chat",
+    "description": "猫キャラと話せるどうぶつチャット（天気・ニュース・猫の声）",
+    "visibility": "公開",
+    "language": "HTML",
+    "pushed": "2026-11-20"
+   },
+   {
+    "repo": "links",
+    "description": "小川祐介 リンク集",
     "visibility": "公開",
     "language": "HTML",
     "pushed": "2026-11-17"
@@ -883,25 +905,11 @@
     "pushed": "2026-11-17"
    },
    {
-    "repo": "linkedin-auto-post",
-    "description": "LinkedIn自動投稿(note記事等)",
-    "visibility": "非公開",
-    "language": "PowerShell",
-    "pushed": "2026-11-17"
-   },
-   {
-    "repo": "animal-chat",
-    "description": "猫キャラと話せるどうぶつチャット（天気・ニュース・猫の声）",
+    "repo": "banner-logo-samples",
+    "description": "バナー・ロゴ デザイン見本集（架空店舗）",
     "visibility": "公開",
     "language": "HTML",
     "pushed": "2026-11-17"
-   },
-   {
-    "repo": "links",
-    "description": "小川祐介 リンク集",
-    "visibility": "公開",
-    "language": "HTML",
-    "pushed": "2026-11-16"
    },
    {
     "repo": "crowdsourcing-activity",
@@ -940,18 +948,6 @@
    }
   ],
   "commits_daily": [
-   {
-    "date": "2026-11-04",
-    "count": 34
-   },
-   {
-    "date": "2026-11-05",
-    "count": 27
-   },
-   {
-    "date": "2026-11-06",
-    "count": 87
-   },
    {
     "date": "2026-11-07",
     "count": 57
@@ -994,69 +990,81 @@
    },
    {
     "date": "2026-11-17",
-    "count": 22
+    "count": 54
+   },
+   {
+    "date": "2026-11-18",
+    "count": 23
+   },
+   {
+    "date": "2026-11-19",
+    "count": 21
+   },
+   {
+    "date": "2026-11-20",
+    "count": 5
    }
   ],
   "recent": [
    {
     "date": "2026-11-17",
     "source": "threads-auto-post",
-    "text": "backup queue before reply conversion"
+    "text": "queue: add 2 SE experience paid articles"
    },
    {
     "date": "2026-11-17",
     "source": "threads-auto-post",
-    "text": "queue: bare note links -> main text + reply link (143 entries)"
+    "text": "moved to posted 05"
    },
    {
     "date": "2026-11-17",
-    "source": "banner-logo-samples",
-    "text": "add kokoniko logo B card"
-   },
-   {
-    "date": "2026-11-17",
-    "source": "banner-logo-samples",
-    "text": "add kokoniko logo B image"
-   },
-   {
-    "date": "2026-11-17",
-    "source": "activity-dashboard",
-    "text": "auto: update dashboard data"
-   },
-   {
-    "date": "2026-11-17",
-    "source": "banner-logo-samples",
-    "text": "add kokoniko logo card to proposals section"
-   },
-   {
-    "date": "2026-11-17",
-    "source": "banner-logo-samples",
-    "text": "add logo proposal: kokoniko animal clinic"
-   },
-   {
-    "date": "2026-11-16",
     "source": "threads-auto-post",
-    "text": "note: remove 2026-11-16_03.md from pre-post"
+    "text": "moved to posted 04"
    },
    {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "source": "threads-auto-post",
-    "text": "note: move 2026-11-16_03.md to posted"
+    "text": "posted 05"
    },
    {
-    "date": "2026-11-16",
-    "source": "links",
-    "text": "Add I-10 (posted, thumb_offset 1500)"
+    "date": "2026-11-17",
+    "source": "threads-auto-post",
+    "text": "posted 04"
    },
    {
-    "date": "2026-11-16",
-    "source": "links",
-    "text": "Add reel i10 (isekai debugger ep8)"
+    "date": "2026-11-17",
+    "source": "threads-auto-post",
+    "text": "move to posted 05"
    },
    {
-    "date": "2026-11-16",
-    "source": "linkedin-auto-post",
-    "text": "Add ep8 YouTube promo"
+    "date": "2026-11-17",
+    "source": "threads-auto-post",
+    "text": "move to posted 04"
+   },
+   {
+    "date": "2026-11-17",
+    "source": "threads-auto-post",
+    "text": "x post 05 with url"
+   },
+   {
+    "date": "2026-11-17",
+    "source": "threads-auto-post",
+    "text": "x post 04 with url"
+   },
+   {
+    "date": "2026-11-17",
+    "source": "threads-auto-post",
+    "text": "remove code fences"
+   },
+   {
+    "date": "2026-11-17",
+    "source": "threads-auto-post",
+    "text": "remove code fences"
+   },
+   {
+    "date": "2026-11-17",
+    "source": "threads-auto-post",
+    "text": "draft05: state cause unknown"
    }
   ]
  },
