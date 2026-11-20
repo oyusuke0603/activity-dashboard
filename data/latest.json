@@ -1,17 +1,17 @@
 {
  "meta": {
-  "updated": "2026-11-20T10:08+09:00",
+  "updated": "2026-11-20T16:57+09:00",
   "sources": {
    "github": {
-    "at": "2026-11-20 10:08",
+    "at": "2026-11-20 16:57",
     "status": "ok"
    },
    "threads": {
-    "at": "2026-11-20 10:08",
+    "at": "2026-11-20 16:57",
     "status": "ok"
    },
    "instagram": {
-    "at": "2026-11-20 10:08",
+    "at": "2026-11-20 16:57",
     "status": "ok"
    }
   }
@@ -24,11 +24,6 @@
    "posts": 282
   },
   "daily": [
-   {
-    "date": "2026-10-20",
-    "reach": 32,
-    "new_followers": 0
-   },
    {
     "date": "2026-10-21",
     "reach": 128,
@@ -173,6 +168,11 @@
     "date": "2026-11-18",
     "reach": 7,
     "new_followers": 0
+   },
+   {
+    "date": "2026-11-19",
+    "reach": 4,
+    "new_followers": 0
    }
   ],
   "reels": [
@@ -292,12 +292,12 @@
     "date": "2026-11-17",
     "series": "闘病記",
     "title": "片目でも、SEです。",
-    "views": 51,
-    "reach": 30,
+    "views": 55,
+    "reach": 32,
     "likes": 1
    }
   ],
-  "asof": "2026-11-20 10:08"
+  "asof": "2026-11-20 16:57"
  },
  "youtube": {
   "asof": "2026-11-14",
@@ -870,15 +870,8 @@
  "github": {
   "repos": [
    {
-    "repo": "banner-logo-samples",
-    "description": "バナー・ロゴ デザイン見本集（架空店舗）",
-    "visibility": "公開",
-    "language": "HTML",
-    "pushed": "2026-11-20"
-   },
-   {
-    "repo": "animal-chat",
-    "description": "猫キャラと話せるどうぶつチャット（天気・ニュース・猫の声）",
+    "repo": "activity-dashboard",
+    "description": "活動ダッシュボード",
     "visibility": "公開",
     "language": "HTML",
     "pushed": "2026-11-20"
@@ -891,17 +884,24 @@
     "pushed": "2026-11-20"
    },
    {
-    "repo": "activity-dashboard",
-    "description": "活動ダッシュボード",
+    "repo": "linkedin-auto-post",
+    "description": "LinkedIn自動投稿(note記事等)",
+    "visibility": "非公開",
+    "language": "PowerShell",
+    "pushed": "2026-11-20"
+   },
+   {
+    "repo": "banner-logo-samples",
+    "description": "バナー・ロゴ デザイン見本集（架空店舗）",
     "visibility": "公開",
     "language": "HTML",
     "pushed": "2026-11-20"
    },
    {
-    "repo": "linkedin-auto-post",
-    "description": "LinkedIn自動投稿(note記事等)",
-    "visibility": "非公開",
-    "language": "PowerShell",
+    "repo": "animal-chat",
+    "description": "猫キャラと話せるどうぶつチャット（天気・ニュース・猫の声）",
+    "visibility": "公開",
+    "language": "HTML",
     "pushed": "2026-11-20"
    },
    {
@@ -1002,10 +1002,20 @@
    },
    {
     "date": "2026-11-20",
-    "count": 21
+    "count": 29
    }
   ],
   "recent": [
+   {
+    "date": "2026-11-20",
+    "source": "activity-dashboard",
+    "text": "note数字を2026-11-20に更新"
+   },
+   {
+    "date": "2026-11-20",
+    "source": "activity-dashboard",
+    "text": "auto: update dashboard data"
+   },
    {
     "date": "2026-11-20",
     "source": "banner-logo-samples",
@@ -1055,16 +1065,6 @@
     "date": "2026-11-20",
     "source": "banner-logo-samples",
     "text": "add sasaki orthopedic logo card"
-   },
-   {
-    "date": "2026-11-20",
-    "source": "banner-logo-samples",
-    "text": "add sasaki orthopedic logo image"
-   },
-   {
-    "date": "2026-11-20",
-    "source": "activity-dashboard",
-    "text": "auto: update dashboard data"
    }
   ]
  },
