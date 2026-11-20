@@ -839,11 +839,11 @@
   ]
  },
  "amazon": {
-  "asof": "2026-11-14",
+  "asof": "2026-11-20",
   "summary": {
-   "clicks_30d": 26,
+   "clicks_30d": 24,
    "fee_30d": 0,
-   "clicks_month": 23,
+   "clicks_month": 24,
    "shipped_month": 0,
    "ordered_month": 0,
    "fee_month": 0,
