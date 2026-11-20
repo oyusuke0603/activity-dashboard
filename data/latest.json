@@ -1,17 +1,17 @@
 {
  "meta": {
-  "updated": "2026-11-20T07:33+09:00",
+  "updated": "2026-11-20T10:08+09:00",
   "sources": {
    "github": {
-    "at": "2026-11-20 07:33",
+    "at": "2026-11-20 10:08",
     "status": "ok"
    },
    "threads": {
-    "at": "2026-11-20 07:33",
+    "at": "2026-11-20 10:08",
     "status": "ok"
    },
    "instagram": {
-    "at": "2026-11-20 07:33",
+    "at": "2026-11-20 10:08",
     "status": "ok"
    }
   }
@@ -297,7 +297,7 @@
     "likes": 1
    }
   ],
-  "asof": "2026-11-20 07:33"
+  "asof": "2026-11-20 10:08"
  },
  "youtube": {
   "asof": "2026-11-14",
@@ -870,17 +870,10 @@
  "github": {
   "repos": [
    {
-    "repo": "threads-auto-post",
-    "description": "Threads自動投稿",
-    "visibility": "非公開",
-    "language": "PowerShell",
-    "pushed": "2026-11-20"
-   },
-   {
-    "repo": "linkedin-auto-post",
-    "description": "LinkedIn自動投稿(note記事等)",
-    "visibility": "非公開",
-    "language": "PowerShell",
+    "repo": "banner-logo-samples",
+    "description": "バナー・ロゴ デザイン見本集（架空店舗）",
+    "visibility": "公開",
+    "language": "HTML",
     "pushed": "2026-11-20"
    },
    {
@@ -891,22 +884,29 @@
     "pushed": "2026-11-20"
    },
    {
-    "repo": "links",
-    "description": "小川祐介 リンク集",
-    "visibility": "公開",
-    "language": "HTML",
-    "pushed": "2026-11-17"
+    "repo": "threads-auto-post",
+    "description": "Threads自動投稿",
+    "visibility": "非公開",
+    "language": "PowerShell",
+    "pushed": "2026-11-20"
    },
    {
     "repo": "activity-dashboard",
     "description": "活動ダッシュボード",
     "visibility": "公開",
     "language": "HTML",
-    "pushed": "2026-11-17"
+    "pushed": "2026-11-20"
    },
    {
-    "repo": "banner-logo-samples",
-    "description": "バナー・ロゴ デザイン見本集（架空店舗）",
+    "repo": "linkedin-auto-post",
+    "description": "LinkedIn自動投稿(note記事等)",
+    "visibility": "非公開",
+    "language": "PowerShell",
+    "pushed": "2026-11-20"
+   },
+   {
+    "repo": "links",
+    "description": "小川祐介 リンク集",
     "visibility": "公開",
     "language": "HTML",
     "pushed": "2026-11-17"
@@ -1002,69 +1002,69 @@
    },
    {
     "date": "2026-11-20",
-    "count": 5
+    "count": 21
    }
   ],
   "recent": [
    {
-    "date": "2026-11-17",
-    "source": "threads-auto-post",
-    "text": "queue: add 2 SE experience paid articles"
+    "date": "2026-11-20",
+    "source": "banner-logo-samples",
+    "text": "fix package descriptions with actual plan details"
    },
    {
-    "date": "2026-11-17",
-    "source": "threads-auto-post",
-    "text": "moved to posted 05"
+    "date": "2026-11-20",
+    "source": "banner-logo-samples",
+    "text": "add active Lancers packages section"
    },
    {
-    "date": "2026-11-17",
-    "source": "threads-auto-post",
-    "text": "moved to posted 04"
+    "date": "2026-11-20",
+    "source": "banner-logo-samples",
+    "text": "remove logo-sasaki.png until deadline"
    },
    {
-    "date": "2026-11-17",
-    "source": "threads-auto-post",
-    "text": "posted 05"
+    "date": "2026-11-20",
+    "source": "banner-logo-samples",
+    "text": "remove logo-kokoniko-b.png until deadline"
    },
    {
-    "date": "2026-11-17",
-    "source": "threads-auto-post",
-    "text": "posted 04"
+    "date": "2026-11-20",
+    "source": "banner-logo-samples",
+    "text": "remove logo-kokoniko.png until deadline"
    },
    {
-    "date": "2026-11-17",
-    "source": "threads-auto-post",
-    "text": "move to posted 05"
+    "date": "2026-11-20",
+    "source": "banner-logo-samples",
+    "text": "temporarily hide open-competition logo proposals until deadlines"
    },
    {
-    "date": "2026-11-17",
+    "date": "2026-11-20",
     "source": "threads-auto-post",
-    "text": "move to posted 04"
+    "text": "note公開済み: 2026-11-19_09を投稿前から削除"
    },
    {
-    "date": "2026-11-17",
+    "date": "2026-11-20",
     "source": "threads-auto-post",
-    "text": "x post 05 with url"
+    "text": "note公開済み: 2026-11-19_09の内容を復元"
    },
    {
-    "date": "2026-11-17",
+    "date": "2026-11-20",
     "source": "threads-auto-post",
-    "text": "x post 04 with url"
+    "text": "note公開済み: 2026-11-19_09を投稿済みへ移動"
    },
    {
-    "date": "2026-11-17",
-    "source": "threads-auto-post",
-    "text": "remove code fences"
+    "date": "2026-11-20",
+    "source": "banner-logo-samples",
+    "text": "add sasaki orthopedic logo card"
    },
    {
-    "date": "2026-11-17",
-    "source": "threads-auto-post",
-    "text": "remove code fences"
+    "date": "2026-11-20",
+    "source": "banner-logo-samples",
+    "text": "add sasaki orthopedic logo image"
    },
    {
-    "date": "2026-11-17",
-    "source": "threads-auto-post",
-    "text": "draft05: state cause unknown"
+    "date": "2026-11-20",
+    "source": "activity-dashboard",
+    "text": "auto: update dashboard data"
    }
   ]
  },
