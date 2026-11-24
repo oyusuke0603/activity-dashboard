@@ -1,17 +1,17 @@
 {
  "meta": {
-  "updated": "2026-11-22T16:08+09:00",
+  "updated": "2026-11-24T16:08+09:00",
   "sources": {
    "github": {
-    "at": "2026-11-22 16:08",
+    "at": "2026-11-24 16:08",
     "status": "ok"
    },
    "threads": {
-    "at": "2026-11-22 16:08",
+    "at": "2026-11-24 16:08",
     "status": "ok"
    },
    "instagram": {
-    "at": "2026-11-22 16:08",
+    "at": "2026-11-24 16:08",
     "status": "ok"
    }
   }
@@ -24,16 +24,6 @@
    "posts": 282
   },
   "daily": [
-   {
-    "date": "2026-10-23",
-    "reach": 1533,
-    "new_followers": 0
-   },
-   {
-    "date": "2026-10-24",
-    "reach": 255,
-    "new_followers": 1
-   },
    {
     "date": "2026-10-25",
     "reach": 149,
@@ -171,59 +161,21 @@
    },
    {
     "date": "2026-11-21",
-    "reach": 6,
+    "reach": 7,
+    "new_followers": 0
+   },
+   {
+    "date": "2026-11-22",
+    "reach": 7,
+    "new_followers": 0
+   },
+   {
+    "date": "2026-11-23",
+    "reach": 4,
     "new_followers": 0
    }
   ],
   "reels": [
-   {
-    "date": "2026-10-23",
-    "series": "異世界デバッガー",
-    "title": "金色の噴水を作ったら、銀色にしてくれと言われました。",
-    "views": 434,
-    "reach": 132,
-    "likes": 1
-   },
-   {
-    "date": "2026-10-23",
-    "series": "異世界デバッガー",
-    "title": "納期が、1か月後から明日の夜明けに前倒しされました。",
-    "views": 146,
-    "reach": 134,
-    "likes": 0
-   },
-   {
-    "date": "2026-10-23",
-    "series": "異世界デバッガー",
-    "title": "30日待て、と言われました。結界は今夜壊れるのに。",
-    "views": 162,
-    "reach": 154,
-    "likes": 0
-   },
-   {
-    "date": "2026-10-23",
-    "series": "異世界デバッガー",
-    "title": "その呪文、順番が逆です。",
-    "views": 1490,
-    "reach": 1243,
-    "likes": 3
-   },
-   {
-    "date": "2026-10-23",
-    "series": "異世界デバッガー",
-    "title": "無限ループするスライムを、SEが直してみた。",
-    "views": 131,
-    "reach": 117,
-    "likes": 1
-   },
-   {
-    "date": "2026-10-24",
-    "series": "異世界デバッガー",
-    "title": "練習したら、騎士が自分の盾に弾き飛ばされました。",
-    "views": 149,
-    "reach": 141,
-    "likes": 0
-   },
    {
     "date": "2026-10-25",
     "series": "異世界デバッガー",
@@ -236,8 +188,8 @@
     "date": "2026-10-27",
     "series": "闘病記",
     "title": "復職1週間。時短で実務は3時間。",
-    "views": 195,
-    "reach": 156,
+    "views": 197,
+    "reach": 158,
     "likes": 1
    },
    {
@@ -260,36 +212,36 @@
     "date": "2026-11-12",
     "series": "異世界デバッガー",
     "title": "定時で帰れたSEの隣に、大きな旅人が座りました。",
-    "views": 129,
-    "reach": 118,
+    "views": 130,
+    "reach": 119,
     "likes": 0
    },
    {
     "date": "2026-11-16",
     "series": "異世界デバッガー",
     "title": "300年前の引き継ぎ資料を見つけたSE。",
-    "views": 131,
-    "reach": 120,
+    "views": 134,
+    "reach": 123,
     "likes": 0
    },
    {
     "date": "2026-11-17",
     "series": "異世界デバッガー",
     "title": "作った人が、辞めました。",
-    "views": 84,
-    "reach": 81,
+    "views": 88,
+    "reach": 84,
     "likes": 0
    },
    {
     "date": "2026-11-17",
     "series": "闘病記",
     "title": "片目でも、SEです。",
-    "views": 62,
-    "reach": 35,
+    "views": 65,
+    "reach": 39,
     "likes": 1
    }
   ],
-  "asof": "2026-11-22 16:08"
+  "asof": "2026-11-24 16:08"
  },
  "youtube": {
   "asof": "2026-11-18",
@@ -748,32 +700,32 @@
   ]
  },
  "threads": {
-  "asof": "2026-11-22 05:38 ",
+  "asof": "2026-11-24 10:48 ",
   "types": [
    {
     "type": "ちいかわ",
-    "posts": 138,
-    "avg_views": 992.9,
-    "avg_likes": 4.77,
-    "avg_replies": 0.17
+    "posts": 143,
+    "avg_views": 965.6,
+    "avg_likes": 4.62,
+    "avg_replies": 0.19
    },
    {
     "type": "問いかけ",
-    "posts": 166,
-    "avg_views": 689.9,
-    "avg_likes": 4.84,
+    "posts": 172,
+    "avg_views": 681,
+    "avg_likes": 4.67,
     "avg_replies": 0.92
    },
    {
     "type": "その他",
-    "posts": 356,
-    "avg_views": 231.1,
-    "avg_likes": 0.59,
-    "avg_replies": 0.13
+    "posts": 372,
+    "avg_views": 249.4,
+    "avg_likes": 0.63,
+    "avg_replies": 0.16
    },
    {
     "type": "note誘導",
-    "posts": 800,
+    "posts": 801,
     "avg_views": 37.1,
     "avg_likes": 0.13,
     "avg_replies": 0
@@ -816,21 +768,21 @@
     "text": "精神障害者保健福祉手帳を持つ人向けに、JRの新幹線チケットがえきねっとでオンライ"
    },
    {
-    "views": 5809,
+    "views": 5810,
     "likes": 16,
     "posted": "2026-11-17",
     "type": "問いかけ",
     "text": "精神障害者の平均賃金は14万9000円で、一般より17万円低いそうです。賃金の差"
    },
    {
-    "views": 5684,
+    "views": 5692,
     "likes": 30,
     "posted": "2026-11-18",
     "type": "問いかけ",
     "text": "ジョブコーチが目指す「就労支援士」という新資格は、実務経験3年が目安で、検定は2"
    },
    {
-    "views": 4939,
+    "views": 4940,
     "likes": 1,
     "posted": "2026-11-17",
     "type": "その他",
@@ -844,7 +796,7 @@
     "text": "障害年金の新規裁定13万件のうち、7割近くが精神・知的障害だそうです。精神の不調"
    },
    {
-    "views": 3251,
+    "views": 3264,
     "likes": 2,
     "posted": "2026-11-21",
     "type": "その他",
@@ -888,35 +840,35 @@
     "description": "Threads自動投稿",
     "visibility": "非公開",
     "language": "PowerShell",
-    "pushed": "2026-11-22"
-   },
-   {
-    "repo": "linkedin-auto-post",
-    "description": "LinkedIn自動投稿(note記事等)",
-    "visibility": "非公開",
-    "language": "PowerShell",
-    "pushed": "2026-11-22"
+    "pushed": "2026-11-24"
    },
    {
     "repo": "activity-dashboard",
     "description": "活動ダッシュボード",
     "visibility": "公開",
     "language": "HTML",
-    "pushed": "2026-11-22"
-   },
-   {
-    "repo": "animal-chat",
-    "description": "猫キャラと話せるどうぶつチャット（天気・ニュース・猫の声）",
-    "visibility": "公開",
-    "language": "HTML",
-    "pushed": "2026-11-22"
+    "pushed": "2026-11-24"
    },
    {
     "repo": "banner-logo-samples",
     "description": "バナー・ロゴ デザイン見本集（架空店舗）",
     "visibility": "公開",
     "language": "HTML",
-    "pushed": "2026-11-20"
+    "pushed": "2026-11-24"
+   },
+   {
+    "repo": "linkedin-auto-post",
+    "description": "LinkedIn自動投稿(note記事等)",
+    "visibility": "非公開",
+    "language": "PowerShell",
+    "pushed": "2026-11-24"
+   },
+   {
+    "repo": "animal-chat",
+    "description": "猫キャラと話せるどうぶつチャット（天気・ニュース・猫の声）",
+    "visibility": "公開",
+    "language": "HTML",
+    "pushed": "2026-11-24"
    },
    {
     "repo": "links",
@@ -963,14 +915,6 @@
   ],
   "commits_daily": [
    {
-    "date": "2026-11-09",
-    "count": 34
-   },
-   {
-    "date": "2026-11-10",
-    "count": 164
-   },
-   {
     "date": "2026-11-11",
     "count": 46
    },
@@ -1016,10 +960,48 @@
    },
    {
     "date": "2026-11-22",
-    "count": 22
+    "count": 30
+   },
+   {
+    "date": "2026-11-23",
+    "count": 23
+   },
+   {
+    "date": "2026-11-24",
+    "count": 18
    }
   ],
   "recent": [
+   {
+    "date": "2026-11-24",
+    "source": "activity-dashboard",
+    "text": "manual: add Threads account insights (2026-11-23)"
+   },
+   {
+    "date": "2026-11-24",
+    "source": "activity-dashboard",
+    "text": "SNS section title: SNS活動ダッシュボード"
+   },
+   {
+    "date": "2026-11-24",
+    "source": "banner-logo-samples",
+    "text": "Fix kokoniko B description"
+   },
+   {
+    "date": "2026-11-24",
+    "source": "banner-logo-samples",
+    "text": "Add kokoniko logo proposals (after deadline)"
+   },
+   {
+    "date": "2026-11-24",
+    "source": "banner-logo-samples",
+    "text": "Add proposal board logo-kokoniko-b"
+   },
+   {
+    "date": "2026-11-24",
+    "source": "banner-logo-samples",
+    "text": "Add proposal board logo-kokoniko"
+   },
    {
     "date": "2026-11-22",
     "source": "threads-auto-post",
@@ -1049,36 +1031,6 @@
     "date": "2026-11-22",
     "source": "activity-dashboard",
     "text": "auto: update dashboard data"
-   },
-   {
-    "date": "2026-11-20",
-    "source": "threads-auto-post",
-    "text": "note: move 2026-11-20_02.md to 投稿済み"
-   },
-   {
-    "date": "2026-11-20",
-    "source": "threads-auto-post",
-    "text": "note: publish 2026-11-20_02.md (move to 投稿済み)"
-   },
-   {
-    "date": "2026-11-20",
-    "source": "activity-dashboard",
-    "text": "manual: update YouTube data (2026-11-18)"
-   },
-   {
-    "date": "2026-11-20",
-    "source": "activity-dashboard",
-    "text": "manual: update Amazon associate data"
-   },
-   {
-    "date": "2026-11-20",
-    "source": "activity-dashboard",
-    "text": "auto: update dashboard data"
-   },
-   {
-    "date": "2026-11-20",
-    "source": "activity-dashboard",
-    "text": "note数字を2026-11-20に更新"
    }
   ]
  },
