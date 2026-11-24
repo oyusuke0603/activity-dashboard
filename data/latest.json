@@ -1,17 +1,17 @@
 {
  "meta": {
-  "updated": "2026-11-22T13:08+09:00",
+  "updated": "2026-11-22T16:08+09:00",
   "sources": {
    "github": {
-    "at": "2026-11-22 13:08",
+    "at": "2026-11-22 16:08",
     "status": "ok"
    },
    "threads": {
-    "at": "2026-11-22 13:08",
+    "at": "2026-11-22 16:08",
     "status": "ok"
    },
    "instagram": {
-    "at": "2026-11-22 13:08",
+    "at": "2026-11-22 16:08",
     "status": "ok"
    }
   }
@@ -289,7 +289,7 @@
     "likes": 1
    }
   ],
-  "asof": "2026-11-22 13:08"
+  "asof": "2026-11-22 16:08"
  },
  "youtube": {
   "asof": "2026-11-18",
@@ -891,13 +891,6 @@
     "pushed": "2026-11-22"
    },
    {
-    "repo": "animal-chat",
-    "description": "猫キャラと話せるどうぶつチャット（天気・ニュース・猫の声）",
-    "visibility": "公開",
-    "language": "HTML",
-    "pushed": "2026-11-22"
-   },
-   {
     "repo": "linkedin-auto-post",
     "description": "LinkedIn自動投稿(note記事等)",
     "visibility": "非公開",
@@ -909,7 +902,14 @@
     "description": "活動ダッシュボード",
     "visibility": "公開",
     "language": "HTML",
-    "pushed": "2026-11-20"
+    "pushed": "2026-11-22"
+   },
+   {
+    "repo": "animal-chat",
+    "description": "猫キャラと話せるどうぶつチャット（天気・ニュース・猫の声）",
+    "visibility": "公開",
+    "language": "HTML",
+    "pushed": "2026-11-22"
    },
    {
     "repo": "banner-logo-samples",
@@ -1016,10 +1016,40 @@
    },
    {
     "date": "2026-11-22",
-    "count": 12
+    "count": 22
    }
   ],
   "recent": [
+   {
+    "date": "2026-11-22",
+    "source": "threads-auto-post",
+    "text": "note無料 2026-11-22_03.md を投稿前から削除(投稿済みへ移動)"
+   },
+   {
+    "date": "2026-11-22",
+    "source": "threads-auto-post",
+    "text": "note無料 2026-11-22_03.md を投稿済みへ移動"
+   },
+   {
+    "date": "2026-11-22",
+    "source": "threads-auto-post",
+    "text": "note: move 2026-11-21_09.md to posted"
+   },
+   {
+    "date": "2026-11-22",
+    "source": "threads-auto-post",
+    "text": "note: fix content of 2026-11-21_09.md"
+   },
+   {
+    "date": "2026-11-22",
+    "source": "threads-auto-post",
+    "text": "note: publish 2026-11-21_09.md (move to posted)"
+   },
+   {
+    "date": "2026-11-22",
+    "source": "activity-dashboard",
+    "text": "auto: update dashboard data"
+   },
    {
     "date": "2026-11-20",
     "source": "threads-auto-post",
@@ -1049,36 +1079,6 @@
     "date": "2026-11-20",
     "source": "activity-dashboard",
     "text": "note数字を2026-11-20に更新"
-   },
-   {
-    "date": "2026-11-20",
-    "source": "activity-dashboard",
-    "text": "auto: update dashboard data"
-   },
-   {
-    "date": "2026-11-20",
-    "source": "banner-logo-samples",
-    "text": "fix package descriptions with actual plan details"
-   },
-   {
-    "date": "2026-11-20",
-    "source": "banner-logo-samples",
-    "text": "add active Lancers packages section"
-   },
-   {
-    "date": "2026-11-20",
-    "source": "banner-logo-samples",
-    "text": "remove logo-sasaki.png until deadline"
-   },
-   {
-    "date": "2026-11-20",
-    "source": "banner-logo-samples",
-    "text": "remove logo-kokoniko-b.png until deadline"
-   },
-   {
-    "date": "2026-11-20",
-    "source": "banner-logo-samples",
-    "text": "remove logo-kokoniko.png until deadline"
    }
   ]
  },
@@ -1142,5 +1142,115 @@
     "shares": 0
    }
   ]
+ },
+ "threads_account": {
+  "asof": "2026-11-23",
+  "period": "10/25〜11/23(30日)",
+  "summary": [
+   {
+    "k": "閲覧数",
+    "v": 199631,
+    "c": "+91%"
+   },
+   {
+    "k": "閲覧者",
+    "v": 120656,
+    "c": "+75%"
+   },
+   {
+    "k": "純フォロワー増",
+    "v": 35,
+    "c": "+24%"
+   },
+   {
+    "k": "インタラクション",
+    "v": 744,
+    "c": "+7%"
+   },
+   {
+    "k": "フォロワー数",
+    "v": 180,
+    "c": "+24%"
+   }
+  ],
+  "viewers": {
+   "followers": 90,
+   "non_followers": 120566
+  },
+  "age": [
+   {
+    "age": "13-17",
+    "pct": 0.45
+   },
+   {
+    "age": "18-24",
+    "pct": 4.21
+   },
+   {
+    "age": "25-34",
+    "pct": 21.61
+   },
+   {
+    "age": "35-44",
+    "pct": 34.75
+   },
+   {
+    "age": "45-54",
+    "pct": 26.59
+   },
+   {
+    "age": "55-64",
+    "pct": 10.55
+   },
+   {
+    "age": "65+",
+    "pct": 1.86
+   }
+  ],
+  "cities": [
+   {
+    "city": "大阪市",
+    "pct": 3.3
+   },
+   {
+    "city": "札幌市",
+    "pct": 3.11
+   },
+   {
+    "city": "横浜市",
+    "pct": 2.77
+   },
+   {
+    "city": "名古屋市",
+    "pct": 2.36
+   },
+   {
+    "city": "熊本市",
+    "pct": 2.22
+   }
+  ],
+  "interests": [
+   {
+    "name": "ちいかわ",
+    "viewers": 1630
+   },
+   {
+    "name": "Cats of Threads",
+    "viewers": 515
+   },
+   {
+    "name": "Dogs of Threads",
+    "viewers": 225
+   },
+   {
+    "name": "ガチャ活",
+    "viewers": 209
+   },
+   {
+    "name": "AI Threads",
+    "viewers": 202
+   }
+  ],
+  "peak": "日・水・月の21〜24時(各6.3〜6.5万人)"
  }
 }

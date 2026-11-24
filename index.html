@@ -258,6 +258,11 @@
       card('Instagram 日別リーチ', '過去30日。リーチの多い上位7日と、その他', pie(ig.daily, 'date', 'reach')),
       card('Instagram シリーズ別', 'リール(30日)', table([{ t: 'シリーズ', k: 'series' }, { t: '本数', k: 'n', num: 1 }, { t: '再生', k: 'views', num: 1, bar: 1, f: N.format }, { t: '1本あたり', k: 'avg', num: 1, f: N.format }],
         Object.values(ig.reels.reduce((m, r) => { const g = m[r.series] ??= { series: r.series, n: 0, views: 0 }; g.n++; g.views += +r.views; return m; }, {})).map((g) => ({ ...g, avg: Math.round(g.views / g.n) })).sort((a, b) => b.views - a.views))),
+      ...(d.threads_account ? [
+        card('Threads アカウント全体', `${d.threads_account.period}。フォロワー ${N.format(d.threads_account.viewers.followers)} / フォロワー以外 ${N.format(d.threads_account.viewers.non_followers)}(閲覧者内訳)。Threads インサイトPDFから(${d.threads_account.asof})`, table([{ t: '指標', k: 'k' }, { t: '数', k: 'v', num: 1, f: N.format }, { t: '前期間比', k: 'c', num: 1 }], d.threads_account.summary)),
+        card('Threads 閲覧者の年齢', '閲覧者の割合(%)', pie(d.threads_account.age, 'age', 'pct', { fmtX: String })),
+        card('Threads 閲覧者の関心・地域', `最もアクティブ: ${d.threads_account.peak}`, table([{ t: '関心・コミュニティ', k: 'name' }, { t: '閲覧者', k: 'viewers', num: 1, bar: 1, f: N.format }], d.threads_account.interests))
+      ] : []),
       card('Threads 型別の反応', `${N.format(totalPosts)}件(${th.asof} 時点)`, table([{ t: '型', k: 'type' }, { t: '件数', k: 'posts', num: 1 }, { t: '平均views', k: 'avg_views', num: 1, bar: 1, f: F1.format }, { t: '平均いいね', k: 'avg_likes', num: 1 }], th.types)),
       card('Threads views 上位', '冒頭の一部', table([{ t: '投稿', k: 'text', f: (v, r) => `${md(r.posted)} ${v}` }, { t: 'views', k: 'views', num: 1, f: N.format }, { t: 'いいね', k: 'likes', num: 1 }], th.top)),
       card('TikTok 日別の動画再生', `1日が7日合計に占める割合。TikTok Studio の CSV から(${tk.asof})`, pie(tk.daily, 'date', 'views')),
