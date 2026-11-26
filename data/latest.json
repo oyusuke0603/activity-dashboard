@@ -1,17 +1,17 @@
 {
  "meta": {
-  "updated": "2026-11-25T13:36+09:00",
+  "updated": "2026-11-26T14:04+09:00",
   "sources": {
    "github": {
-    "at": "2026-11-25 13:36",
+    "at": "2026-11-26 14:04",
     "status": "ok"
    },
    "threads": {
-    "at": "2026-11-25 13:36",
+    "at": "2026-11-26 14:04",
     "status": "ok"
    },
    "instagram": {
-    "at": "2026-11-25 13:36",
+    "at": "2026-11-26 14:04",
     "status": "ok"
    }
   }
@@ -24,11 +24,6 @@
    "posts": 282
   },
   "daily": [
-   {
-    "date": "2026-10-26",
-    "reach": 5,
-    "new_followers": 1
-   },
    {
     "date": "2026-10-27",
     "reach": 131,
@@ -171,7 +166,12 @@
    },
    {
     "date": "2026-11-24",
-    "reach": 3,
+    "reach": 6,
+    "new_followers": 1
+   },
+   {
+    "date": "2026-11-25",
+    "reach": 2,
     "new_followers": 0
    }
   ],
@@ -181,7 +181,7 @@
     "series": "闘病記",
     "title": "復職1週間。時短で実務は3時間。",
     "views": 198,
-    "reach": 159,
+    "reach": 160,
     "likes": 1
    },
    {
@@ -204,8 +204,8 @@
     "date": "2026-11-12",
     "series": "異世界デバッガー",
     "title": "定時で帰れたSEの隣に、大きな旅人が座りました。",
-    "views": 131,
-    "reach": 119,
+    "views": 132,
+    "reach": 120,
     "likes": 0
    },
    {
@@ -228,12 +228,12 @@
     "date": "2026-11-17",
     "series": "闘病記",
     "title": "片目でも、SEです。",
-    "views": 69,
-    "reach": 41,
+    "views": 73,
+    "reach": 43,
     "likes": 1
    }
   ],
-  "asof": "2026-11-25 13:36"
+  "asof": "2026-11-26 14:04"
  },
  "youtube": {
   "asof": "2026-11-18",
@@ -692,32 +692,32 @@
   ]
  },
  "threads": {
-  "asof": "2026-11-25 08:36 ",
+  "asof": "2026-11-26 08:13 ",
   "types": [
    {
     "type": "ちいかわ",
-    "posts": 143,
-    "avg_views": 965.6,
-    "avg_likes": 4.62,
-    "avg_replies": 0.19
+    "posts": 146,
+    "avg_views": 954.3,
+    "avg_likes": 4.53,
+    "avg_replies": 0.18
    },
    {
     "type": "問いかけ",
-    "posts": 174,
-    "avg_views": 676,
-    "avg_likes": 4.63,
+    "posts": 176,
+    "avg_views": 675.4,
+    "avg_likes": 4.6,
     "avg_replies": 0.93
    },
    {
     "type": "その他",
-    "posts": 378,
-    "avg_views": 262.7,
+    "posts": 380,
+    "avg_views": 263.6,
     "avg_likes": 0.62,
-    "avg_replies": 0.17
+    "avg_replies": 0.18
    },
    {
     "type": "note誘導",
-    "posts": 801,
+    "posts": 802,
     "avg_views": 37.1,
     "avg_likes": 0.13,
     "avg_replies": 0
@@ -781,7 +781,7 @@
     "text": "設備・運営基準違反でまさかの処分。熊本のグループホーム運営法人に熊本県が下した指"
    },
    {
-    "views": 4388,
+    "views": 4390,
     "likes": 1,
     "posted": "2026-11-24",
     "type": "その他",
@@ -832,20 +832,27 @@
     "description": "Threads自動投稿",
     "visibility": "非公開",
     "language": "PowerShell",
-    "pushed": "2026-11-25"
-   },
-   {
-    "repo": "animal-chat",
-    "description": "猫キャラと話せるどうぶつチャット（天気・ニュース・猫の声）",
-    "visibility": "公開",
-    "language": "HTML",
-    "pushed": "2026-11-25"
+    "pushed": "2026-11-26"
    },
    {
     "repo": "linkedin-auto-post",
     "description": "LinkedIn自動投稿(note記事等)",
     "visibility": "非公開",
     "language": "PowerShell",
+    "pushed": "2026-11-26"
+   },
+   {
+    "repo": "animal-chat",
+    "description": "猫キャラと話せるどうぶつチャット（天気・ニュース・猫の声）",
+    "visibility": "公開",
+    "language": "HTML",
+    "pushed": "2026-11-26"
+   },
+   {
+    "repo": "banner-logo-samples",
+    "description": "バナー・ロゴ デザイン見本集（架空店舗）",
+    "visibility": "公開",
+    "language": "HTML",
     "pushed": "2026-11-25"
    },
    {
@@ -853,14 +860,7 @@
     "description": "活動ダッシュボード",
     "visibility": "公開",
     "language": "HTML",
-    "pushed": "2026-11-24"
-   },
-   {
-    "repo": "banner-logo-samples",
-    "description": "バナー・ロゴ デザイン見本集（架空店舗）",
-    "visibility": "公開",
-    "language": "HTML",
-    "pushed": "2026-11-24"
+    "pushed": "2026-11-25"
    },
    {
     "repo": "links",
@@ -906,10 +906,6 @@
    }
   ],
   "commits_daily": [
-   {
-    "date": "2026-11-12",
-    "count": 35
-   },
    {
     "date": "2026-11-13",
     "count": 37
@@ -960,10 +956,29 @@
    },
    {
     "date": "2026-11-25",
-    "count": 13
+    "count": 24
+   },
+   {
+    "date": "2026-11-26",
+    "count": 14
    }
   ],
   "recent": [
+   {
+    "date": "2026-11-25",
+    "source": "banner-logo-samples",
+    "text": "Add sasaki logo proposal (after deadline)"
+   },
+   {
+    "date": "2026-11-25",
+    "source": "banner-logo-samples",
+    "text": "Add sasaki logo proposal board"
+   },
+   {
+    "date": "2026-11-25",
+    "source": "activity-dashboard",
+    "text": "auto: update dashboard data"
+   },
    {
     "date": "2026-11-24",
     "source": "activity-dashboard",
@@ -1008,21 +1023,6 @@
     "date": "2026-11-22",
     "source": "threads-auto-post",
     "text": "note無料 2026-11-22_03.md を投稿済みへ移動"
-   },
-   {
-    "date": "2026-11-22",
-    "source": "threads-auto-post",
-    "text": "note: move 2026-11-21_09.md to posted"
-   },
-   {
-    "date": "2026-11-22",
-    "source": "threads-auto-post",
-    "text": "note: fix content of 2026-11-21_09.md"
-   },
-   {
-    "date": "2026-11-22",
-    "source": "threads-auto-post",
-    "text": "note: publish 2026-11-21_09.md (move to posted)"
    }
   ]
  },
