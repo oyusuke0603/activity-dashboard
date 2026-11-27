@@ -1,17 +1,17 @@
 {
  "meta": {
-  "updated": "2026-11-26T16:08+09:00",
+  "updated": "2026-11-27T17:14+09:00",
   "sources": {
    "github": {
-    "at": "2026-11-26 16:08",
+    "at": "2026-11-27 17:14",
     "status": "ok"
    },
    "threads": {
-    "at": "2026-11-26 16:08",
+    "at": "2026-11-27 17:14",
     "status": "ok"
    },
    "instagram": {
-    "at": "2026-11-26 16:08",
+    "at": "2026-11-27 17:14",
     "status": "ok"
    }
   }
@@ -19,16 +19,11 @@
  "instagram": {
   "profile": {
    "account": "oyusuke0603",
-   "followers": 254,
-   "following": 596,
+   "followers": 253,
+   "following": 597,
    "posts": 282
   },
   "daily": [
-   {
-    "date": "2026-10-27",
-    "reach": 131,
-    "new_followers": 1
-   },
    {
     "date": "2026-10-28",
     "reach": 10,
@@ -171,25 +166,22 @@
    },
    {
     "date": "2026-11-25",
-    "reach": 2,
+    "reach": 3,
+    "new_followers": 0
+   },
+   {
+    "date": "2026-11-26",
+    "reach": 3,
     "new_followers": 0
    }
   ],
   "reels": [
    {
-    "date": "2026-10-27",
-    "series": "闘病記",
-    "title": "復職1週間。時短で実務は3時間。",
-    "views": 198,
-    "reach": 160,
-    "likes": 1
-   },
-   {
     "date": "2026-10-29",
     "series": "闘病記",
     "title": "業務はこなせるのに、通勤で心が折れそうになります。",
-    "views": 65,
-    "reach": 42,
+    "views": 66,
+    "reach": 43,
     "likes": 1
    },
    {
@@ -197,7 +189,7 @@
     "series": "異世界デバッガー",
     "title": "休日の夜、王都の術式が一斉に止まりました。",
     "views": 133,
-    "reach": 120,
+    "reach": 121,
     "likes": 1
    },
    {
@@ -213,7 +205,7 @@
     "series": "異世界デバッガー",
     "title": "300年前の引き継ぎ資料を見つけたSE。",
     "views": 137,
-    "reach": 123,
+    "reach": 124,
     "likes": 0
    },
    {
@@ -221,19 +213,19 @@
     "series": "異世界デバッガー",
     "title": "作った人が、辞めました。",
     "views": 89,
-    "reach": 85,
+    "reach": 86,
     "likes": 0
    },
    {
     "date": "2026-11-17",
     "series": "闘病記",
     "title": "片目でも、SEです。",
-    "views": 73,
-    "reach": 43,
+    "views": 78,
+    "reach": 46,
     "likes": 1
    }
   ],
-  "asof": "2026-11-26 16:08"
+  "asof": "2026-11-27 17:14"
  },
  "youtube": {
   "asof": "2026-11-18",
@@ -692,28 +684,28 @@
   ]
  },
  "threads": {
-  "asof": "2026-11-26 08:13 ",
+  "asof": "2026-11-27 08:12 ",
   "types": [
    {
     "type": "ちいかわ",
-    "posts": 146,
-    "avg_views": 954.3,
-    "avg_likes": 4.53,
+    "posts": 147,
+    "avg_views": 948.9,
+    "avg_likes": 4.5,
     "avg_replies": 0.18
    },
    {
     "type": "問いかけ",
-    "posts": 176,
-    "avg_views": 675.4,
-    "avg_likes": 4.6,
-    "avg_replies": 0.93
+    "posts": 179,
+    "avg_views": 668,
+    "avg_likes": 4.53,
+    "avg_replies": 0.94
    },
    {
     "type": "その他",
-    "posts": 380,
-    "avg_views": 263.6,
+    "posts": 384,
+    "avg_views": 262.6,
     "avg_likes": 0.62,
-    "avg_replies": 0.18
+    "avg_replies": 0.17
    },
    {
     "type": "note誘導",
@@ -781,7 +773,7 @@
     "text": "設備・運営基準違反でまさかの処分。熊本のグループホーム運営法人に熊本県が下した指"
    },
    {
-    "views": 4390,
+    "views": 4392,
     "likes": 1,
     "posted": "2026-11-24",
     "type": "その他",
@@ -828,31 +820,31 @@
  "github": {
   "repos": [
    {
-    "repo": "animal-chat",
-    "description": "猫キャラと話せるどうぶつチャット（天気・ニュース・猫の声）",
-    "visibility": "公開",
-    "language": "HTML",
-    "pushed": "2026-11-26"
-   },
-   {
-    "repo": "activity-dashboard",
-    "description": "活動ダッシュボード",
-    "visibility": "公開",
-    "language": "HTML",
-    "pushed": "2026-11-26"
-   },
-   {
     "repo": "threads-auto-post",
     "description": "Threads自動投稿",
     "visibility": "非公開",
     "language": "PowerShell",
-    "pushed": "2026-11-26"
+    "pushed": "2026-11-27"
    },
    {
     "repo": "linkedin-auto-post",
     "description": "LinkedIn自動投稿(note記事等)",
     "visibility": "非公開",
     "language": "PowerShell",
+    "pushed": "2026-11-27"
+   },
+   {
+    "repo": "animal-chat",
+    "description": "猫キャラと話せるどうぶつチャット（天気・ニュース・猫の声）",
+    "visibility": "公開",
+    "language": "HTML",
+    "pushed": "2026-11-27"
+   },
+   {
+    "repo": "activity-dashboard",
+    "description": "活動ダッシュボード",
+    "visibility": "公開",
+    "language": "HTML",
     "pushed": "2026-11-26"
    },
    {
@@ -907,10 +899,6 @@
   ],
   "commits_daily": [
    {
-    "date": "2026-11-13",
-    "count": 37
-   },
-   {
     "date": "2026-11-14",
     "count": 31
    },
@@ -960,10 +948,19 @@
    },
    {
     "date": "2026-11-26",
-    "count": 16
+    "count": 24
+   },
+   {
+    "date": "2026-11-27",
+    "count": 15
    }
   ],
   "recent": [
+   {
+    "date": "2026-11-26",
+    "source": "activity-dashboard",
+    "text": "auto: update dashboard data"
+   },
    {
     "date": "2026-11-26",
     "source": "activity-dashboard",
@@ -1018,11 +1015,6 @@
     "date": "2026-11-24",
     "source": "banner-logo-samples",
     "text": "Add proposal board logo-kokoniko"
-   },
-   {
-    "date": "2026-11-22",
-    "source": "threads-auto-post",
-    "text": "note無料 2026-11-22_03.md を投稿前から削除(投稿済みへ移動)"
    }
   ]
  },
