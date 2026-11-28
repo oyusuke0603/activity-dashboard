@@ -228,13 +228,13 @@
   "asof": "2026-11-27 19:08"
  },
  "youtube": {
-  "asof": "2026-11-18",
+  "asof": "2026-11-28",
   "total": {
-   "views": 168,
-   "watch_hours": 1.8,
-   "subs": 1,
-   "impressions": 3454,
-   "ctr": 0.87
+   "views": 133,
+   "watch_hours": 1.1,
+   "subs": 0,
+   "impressions": 2671,
+   "ctr": 0.9
   },
   "videos": [
    {
@@ -242,77 +242,55 @@
     "title": "第7話 300日寝ていない魔王が相談",
     "published": "2026-11-12",
     "length": 550,
-    "views": 33,
-    "watch_hours": 0.2147,
+    "views": 36,
+    "watch_hours": 0.3688,
     "subs": 0,
-    "impressions": 748,
-    "ctr": 0.8
+    "impressions": 770,
+    "ctr": 1.04
    },
    {
     "series": "異世界デバッガー",
     "title": "第3話 納期前倒しで「やらないこと」を決める",
     "published": "2026-10-09",
     "length": 563,
-    "views": 29,
-    "watch_hours": 0.1433,
+    "views": 21,
+    "watch_hours": 0.0878,
     "subs": 0,
-    "impressions": 1387,
-    "ctr": 0.5
+    "impressions": 749,
+    "ctr": 0.67
    },
    {
     "series": "異世界デバッガー",
     "title": "第4話 要望が1時間ごとに変わる呪い",
     "published": "2026-10-23",
     "length": 521,
-    "views": 27,
-    "watch_hours": 0.2603,
-    "subs": 1,
-    "impressions": 238,
-    "ctr": 1.26
+    "views": 19,
+    "watch_hours": 0.249,
+    "subs": 0,
+    "impressions": 143,
+    "ctr": 0.7
    },
    {
     "series": "異世界デバッガー",
     "title": "第2話 王都の結界を再起動",
     "published": "2026-10-08",
     "length": 568,
-    "views": 16,
-    "watch_hours": 0.1782,
+    "views": 10,
+    "watch_hours": 0.019,
     "subs": 0,
-    "impressions": 178,
-    "ctr": 0.56
+    "impressions": 149,
+    "ctr": 0.67
    },
    {
     "series": "闘病記",
     "title": "第1回 8歳で脳腫瘍、13時間半の大手術",
     "published": "2026-09-21",
     "length": 161,
-    "views": 11,
-    "watch_hours": 0.1889,
-    "subs": 0,
-    "impressions": 47,
-    "ctr": 4.26
-   },
-   {
-    "series": "異世界デバッガー",
-    "title": "第5話 新魔法をぶっつけ本番で使う",
-    "published": "2026-10-24",
-    "length": 574,
-    "views": 10,
-    "watch_hours": 0.0168,
-    "subs": 0,
-    "impressions": 244,
-    "ctr": 0.82
-   },
-   {
-    "series": "異世界デバッガー",
-    "title": "第1話 徹夜明けSEが異世界のバグを直す",
-    "published": "2026-10-08",
-    "length": 525,
     "views": 8,
-    "watch_hours": 0.3462,
+    "watch_hours": 0.0973,
     "subs": 0,
-    "impressions": 45,
-    "ctr": 4.44
+    "impressions": 42,
+    "ctr": 4.76
    },
    {
     "series": "異世界デバッガー",
@@ -322,63 +300,63 @@
     "views": 7,
     "watch_hours": 0.0051,
     "subs": 0,
-    "impressions": 195,
+    "impressions": 207,
     "ctr": 0
    },
    {
-    "series": "闘病記",
-    "title": "第5回 うつ病再発と障害年金2級",
-    "published": "2026-10-04",
-    "length": 108,
-    "views": 3,
-    "watch_hours": 0.0625,
+    "series": "異世界デバッガー",
+    "title": "第1話 徹夜明けSEが異世界のバグを直す",
+    "published": "2026-10-08",
+    "length": 525,
+    "views": 6,
+    "watch_hours": 0.2005,
     "subs": 0,
-    "impressions": 12,
-    "ctr": 0
-   },
-   {
-    "series": "闘病記",
-    "title": "第4回 脳梗塞とグループホーム入居",
-    "published": "2026-10-04",
-    "length": 113,
-    "views": 3,
-    "watch_hours": 0.0699,
-    "subs": 0,
-    "impressions": 16,
-    "ctr": 6.25
-   },
-   {
-    "series": "闘病記",
-    "title": "第7回 緑内障の進行と視野欠損",
-    "published": "2026-10-06",
-    "length": 89,
-    "views": 3,
-    "watch_hours": 0.0507,
-    "subs": 0,
-    "impressions": 15,
-    "ctr": 6.67
-   },
-   {
-    "series": "闘病記",
-    "title": "第6回 障害厚生年金2級を取得して",
-    "published": "2026-10-05",
-    "length": 94,
-    "views": 2,
-    "watch_hours": 0.052,
-    "subs": 0,
-    "impressions": 7,
-    "ctr": 0
+    "impressions": 19,
+    "ctr": 5.26
    },
    {
     "series": "異世界デバッガー",
     "title": "第8話 300年前の引き継ぎ資料を読み解く",
     "published": "2026-11-16",
     "length": 493,
-    "views": 2,
-    "watch_hours": 0.0008,
+    "views": 6,
+    "watch_hours": 0.0028,
     "subs": 0,
-    "impressions": 75,
+    "impressions": 123,
     "ctr": 0
+   },
+   {
+    "series": "異世界デバッガー",
+    "title": "第5話 新魔法をぶっつけ本番で使う",
+    "published": "2026-10-24",
+    "length": 574,
+    "views": 6,
+    "watch_hours": 0.0099,
+    "subs": 0,
+    "impressions": 169,
+    "ctr": 0.59
+   },
+   {
+    "series": "ブラウザゲーム",
+    "title": "タイピングゲーム(動物編)",
+    "published": "2026-06-12",
+    "length": 64,
+    "views": 3,
+    "watch_hours": 0.0038,
+    "subs": 0,
+    "impressions": 24,
+    "ctr": 0
+   },
+   {
+    "series": "ブラウザゲーム",
+    "title": "ビンゴゲーム(球体のみ)",
+    "published": "2026-06-12",
+    "length": 63,
+    "views": 2,
+    "watch_hours": 0.0109,
+    "subs": 0,
+    "impressions": 15,
+    "ctr": 6.67
    },
    {
     "series": "ブラウザゲーム",
@@ -388,74 +366,8 @@
     "views": 2,
     "watch_hours": 0.006,
     "subs": 0,
-    "impressions": 19,
-    "ctr": 10.53
-   },
-   {
-    "series": "ブラウザゲーム",
-    "title": "ビンゴゲーム(球体のみ)",
-    "published": "2026-06-12",
-    "length": 63,
-    "views": 2,
-    "watch_hours": 0.0122,
-    "subs": 0,
-    "impressions": 21,
-    "ctr": 9.52
-   },
-   {
-    "series": "ブラウザゲーム",
-    "title": "タイピングゲーム(動物編)",
-    "published": "2026-06-12",
-    "length": 64,
-    "views": 2,
-    "watch_hours": 0.0034,
-    "subs": 0,
-    "impressions": 17,
-    "ctr": 0
-   },
-   {
-    "series": "闘病記",
-    "title": "第2回 放射線治療の後遺症と側弯症",
-    "published": "2026-09-22",
-    "length": 160,
-    "views": 2,
-    "watch_hours": 0.0885,
-    "subs": 0,
-    "impressions": 13,
-    "ctr": 0
-   },
-   {
-    "series": "闘病記",
-    "title": "第3回 うつ病の発症と休職2ヶ月",
-    "published": "2026-09-26",
-    "length": 133,
-    "views": 2,
-    "watch_hours": 0.0738,
-    "subs": 0,
-    "impressions": 14,
-    "ctr": 0
-   },
-   {
-    "series": "ブラウザゲーム",
-    "title": "トランプのババ抜きゲーム",
-    "published": "2026-06-12",
-    "length": 24,
-    "views": 1,
-    "watch_hours": 0.0009,
-    "subs": 0,
-    "impressions": 12,
-    "ctr": 0
-   },
-   {
-    "series": "ブラウザゲーム",
-    "title": "パズルゲー",
-    "published": "2026-06-12",
-    "length": 74,
-    "views": 1,
-    "watch_hours": 0.0121,
-    "subs": 0,
-    "impressions": 0,
-    "ctr": 0
+    "impressions": 22,
+    "ctr": 9.09
    },
    {
     "series": "ブラウザゲーム",
@@ -469,6 +381,28 @@
     "ctr": 7.69
    },
    {
+    "series": "闘病記",
+    "title": "第4回 脳梗塞とグループホーム入居",
+    "published": "2026-10-04",
+    "length": 113,
+    "views": 1,
+    "watch_hours": 0.0076,
+    "subs": 0,
+    "impressions": 13,
+    "ctr": 7.69
+   },
+   {
+    "series": "ブラウザゲーム",
+    "title": "縄跳びゲーム",
+    "published": "2026-06-12",
+    "length": 17,
+    "views": 1,
+    "watch_hours": 0.003,
+    "subs": 0,
+    "impressions": 4,
+    "ctr": 0
+   },
+   {
     "series": "ブラウザゲーム",
     "title": "リバーシゲーム",
     "published": "2026-06-12",
@@ -476,7 +410,40 @@
     "views": 1,
     "watch_hours": 0.0005,
     "subs": 0,
+    "impressions": 2,
+    "ctr": 0
+   },
+   {
+    "series": "ブラウザゲーム",
+    "title": "タイピングゲーム(五十音順)",
+    "published": "2026-06-12",
+    "length": 43,
+    "views": 1,
+    "watch_hours": 0.0032,
+    "subs": 0,
+    "impressions": 5,
+    "ctr": 0
+   },
+   {
+    "series": "ブラウザゲーム",
+    "title": "パズルゲー",
+    "published": "2026-06-12",
+    "length": 74,
+    "views": 1,
+    "watch_hours": 0.0121,
+    "subs": 0,
     "impressions": 1,
+    "ctr": 0
+   },
+   {
+    "series": "ブラウザゲーム",
+    "title": "トランプのババ抜きゲーム",
+    "published": "2026-06-12",
+    "length": 24,
+    "views": 1,
+    "watch_hours": 0.0009,
+    "subs": 0,
+    "impressions": 5,
     "ctr": 0
    }
   ]
