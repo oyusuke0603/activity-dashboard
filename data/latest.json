@@ -1,17 +1,17 @@
 {
  "meta": {
-  "updated": "2026-11-27T19:08+09:00",
+  "updated": "2026-11-28T16:07+09:00",
   "sources": {
    "github": {
-    "at": "2026-11-27 19:08",
+    "at": "2026-11-28 16:07",
     "status": "ok"
    },
    "threads": {
-    "at": "2026-11-27 19:08",
+    "at": "2026-11-28 16:07",
     "status": "ok"
    },
    "instagram": {
-    "at": "2026-11-27 19:08",
+    "at": "2026-11-28 16:07",
     "status": "ok"
    }
   }
@@ -19,16 +19,11 @@
  "instagram": {
   "profile": {
    "account": "oyusuke0603",
-   "followers": 253,
+   "followers": 254,
    "following": 597,
-   "posts": 282
+   "posts": 283
   },
   "daily": [
-   {
-    "date": "2026-10-28",
-    "reach": 10,
-    "new_followers": 1
-   },
    {
     "date": "2026-10-29",
     "reach": 38,
@@ -173,6 +168,11 @@
     "date": "2026-11-26",
     "reach": 3,
     "new_followers": 0
+   },
+   {
+    "date": "2026-11-27",
+    "reach": 112,
+    "new_followers": 0
    }
   ],
   "reels": [
@@ -225,7 +225,7 @@
     "likes": 1
    }
   ],
-  "asof": "2026-11-27 19:08"
+  "asof": "2026-11-28 16:07"
  },
  "youtube": {
   "asof": "2026-11-28",
@@ -645,28 +645,28 @@
   ]
  },
  "threads": {
-  "asof": "2026-11-27 08:12 ",
+  "asof": "2026-11-28 07:52 ",
   "types": [
    {
     "type": "ちいかわ",
-    "posts": 147,
-    "avg_views": 948.9,
-    "avg_likes": 4.5,
-    "avg_replies": 0.18
+    "posts": 150,
+    "avg_views": 937.7,
+    "avg_likes": 4.42,
+    "avg_replies": 0.19
    },
    {
     "type": "問いかけ",
-    "posts": 179,
-    "avg_views": 668,
-    "avg_likes": 4.53,
+    "posts": 181,
+    "avg_views": 662.8,
+    "avg_likes": 4.48,
     "avg_replies": 0.94
    },
    {
     "type": "その他",
-    "posts": 384,
-    "avg_views": 262.6,
-    "avg_likes": 0.62,
-    "avg_replies": 0.17
+    "posts": 391,
+    "avg_views": 270.5,
+    "avg_likes": 0.63,
+    "avg_replies": 0.18
    },
    {
     "type": "note誘導",
@@ -690,6 +690,13 @@
     "posted": "2026-09-17",
     "type": "問いかけ",
     "text": "厚労省が、障害福祉のグループホーム管理者に来年4月から新たな資格要件を設ける方針"
+   },
+   {
+    "views": 16563,
+    "likes": 40,
+    "posted": "2026-11-27",
+    "type": "その他",
+    "text": "サーバー500台が一斉停止、バックアップごと暗号化。大阪公立大学ランサムウェア、"
    },
    {
     "views": 13389,
@@ -734,18 +741,11 @@
     "text": "設備・運営基準違反でまさかの処分。熊本のグループホーム運営法人に熊本県が下した指"
    },
    {
-    "views": 4392,
+    "views": 4689,
     "likes": 1,
-    "posted": "2026-11-24",
+    "posted": "2026-11-27",
     "type": "その他",
-    "text": "6万人から3万人へ半減。MetaとMicrosoftがClaude利用を一気に絞"
-   },
-   {
-    "views": 3841,
-    "likes": 23,
-    "posted": "2026-11-18",
-    "type": "問いかけ",
-    "text": "障害年金の新規裁定13万件のうち、7割近くが精神・知的障害だそうです。精神の不調"
+    "text": "うつ病で2週間に一度の通院は「重症」なのか。通院頻度の本当の意味と、薬の処方日数"
    }
   ]
  },
@@ -781,46 +781,53 @@
  "github": {
   "repos": [
    {
-    "repo": "threads-auto-post",
-    "description": "Threads自動投稿",
-    "visibility": "非公開",
-    "language": "PowerShell",
-    "pushed": "2026-11-27"
-   },
-   {
-    "repo": "animal-chat",
-    "description": "猫キャラと話せるどうぶつチャット（天気・ニュース・猫の声）",
-    "visibility": "公開",
-    "language": "HTML",
-    "pushed": "2026-11-27"
-   },
-   {
-    "repo": "activity-dashboard",
-    "description": "活動ダッシュボード",
-    "visibility": "公開",
-    "language": "HTML",
-    "pushed": "2026-11-27"
-   },
-   {
     "repo": "linkedin-auto-post",
     "description": "LinkedIn自動投稿(note記事等)",
     "visibility": "非公開",
     "language": "PowerShell",
-    "pushed": "2026-11-27"
+    "pushed": "2026-11-28"
+   },
+   {
+    "repo": "threads-auto-post",
+    "description": "Threads自動投稿",
+    "visibility": "非公開",
+    "language": "PowerShell",
+    "pushed": "2026-11-28"
    },
    {
     "repo": "banner-logo-samples",
     "description": "バナー・ロゴ デザイン見本集（架空店舗）",
     "visibility": "公開",
     "language": "HTML",
-    "pushed": "2026-11-25"
+    "pushed": "2026-11-28"
+   },
+   {
+    "repo": "animal-chat",
+    "description": "猫キャラと話せるどうぶつチャット（天気・ニュース・猫の声）",
+    "visibility": "公開",
+    "language": "HTML",
+    "pushed": "2026-11-28"
+   },
+   {
+    "repo": "bm-pm06j4vwds",
+    "description": "bookmarks",
+    "visibility": "公開",
+    "language": "HTML",
+    "pushed": "2026-11-28"
+   },
+   {
+    "repo": "activity-dashboard",
+    "description": "活動ダッシュボード",
+    "visibility": "公開",
+    "language": "HTML",
+    "pushed": "2026-11-28"
    },
    {
     "repo": "links",
     "description": "小川祐介 リンク集",
     "visibility": "公開",
     "language": "HTML",
-    "pushed": "2026-11-17"
+    "pushed": "2026-11-28"
    },
    {
     "repo": "crowdsourcing-activity",
@@ -859,10 +866,6 @@
    }
   ],
   "commits_daily": [
-   {
-    "date": "2026-11-14",
-    "count": 31
-   },
    {
     "date": "2026-11-15",
     "count": 26
@@ -913,69 +916,73 @@
    },
    {
     "date": "2026-11-27",
-    "count": 18
+    "count": 24
+   },
+   {
+    "date": "2026-11-28",
+    "count": 32
    }
   ],
   "recent": [
    {
-    "date": "2026-11-27",
-    "source": "activity-dashboard",
-    "text": "auto: update dashboard data"
-   },
-   {
-    "date": "2026-11-26",
-    "source": "activity-dashboard",
-    "text": "auto: update dashboard data"
-   },
-   {
-    "date": "2026-11-26",
-    "source": "activity-dashboard",
-    "text": "auto: update dashboard data"
-   },
-   {
-    "date": "2026-11-25",
+    "date": "2026-11-28",
     "source": "banner-logo-samples",
-    "text": "Add sasaki logo proposal (after deadline)"
+    "text": "Add welfare poster card"
    },
    {
-    "date": "2026-11-25",
+    "date": "2026-11-28",
     "source": "banner-logo-samples",
-    "text": "Add sasaki logo proposal board"
+    "text": "Add welfare poster sample"
    },
    {
-    "date": "2026-11-25",
+    "date": "2026-11-28",
+    "source": "bm-pm06j4vwds",
+    "text": "rename dashboard"
+   },
+   {
+    "date": "2026-11-28",
+    "source": "bm-pm06j4vwds",
+    "text": "shorten names"
+   },
+   {
+    "date": "2026-11-28",
     "source": "activity-dashboard",
-    "text": "auto: update dashboard data"
+    "text": "manual: update Threads account insights (2026-11-27)"
    },
    {
-    "date": "2026-11-24",
+    "date": "2026-11-28",
+    "source": "bm-pm06j4vwds",
+    "text": "favicon fallback"
+   },
+   {
+    "date": "2026-11-28",
     "source": "activity-dashboard",
-    "text": "auto: update dashboard data"
+    "text": "manual: update Amazon data (2026-11-28)"
    },
    {
-    "date": "2026-11-24",
+    "date": "2026-11-28",
     "source": "activity-dashboard",
-    "text": "manual: add Threads account insights (2026-11-23)"
+    "text": "manual: update YouTube data (2026-11-28)"
    },
    {
-    "date": "2026-11-24",
+    "date": "2026-11-28",
     "source": "activity-dashboard",
-    "text": "SNS section title: SNS活動ダッシュボード"
+    "text": "manual: update TikTok data (11/20-11/26)"
    },
    {
-    "date": "2026-11-24",
-    "source": "banner-logo-samples",
-    "text": "Fix kokoniko B description"
+    "date": "2026-11-28",
+    "source": "bm-pm06j4vwds",
+    "text": "add favicons"
    },
    {
-    "date": "2026-11-24",
-    "source": "banner-logo-samples",
-    "text": "Add kokoniko logo proposals (after deadline)"
+    "date": "2026-11-28",
+    "source": "bm-pm06j4vwds",
+    "text": "add bookmarks"
    },
    {
-    "date": "2026-11-24",
-    "source": "banner-logo-samples",
-    "text": "Add proposal board logo-kokoniko-b"
+    "date": "2026-11-28",
+    "source": "activity-dashboard",
+    "text": "manual: update note data (2026-11-28)"
    }
   ]
  },
